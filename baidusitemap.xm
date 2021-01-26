@@ -3,6 +3,27 @@
 
 
     
+  <url>
+    <loc>http://xyunlay.github.io/2020/04/06/%E5%AE%9E%E7%94%A8%E7%9A%84Docker%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2021-01-26T01:40:49.004Z</lastmod>
+    <data>
+        <display>
+        <title>实用的Docker入门</title>
+        <pubTime>2020-04-06T02:55:00.000Z</pubTime>
+        
+        <tag>测试</tag>
+         
+        <tag>环境部署</tag>
+         
+        <tag>docker</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
@@ -71,27 +92,6 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2020/04/06/%E5%AE%9E%E7%94%A8%E7%9A%84Docker%E5%85%A5%E9%97%A8/</loc>
-    <lastmod>2021-01-25T08:48:45.975Z</lastmod>
-    <data>
-        <display>
-        <title>利用ant批量执行jmeter脚本</title>
-        <pubTime>2020-04-06T02:55:00.000Z</pubTime>
-        
-        <tag>测试</tag>
-         
-        <tag>环境部署</tag>
-         
-        <tag>docker</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyunlay.github.io/2020/07/03/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Burp%20Suite%E6%8A%93%E5%8C%85%E5%8F%8A%E9%9B%86%E6%88%90sqlmap/</loc>
     <lastmod>2021-01-25T07:24:27.712Z</lastmod>
     <data>
@@ -151,25 +151,6 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2019/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2021-01-25T03:29:26.019Z</lastmod>
-    <data>
-        <display>
-        <title>自动化测试分享</title>
-        <pubTime>2019-06-06T02:55:00.000Z</pubTime>
-        
-        <tag>测试</tag>
-         
-        <tag>自动化测试</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyunlay.github.io/2018/05/06/%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86%E5%BC%82%E6%AD%A5%E7%9A%84js%E5%9B%9E%E8%B0%83/</loc>
     <lastmod>2021-01-25T03:29:26.019Z</lastmod>
     <data>
@@ -180,6 +161,25 @@
         <tag>web</tag>
          
         <tag>js</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xyunlay.github.io/2019/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2021-01-25T03:29:26.019Z</lastmod>
+    <data>
+        <display>
+        <title>自动化测试分享</title>
+        <pubTime>2019-06-06T02:55:00.000Z</pubTime>
+        
+        <tag>测试</tag>
+         
+        <tag>自动化测试</tag>
          
          
            
@@ -252,27 +252,6 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-01-25T03:29:26.017Z</lastmod>
-    <data>
-        <display>
-        <title>apache基础</title>
-        <pubTime>2018-04-18T03:55:00.000Z</pubTime>
-        
-        <tag>测试</tag>
-         
-        <tag>性能测试</tag>
-         
-        <tag>web服务器</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyunlay.github.io/2018/02/26/Zabbix%20server%20%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</loc>
     <lastmod>2021-01-25T03:29:26.017Z</lastmod>
     <data>
@@ -285,6 +264,27 @@
         <tag>性能测试</tag>
          
         <tag>性能监控</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xyunlay.github.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2021-01-25T03:29:26.017Z</lastmod>
+    <data>
+        <display>
+        <title>apache基础</title>
+        <pubTime>2018-04-18T03:55:00.000Z</pubTime>
+        
+        <tag>测试</tag>
+         
+        <tag>性能测试</tag>
+         
+        <tag>web服务器</tag>
          
          
            
@@ -336,12 +336,12 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2018/04/29/Nginx--%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/</loc>
+    <loc>http://xyunlay.github.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2021-01-25T03:29:26.016Z</lastmod>
     <data>
         <display>
-        <title>Nginx性能分析--web服务器</title>
-        <pubTime>2018-04-29T03:55:00.000Z</pubTime>
+        <title>Nginx基础--高性能web服务器</title>
+        <pubTime>2018-04-27T03:55:00.000Z</pubTime>
         
         <tag>测试</tag>
          
@@ -357,12 +357,12 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://xyunlay.github.io/2018/04/29/Nginx--%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/</loc>
     <lastmod>2021-01-25T03:29:26.016Z</lastmod>
     <data>
         <display>
-        <title>Nginx基础--高性能web服务器</title>
-        <pubTime>2018-04-27T03:55:00.000Z</pubTime>
+        <title>Nginx性能分析--web服务器</title>
+        <pubTime>2018-04-29T03:55:00.000Z</pubTime>
         
         <tag>测试</tag>
          
@@ -399,25 +399,6 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2017/04/16/Linux%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</loc>
-    <lastmod>2021-01-25T03:29:26.015Z</lastmod>
-    <data>
-        <display>
-        <title>Linux命令大全</title>
-        <pubTime>2017-04-16T02:55:00.000Z</pubTime>
-        
-        <tag>操作系统</tag>
-         
-        <tag>Linux</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyunlay.github.io/2017/03/04/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2021-01-25T03:29:26.015Z</lastmod>
     <data>
@@ -428,6 +409,25 @@
         <tag>web</tag>
          
         <tag>markdown</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xyunlay.github.io/2017/04/16/Linux%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</loc>
+    <lastmod>2021-01-25T03:29:26.015Z</lastmod>
+    <data>
+        <display>
+        <title>Linux命令大全</title>
+        <pubTime>2017-04-16T02:55:00.000Z</pubTime>
+        
+        <tag>操作系统</tag>
+         
+        <tag>Linux</tag>
          
          
            
@@ -479,16 +479,18 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2019/05/16/Django%E5%85%A5%E9%97%A8/</loc>
+    <loc>http://xyunlay.github.io/2017/08/06/Appium%E5%AD%A6%E4%B9%A0%E8%B7%AF%E2%80%94Android%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E4%B8%8E%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2021-01-25T03:29:26.013Z</lastmod>
     <data>
         <display>
-        <title>Django入门</title>
-        <pubTime>2019-05-16T02:55:00.000Z</pubTime>
+        <title>Appium学习路—Android定位元素与操作</title>
+        <pubTime>2017-08-06T02:55:00.000Z</pubTime>
         
-        <tag>python</tag>
+        <tag>测试</tag>
          
-        <tag>python框架</tag>
+        <tag>APP测试</tag>
+         
+        <tag>Appium</tag>
          
          
            
@@ -519,18 +521,16 @@
 
     
   <url>
-    <loc>http://xyunlay.github.io/2017/08/06/Appium%E5%AD%A6%E4%B9%A0%E8%B7%AF%E2%80%94Android%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E4%B8%8E%E6%93%8D%E4%BD%9C/</loc>
+    <loc>http://xyunlay.github.io/2019/05/16/Django%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2021-01-25T03:29:26.013Z</lastmod>
     <data>
         <display>
-        <title>Appium学习路—Android定位元素与操作</title>
-        <pubTime>2017-08-06T02:55:00.000Z</pubTime>
+        <title>Django入门</title>
+        <pubTime>2019-05-16T02:55:00.000Z</pubTime>
         
-        <tag>测试</tag>
+        <tag>python</tag>
          
-        <tag>APP测试</tag>
-         
-        <tag>Appium</tag>
+        <tag>python框架</tag>
          
          
            
