@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xyunlay.github.io/"/>
+  <link href="http://xyun_lay.gitee.io/"/>
   <updated>2021-01-25T07:24:27.712Z</updated>
-  <id>http://xyunlay.github.io/</id>
+  <id>http://xyun_lay.gitee.io/</id>
   
   <author>
     <name>xyun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Burp Suite抓https数据包及集成sqlmap</title>
-    <link href="http://xyunlay.github.io/2020/07/03/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Burp%20Suite%E6%8A%93%E5%8C%85%E5%8F%8A%E9%9B%86%E6%88%90sqlmap/"/>
-    <id>http://xyunlay.github.io/2020/07/03/安全渗透测试工具Burp Suite抓包及集成sqlmap/</id>
+    <link href="http://xyun_lay.gitee.io/2020/07/03/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Burp%20Suite%E6%8A%93%E5%8C%85%E5%8F%8A%E9%9B%86%E6%88%90sqlmap/"/>
+    <id>http://xyun_lay.gitee.io/2020/07/03/安全渗透测试工具Burp Suite抓包及集成sqlmap/</id>
     <published>2020-07-03T02:55:00.000Z</published>
     <updated>2021-01-25T07:24:27.712Z</updated>
     
@@ -35,16 +35,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="安全渗透测试" scheme="http://xyunlay.github.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+      <category term="安全渗透测试" scheme="http://xyun_lay.gitee.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>渗透测试工具Nmap从初级到高级</title>
-    <link href="http://xyunlay.github.io/2020/07/01/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Nmap%E4%BB%8E%E5%88%9D%E7%BA%A7%E5%88%B0%E9%AB%98%E7%BA%A7/"/>
-    <id>http://xyunlay.github.io/2020/07/01/安全渗透测试工具Nmap从初级到高级/</id>
+    <link href="http://xyun_lay.gitee.io/2020/07/01/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Nmap%E4%BB%8E%E5%88%9D%E7%BA%A7%E5%88%B0%E9%AB%98%E7%BA%A7/"/>
+    <id>http://xyun_lay.gitee.io/2020/07/01/安全渗透测试工具Nmap从初级到高级/</id>
     <published>2020-07-01T02:55:00.000Z</published>
     <updated>2021-01-25T07:11:49.457Z</updated>
     
@@ -58,16 +58,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="安全渗透测试" scheme="http://xyunlay.github.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+      <category term="安全渗透测试" scheme="http://xyun_lay.gitee.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>安全测试流程与使用工具</title>
-    <link href="http://xyunlay.github.io/2020/06/06/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
-    <id>http://xyunlay.github.io/2020/06/06/安全测试流程与使用工具/</id>
+    <link href="http://xyun_lay.gitee.io/2020/06/06/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    <id>http://xyun_lay.gitee.io/2020/06/06/安全测试流程与使用工具/</id>
     <published>2020-06-06T02:55:00.000Z</published>
     <updated>2021-01-25T09:03:30.897Z</updated>
     
@@ -81,16 +81,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="安全渗透测试" scheme="http://xyunlay.github.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+      <category term="安全渗透测试" scheme="http://xyun_lay.gitee.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>robot framework + python实现http接口自动化测试框架</title>
-    <link href="http://xyunlay.github.io/2020/05/08/robot%20framework%20+%20python%E5%AE%9E%E7%8E%B0http%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6/"/>
-    <id>http://xyunlay.github.io/2020/05/08/robot framework + python实现http接口自动化测试框架/</id>
+    <link href="http://xyun_lay.gitee.io/2020/05/08/robot%20framework%20+%20python%E5%AE%9E%E7%8E%B0http%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6/"/>
+    <id>http://xyun_lay.gitee.io/2020/05/08/robot framework + python实现http接口自动化测试框架/</id>
     <published>2020-05-08T02:55:00.000Z</published>
     <updated>2021-01-25T09:02:58.499Z</updated>
     
@@ -104,18 +104,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="接口自动化" scheme="http://xyunlay.github.io/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+      <category term="接口自动化" scheme="http://xyun_lay.gitee.io/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
-      <category term="robot framework" scheme="http://xyunlay.github.io/tags/robot-framework/"/>
+      <category term="robot framework" scheme="http://xyun_lay.gitee.io/tags/robot-framework/"/>
     
   </entry>
   
   <entry>
     <title>实用的Docker入门</title>
-    <link href="http://xyunlay.github.io/2020/04/06/%E5%AE%9E%E7%94%A8%E7%9A%84Docker%E5%85%A5%E9%97%A8/"/>
-    <id>http://xyunlay.github.io/2020/04/06/实用的Docker入门/</id>
+    <link href="http://xyun_lay.gitee.io/2020/04/06/%E5%AE%9E%E7%94%A8%E7%9A%84Docker%E5%85%A5%E9%97%A8/"/>
+    <id>http://xyun_lay.gitee.io/2020/04/06/实用的Docker入门/</id>
     <published>2020-04-06T02:55:00.000Z</published>
     <updated>2021-01-26T01:40:49.004Z</updated>
     
@@ -136,18 +136,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="环境部署" scheme="http://xyunlay.github.io/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
+      <category term="环境部署" scheme="http://xyun_lay.gitee.io/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
     
-      <category term="docker" scheme="http://xyunlay.github.io/tags/docker/"/>
+      <category term="docker" scheme="http://xyun_lay.gitee.io/tags/docker/"/>
     
   </entry>
   
   <entry>
     <title>自动化测试分享</title>
-    <link href="http://xyunlay.github.io/2019/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%86%E4%BA%AB/"/>
-    <id>http://xyunlay.github.io/2019/06/06/自动化测试分享/</id>
+    <link href="http://xyun_lay.gitee.io/2019/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%86%E4%BA%AB/"/>
+    <id>http://xyun_lay.gitee.io/2019/06/06/自动化测试分享/</id>
     <published>2019-06-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.019Z</updated>
     
@@ -160,16 +160,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="自动化测试" scheme="http://xyunlay.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+      <category term="自动化测试" scheme="http://xyun_lay.gitee.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Django入门</title>
-    <link href="http://xyunlay.github.io/2019/05/16/Django%E5%85%A5%E9%97%A8/"/>
-    <id>http://xyunlay.github.io/2019/05/16/Django入门/</id>
+    <link href="http://xyun_lay.gitee.io/2019/05/16/Django%E5%85%A5%E9%97%A8/"/>
+    <id>http://xyun_lay.gitee.io/2019/05/16/Django入门/</id>
     <published>2019-05-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.013Z</updated>
     
@@ -183,16 +183,16 @@
     </summary>
     
     
-      <category term="python" scheme="http://xyunlay.github.io/tags/python/"/>
+      <category term="python" scheme="http://xyun_lay.gitee.io/tags/python/"/>
     
-      <category term="python框架" scheme="http://xyunlay.github.io/tags/python%E6%A1%86%E6%9E%B6/"/>
+      <category term="python框架" scheme="http://xyun_lay.gitee.io/tags/python%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
   <entry>
     <title>Python3+Scrapy实现网页爬虫</title>
-    <link href="http://xyunlay.github.io/2019/04/06/Python3+Scrapy%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E7%88%AC%E8%99%AB/"/>
-    <id>http://xyunlay.github.io/2019/04/06/Python3+Scrapy实现网页爬虫/</id>
+    <link href="http://xyun_lay.gitee.io/2019/04/06/Python3+Scrapy%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E7%88%AC%E8%99%AB/"/>
+    <id>http://xyun_lay.gitee.io/2019/04/06/Python3+Scrapy实现网页爬虫/</id>
     <published>2019-04-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.016Z</updated>
     
@@ -209,18 +209,18 @@
     </summary>
     
     
-      <category term="python" scheme="http://xyunlay.github.io/tags/python/"/>
+      <category term="python" scheme="http://xyun_lay.gitee.io/tags/python/"/>
     
-      <category term="自动化测试" scheme="http://xyunlay.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+      <category term="自动化测试" scheme="http://xyun_lay.gitee.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="python爬虫" scheme="http://xyunlay.github.io/tags/python%E7%88%AC%E8%99%AB/"/>
+      <category term="python爬虫" scheme="http://xyun_lay.gitee.io/tags/python%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>统一处理异步的js回调</title>
-    <link href="http://xyunlay.github.io/2018/05/06/%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86%E5%BC%82%E6%AD%A5%E7%9A%84js%E5%9B%9E%E8%B0%83/"/>
-    <id>http://xyunlay.github.io/2018/05/06/统一处理异步的js回调/</id>
+    <link href="http://xyun_lay.gitee.io/2018/05/06/%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86%E5%BC%82%E6%AD%A5%E7%9A%84js%E5%9B%9E%E8%B0%83/"/>
+    <id>http://xyun_lay.gitee.io/2018/05/06/统一处理异步的js回调/</id>
     <published>2018-05-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.019Z</updated>
     
@@ -233,16 +233,16 @@
     </summary>
     
     
-      <category term="web" scheme="http://xyunlay.github.io/tags/web/"/>
+      <category term="web" scheme="http://xyun_lay.gitee.io/tags/web/"/>
     
-      <category term="js" scheme="http://xyunlay.github.io/tags/js/"/>
+      <category term="js" scheme="http://xyun_lay.gitee.io/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>Nginx性能分析--web服务器</title>
-    <link href="http://xyunlay.github.io/2018/04/29/Nginx--%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
-    <id>http://xyunlay.github.io/2018/04/29/Nginx--性能分析/</id>
+    <link href="http://xyun_lay.gitee.io/2018/04/29/Nginx--%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
+    <id>http://xyun_lay.gitee.io/2018/04/29/Nginx--性能分析/</id>
     <published>2018-04-29T03:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.016Z</updated>
     
@@ -259,18 +259,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="web服务器" scheme="http://xyunlay.github.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="web服务器" scheme="http://xyun_lay.gitee.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>Nginx基础--高性能web服务器</title>
-    <link href="http://xyunlay.github.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>http://xyunlay.github.io/2018/04/27/Nginx基础--高性能web服务器/</id>
+    <link href="http://xyun_lay.gitee.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://xyun_lay.gitee.io/2018/04/27/Nginx基础--高性能web服务器/</id>
     <published>2018-04-27T03:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.016Z</updated>
     
@@ -283,18 +283,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="web服务器" scheme="http://xyunlay.github.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="web服务器" scheme="http://xyun_lay.gitee.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>apache基础</title>
-    <link href="http://xyunlay.github.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/"/>
-    <id>http://xyunlay.github.io/2018/04/18/apache基础/</id>
+    <link href="http://xyun_lay.gitee.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/"/>
+    <id>http://xyun_lay.gitee.io/2018/04/18/apache基础/</id>
     <published>2018-04-18T03:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -308,18 +308,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="web服务器" scheme="http://xyunlay.github.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="web服务器" scheme="http://xyun_lay.gitee.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>性能分析</title>
-    <link href="http://xyunlay.github.io/2018/04/17/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
-    <id>http://xyunlay.github.io/2018/04/17/性能分析/</id>
+    <link href="http://xyun_lay.gitee.io/2018/04/17/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
+    <id>http://xyun_lay.gitee.io/2018/04/17/性能分析/</id>
     <published>2018-04-17T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.019Z</updated>
     
@@ -332,18 +332,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能分析" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
+      <category term="性能分析" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>linux page buffer cache深入理解</title>
-    <link href="http://xyunlay.github.io/2018/04/16/linux%20page%20buffer%20cache%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/"/>
-    <id>http://xyunlay.github.io/2018/04/16/linux page buffer cache深入理解/</id>
+    <link href="http://xyun_lay.gitee.io/2018/04/16/linux%20page%20buffer%20cache%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/"/>
+    <id>http://xyun_lay.gitee.io/2018/04/16/linux page buffer cache深入理解/</id>
     <published>2018-04-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -356,18 +356,18 @@
     </summary>
     
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="操作系统" scheme="http://xyunlay.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+      <category term="操作系统" scheme="http://xyun_lay.gitee.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="linux" scheme="http://xyunlay.github.io/tags/linux/"/>
+      <category term="linux" scheme="http://xyun_lay.gitee.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>《软件性能测试过程详解与案例剖析》读书笔记</title>
-    <link href="http://xyunlay.github.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://xyunlay.github.io/2018/03/07/《软件性能测试过程详解与案例剖析》读书笔记/</id>
+    <link href="http://xyun_lay.gitee.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://xyun_lay.gitee.io/2018/03/07/《软件性能测试过程详解与案例剖析》读书笔记/</id>
     <published>2018-03-07T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.018Z</updated>
     
@@ -380,18 +380,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="读书笔记" scheme="http://xyunlay.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://xyun_lay.gitee.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>分析瓶颈总结--Linux</title>
-    <link href="http://xyunlay.github.io/2018/02/27/%E5%88%86%E6%9E%90%E7%93%B6%E9%A2%88%E6%80%BB%E7%BB%93--Linux/"/>
-    <id>http://xyunlay.github.io/2018/02/27/分析瓶颈总结--Linux/</id>
+    <link href="http://xyun_lay.gitee.io/2018/02/27/%E5%88%86%E6%9E%90%E7%93%B6%E9%A2%88%E6%80%BB%E7%BB%93--Linux/"/>
+    <id>http://xyun_lay.gitee.io/2018/02/27/分析瓶颈总结--Linux/</id>
     <published>2018-02-27T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.018Z</updated>
     
@@ -408,18 +408,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能监控" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+      <category term="性能监控" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
     
   </entry>
   
   <entry>
     <title>Zabbix server 安装配置文档</title>
-    <link href="http://xyunlay.github.io/2018/02/26/Zabbix%20server%20%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/"/>
-    <id>http://xyunlay.github.io/2018/02/26/Zabbix server 安装配置文档/</id>
+    <link href="http://xyun_lay.gitee.io/2018/02/26/Zabbix%20server%20%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/"/>
+    <id>http://xyun_lay.gitee.io/2018/02/26/Zabbix server 安装配置文档/</id>
     <published>2018-02-26T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -440,18 +440,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能监控" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+      <category term="性能监控" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
     
   </entry>
   
   <entry>
     <title>NMON监测</title>
-    <link href="http://xyunlay.github.io/2018/01/06/NMON%E7%9B%91%E6%B5%8B/"/>
-    <id>http://xyunlay.github.io/2018/01/06/NMON监测/</id>
+    <link href="http://xyun_lay.gitee.io/2018/01/06/NMON%E7%9B%91%E6%B5%8B/"/>
+    <id>http://xyun_lay.gitee.io/2018/01/06/NMON监测/</id>
     <published>2018-01-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.015Z</updated>
     
@@ -484,18 +484,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能监控" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+      <category term="性能监控" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
     
   </entry>
   
   <entry>
     <title>APP测试总结</title>
-    <link href="http://xyunlay.github.io/2017/08/06/APP%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://xyunlay.github.io/2017/08/06/APP测试总结/</id>
+    <link href="http://xyun_lay.gitee.io/2017/08/06/APP%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/"/>
+    <id>http://xyun_lay.gitee.io/2017/08/06/APP测试总结/</id>
     <published>2017-08-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.012Z</updated>
     
@@ -518,16 +518,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="APP测试" scheme="http://xyunlay.github.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
+      <category term="APP测试" scheme="http://xyun_lay.gitee.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Appium学习路—Android定位元素与操作</title>
-    <link href="http://xyunlay.github.io/2017/08/06/Appium%E5%AD%A6%E4%B9%A0%E8%B7%AF%E2%80%94Android%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E4%B8%8E%E6%93%8D%E4%BD%9C/"/>
-    <id>http://xyunlay.github.io/2017/08/06/Appium学习路—Android定位元素与操作/</id>
+    <link href="http://xyun_lay.gitee.io/2017/08/06/Appium%E5%AD%A6%E4%B9%A0%E8%B7%AF%E2%80%94Android%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E4%B8%8E%E6%93%8D%E4%BD%9C/"/>
+    <id>http://xyun_lay.gitee.io/2017/08/06/Appium学习路—Android定位元素与操作/</id>
     <published>2017-08-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.013Z</updated>
     
@@ -541,18 +541,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="APP测试" scheme="http://xyunlay.github.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
+      <category term="APP测试" scheme="http://xyun_lay.gitee.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="Appium" scheme="http://xyunlay.github.io/tags/Appium/"/>
+      <category term="Appium" scheme="http://xyun_lay.gitee.io/tags/Appium/"/>
     
   </entry>
   
   <entry>
     <title>Jmeter-Ant-Jenkins集成</title>
-    <link href="http://xyunlay.github.io/2017/06/07/Jmeter-Ant-Jenkins%E9%9B%86%E6%88%90/"/>
-    <id>http://xyunlay.github.io/2017/06/07/Jmeter-Ant-Jenkins集成/</id>
+    <link href="http://xyun_lay.gitee.io/2017/06/07/Jmeter-Ant-Jenkins%E9%9B%86%E6%88%90/"/>
+    <id>http://xyun_lay.gitee.io/2017/06/07/Jmeter-Ant-Jenkins集成/</id>
     <published>2017-06-07T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.013Z</updated>
     
@@ -565,18 +565,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="jmeter" scheme="http://xyunlay.github.io/tags/jmeter/"/>
+      <category term="jmeter" scheme="http://xyun_lay.gitee.io/tags/jmeter/"/>
     
   </entry>
   
   <entry>
     <title>利用ant批量执行jmeter脚本</title>
-    <link href="http://xyunlay.github.io/2017/06/06/%E5%88%A9%E7%94%A8ant%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Cjmeter%E8%84%9A%E6%9C%AC/"/>
-    <id>http://xyunlay.github.io/2017/06/06/利用ant批量执行jmeter脚本/</id>
+    <link href="http://xyun_lay.gitee.io/2017/06/06/%E5%88%A9%E7%94%A8ant%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Cjmeter%E8%84%9A%E6%9C%AC/"/>
+    <id>http://xyun_lay.gitee.io/2017/06/06/利用ant批量执行jmeter脚本/</id>
     <published>2017-06-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.018Z</updated>
     
@@ -589,18 +589,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="jmeter" scheme="http://xyunlay.github.io/tags/jmeter/"/>
+      <category term="jmeter" scheme="http://xyun_lay.gitee.io/tags/jmeter/"/>
     
   </entry>
   
   <entry>
     <title>Jmeter监听器数据分析</title>
-    <link href="http://xyunlay.github.io/2017/05/16/Jmeter%E7%9B%91%E5%90%AC%E5%99%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    <id>http://xyunlay.github.io/2017/05/16/Jmeter监听器数据分析/</id>
+    <link href="http://xyun_lay.gitee.io/2017/05/16/Jmeter%E7%9B%91%E5%90%AC%E5%99%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    <id>http://xyun_lay.gitee.io/2017/05/16/Jmeter监听器数据分析/</id>
     <published>2017-05-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.014Z</updated>
     
@@ -621,18 +621,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="jmeter" scheme="http://xyunlay.github.io/tags/jmeter/"/>
+      <category term="jmeter" scheme="http://xyun_lay.gitee.io/tags/jmeter/"/>
     
   </entry>
   
   <entry>
     <title>Linux命令大全</title>
-    <link href="http://xyunlay.github.io/2017/04/16/Linux%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/"/>
-    <id>http://xyunlay.github.io/2017/04/16/Linux命令大全/</id>
+    <link href="http://xyun_lay.gitee.io/2017/04/16/Linux%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/"/>
+    <id>http://xyun_lay.gitee.io/2017/04/16/Linux命令大全/</id>
     <published>2017-04-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.015Z</updated>
     
@@ -645,16 +645,16 @@
     </summary>
     
     
-      <category term="操作系统" scheme="http://xyunlay.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+      <category term="操作系统" scheme="http://xyun_lay.gitee.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="Linux" scheme="http://xyunlay.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="http://xyun_lay.gitee.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>MD语法入门</title>
-    <link href="http://xyunlay.github.io/2017/03/04/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/"/>
-    <id>http://xyunlay.github.io/2017/03/04/MD语法入门/</id>
+    <link href="http://xyun_lay.gitee.io/2017/03/04/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/"/>
+    <id>http://xyun_lay.gitee.io/2017/03/04/MD语法入门/</id>
     <published>2017-03-04T14:52:00.000Z</published>
     <updated>2021-01-25T03:29:26.015Z</updated>
     
@@ -670,16 +670,16 @@
     </summary>
     
     
-      <category term="web" scheme="http://xyunlay.github.io/tags/web/"/>
+      <category term="web" scheme="http://xyun_lay.gitee.io/tags/web/"/>
     
-      <category term="markdown" scheme="http://xyunlay.github.io/tags/markdown/"/>
+      <category term="markdown" scheme="http://xyun_lay.gitee.io/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>instagram图片拉取小经验</title>
-    <link href="http://xyunlay.github.io/2017/03/03/instagram%E5%9B%BE%E7%89%87%E6%8B%89%E5%8F%96/"/>
-    <id>http://xyunlay.github.io/2017/03/03/instagram图片拉取/</id>
+    <link href="http://xyun_lay.gitee.io/2017/03/03/instagram%E5%9B%BE%E7%89%87%E6%8B%89%E5%8F%96/"/>
+    <id>http://xyun_lay.gitee.io/2017/03/03/instagram图片拉取/</id>
     <published>2017-03-03T14:52:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -692,11 +692,11 @@
     </summary>
     
     
-      <category term="web" scheme="http://xyunlay.github.io/tags/web/"/>
+      <category term="web" scheme="http://xyun_lay.gitee.io/tags/web/"/>
     
-      <category term="经验" scheme="http://xyunlay.github.io/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://xyun_lay.gitee.io/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="产品" scheme="http://xyunlay.github.io/tags/%E4%BA%A7%E5%93%81/"/>
+      <category term="产品" scheme="http://xyun_lay.gitee.io/tags/%E4%BA%A7%E5%93%81/"/>
     
   </entry>
   
