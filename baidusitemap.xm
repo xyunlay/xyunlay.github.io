@@ -129,6 +129,25 @@
 
     
   <url>
+    <loc>http://xyun_lay.gitee.io/2018/05/06/%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86%E5%BC%82%E6%AD%A5%E7%9A%84js%E5%9B%9E%E8%B0%83/</loc>
+    <lastmod>2021-01-25T03:29:26.019Z</lastmod>
+    <data>
+        <display>
+        <title>统一处理异步的js回调</title>
+        <pubTime>2018-05-06T02:55:00.000Z</pubTime>
+        
+        <tag>web</tag>
+         
+        <tag>js</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xyun_lay.gitee.io/2018/04/17/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/</loc>
     <lastmod>2021-01-25T03:29:26.019Z</lastmod>
     <data>
@@ -150,25 +169,6 @@
 
     
   <url>
-    <loc>http://xyun_lay.gitee.io/2018/05/06/%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86%E5%BC%82%E6%AD%A5%E7%9A%84js%E5%9B%9E%E8%B0%83/</loc>
-    <lastmod>2021-01-25T03:29:26.019Z</lastmod>
-    <data>
-        <display>
-        <title>统一处理异步的js回调</title>
-        <pubTime>2018-05-06T02:55:00.000Z</pubTime>
-        
-        <tag>web</tag>
-         
-        <tag>js</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyun_lay.gitee.io/2019/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2021-01-25T03:29:26.019Z</lastmod>
     <data>
@@ -179,27 +179,6 @@
         <tag>测试</tag>
          
         <tag>自动化测试</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://xyun_lay.gitee.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-01-25T03:29:26.018Z</lastmod>
-    <data>
-        <display>
-        <title>《软件性能测试过程详解与案例剖析》读书笔记</title>
-        <pubTime>2018-03-07T02:55:00.000Z</pubTime>
-        
-        <tag>测试</tag>
-         
-        <tag>性能测试</tag>
-         
-        <tag>读书笔记</tag>
          
          
            
@@ -230,6 +209,27 @@
 
     
   <url>
+    <loc>http://xyun_lay.gitee.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-01-25T03:29:26.018Z</lastmod>
+    <data>
+        <display>
+        <title>《软件性能测试过程详解与案例剖析》读书笔记</title>
+        <pubTime>2018-03-07T02:55:00.000Z</pubTime>
+        
+        <tag>测试</tag>
+         
+        <tag>性能测试</tag>
+         
+        <tag>读书笔记</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xyun_lay.gitee.io/2017/06/06/%E5%88%A9%E7%94%A8ant%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Cjmeter%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2021-01-25T03:29:26.018Z</lastmod>
     <data>
@@ -251,27 +251,6 @@
 
     
   <url>
-    <loc>http://xyun_lay.gitee.io/2018/02/26/Zabbix%20server%20%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2021-01-25T03:29:26.017Z</lastmod>
-    <data>
-        <display>
-        <title>Zabbix server 安装配置文档</title>
-        <pubTime>2018-02-26T02:55:00.000Z</pubTime>
-        
-        <tag>测试</tag>
-         
-        <tag>性能测试</tag>
-         
-        <tag>性能监控</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyun_lay.gitee.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2021-01-25T03:29:26.017Z</lastmod>
     <data>
@@ -284,6 +263,27 @@
         <tag>性能测试</tag>
          
         <tag>web服务器</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xyun_lay.gitee.io/2018/02/26/Zabbix%20server%20%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2021-01-25T03:29:26.017Z</lastmod>
+    <data>
+        <display>
+        <title>Zabbix server 安装配置文档</title>
+        <pubTime>2018-02-26T02:55:00.000Z</pubTime>
+        
+        <tag>测试</tag>
+         
+        <tag>性能测试</tag>
+         
+        <tag>性能监控</tag>
          
          
            
@@ -356,27 +356,6 @@
 
     
   <url>
-    <loc>http://xyun_lay.gitee.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-01-25T03:29:26.016Z</lastmod>
-    <data>
-        <display>
-        <title>Nginx基础--高性能web服务器</title>
-        <pubTime>2018-04-27T03:55:00.000Z</pubTime>
-        
-        <tag>测试</tag>
-         
-        <tag>性能测试</tag>
-         
-        <tag>web服务器</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyun_lay.gitee.io/2019/04/06/Python3+Scrapy%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E7%88%AC%E8%99%AB/</loc>
     <lastmod>2021-01-25T03:29:26.016Z</lastmod>
     <data>
@@ -398,16 +377,18 @@
 
     
   <url>
-    <loc>http://xyun_lay.gitee.io/2017/03/04/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/</loc>
-    <lastmod>2021-01-25T03:29:26.015Z</lastmod>
+    <loc>http://xyun_lay.gitee.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2021-01-25T03:29:26.016Z</lastmod>
     <data>
         <display>
-        <title>MD语法入门</title>
-        <pubTime>2017-03-04T14:52:00.000Z</pubTime>
+        <title>Nginx基础--高性能web服务器</title>
+        <pubTime>2018-04-27T03:55:00.000Z</pubTime>
         
-        <tag>web</tag>
+        <tag>测试</tag>
          
-        <tag>markdown</tag>
+        <tag>性能测试</tag>
+         
+        <tag>web服务器</tag>
          
          
            
@@ -457,6 +438,25 @@
 
     
   <url>
+    <loc>http://xyun_lay.gitee.io/2017/03/04/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2021-01-25T03:29:26.015Z</lastmod>
+    <data>
+        <display>
+        <title>MD语法入门</title>
+        <pubTime>2017-03-04T14:52:00.000Z</pubTime>
+        
+        <tag>web</tag>
+         
+        <tag>markdown</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xyun_lay.gitee.io/2017/05/16/Jmeter%E7%9B%91%E5%90%AC%E5%99%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</loc>
     <lastmod>2021-01-25T03:29:26.014Z</lastmod>
     <data>
@@ -469,6 +469,25 @@
         <tag>性能测试</tag>
          
         <tag>jmeter</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xyun_lay.gitee.io/2019/05/16/Django%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2021-01-25T03:29:26.013Z</lastmod>
+    <data>
+        <display>
+        <title>Django入门</title>
+        <pubTime>2019-05-16T02:55:00.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>python框架</tag>
          
          
            
@@ -511,25 +530,6 @@
         <tag>性能测试</tag>
          
         <tag>jmeter</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://xyun_lay.gitee.io/2019/05/16/Django%E5%85%A5%E9%97%A8/</loc>
-    <lastmod>2021-01-25T03:29:26.013Z</lastmod>
-    <data>
-        <display>
-        <title>Django入门</title>
-        <pubTime>2019-05-16T02:55:00.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>python框架</tag>
          
          
            
