@@ -5,12 +5,12 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://xyun_lay.gitee.io">
+  <link rel="dns-prefetch" href="http://xyunlay.github.io">
   <title>xyun&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="xyun&#39;blog">
-<meta property="og:url" content="http://xyun_lay.gitee.io/page/2/index.html">
+<meta property="og:url" content="http://xyunlay.github.io/page/2/index.html">
 <meta property="og:site_name" content="xyun&#39;blog">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
@@ -63,6 +63,8 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/instagram/">相册</a></li>
+	        
+				<li><a href="/xyun">随笔</a></li>
 	        
 				<li><a href="/talk">留言</a></li>
 	        
@@ -128,6 +130,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -148,13 +152,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/instagram/">相册</a></li>
+					<li style="width: 20%"><a href="/instagram/">相册</a></li>
 		        
-					<li style="width: 25%"><a href="/talk">留言</a></li>
+					<li style="width: 20%"><a href="/xyun">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/archives">归档</a></li>
+					<li style="width: 20%"><a href="/talk">留言</a></li>
+		        
+					<li style="width: 20%"><a href="/archives">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -556,11 +562,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">操作系统</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">性能测试</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">性能测试</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">操作系统</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
@@ -982,19 +988,19 @@
 
 
   
-    <article id="post-APP测试总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Appium学习路—Android定位元素与操作" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/06/APP测试总结/">APP测试总结</a>
+      <a class="article-title" href="/2017/08/06/Appium学习路—Android定位元素与操作/">Appium学习路—Android定位元素与操作</a>
     </h1>
   
 
         
-        <a href="/2017/08/06/APP测试总结/" class="archive-article-date">
+        <a href="/2017/08/06/Appium学习路—Android定位元素与操作/" class="archive-article-date">
   	<time datetime="2017-08-06T02:55:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-06</time>
 </a>
         
@@ -1002,19 +1008,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong> 自动化脚本：</strong><br>UIAutomator : 只支持Java语言 ；只支持Android平台；<br>MonkeyRunner  ： 只支持Android平台；<br>TestComplete：商用软件收费；<br>Appium：跨平台；支持多种语言</p>
-<p><strong> APP压力测试使用的知识：</strong><br>Adb命令<br>Monkey<br>Monkey Script<br>MonkeyRunner</p>
-<h2 id="一-自动化实例"><a href="#一-自动化实例" class="headerlink" title="一 自动化实例"></a>一 自动化实例</h2><p>1 准备测试的app；准备测试环境；实现脚本；<br>2 测试app：只有登录功能<br>测试环境：</p>
-<ul>
-<li>Appium（Android/IOS）;</li>
-<li>Android SDK;</li>
-<li>Appium-Python-Client;</li>
-<li>Selenium（Appium-Python-Client继承于Selenium); </li>
-<li>UIAutomatorViewer</li>
-<li>Pycharm<br>3 实现脚本<br>在Pycharm中编写脚本；<br>用UIAutomatorViewer进行定位；<br>借助Appium—Python—Client实现的api；<br>借助Appium—Python—Client的字典实现属性；<br>运行脚本之前要启动Appium并进行设置，<br>如果出现“新的session无法建立”的错误，请释放资源并重启Appium。</li>
-</ul>
+        <h2 id="一、常用识别元素的工具"><a href="#一、常用识别元素的工具" class="headerlink" title="一、常用识别元素的工具"></a>一、常用识别元素的工具</h2><p>uiautomator：Android SDK自带的一个工具，在tools目录下<br>monitor：Android SDK自带的一个工具，在tools目录下<br>Appium Inspector：Appium自带的一个功能，只有mac下可以使用该功能</p>
+<p>下面是用monitor抓取到的页面元素<br><img src="/assets/blogImg/Appium1.jpg" alt="Appium">   </p>
         
-          <a class="article-more-a" href="/2017/08/06/APP测试总结/#more">more >></a>
+          <a class="article-more-a" href="/2017/08/06/Appium学习路—Android定位元素与操作/#more">more >></a>
         
       
 
@@ -1034,6 +1031,10 @@
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">APP测试</a>
         		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Appium</a>
+        		</li>
       		
 		</ul>
 	</div>
@@ -1042,7 +1043,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/08/06/APP测试总结/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/08/06/Appium学习路—Android定位元素与操作/">展开全文 >></a>
         </p>
       
 
@@ -1200,6 +1201,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
@@ -1208,15 +1213,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">web</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1228,19 +1229,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+                <a href="javascript:void(0)" class="js-tag color4">web</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">web服务器</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1252,11 +1253,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1268,18 +1285,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">环境部署</a>
               </li>
              
@@ -1288,15 +1293,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">js</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
             
             <div class="clearfix"></div>

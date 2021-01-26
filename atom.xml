@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xyun_lay.gitee.io/"/>
+  <link href="http://xyunlay.github.io/"/>
   <updated>2021-01-25T07:24:27.712Z</updated>
-  <id>http://xyun_lay.gitee.io/</id>
+  <id>http://xyunlay.github.io/</id>
   
   <author>
     <name>xyun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Burp Suite抓https数据包及集成sqlmap</title>
-    <link href="http://xyun_lay.gitee.io/2020/07/03/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Burp%20Suite%E6%8A%93%E5%8C%85%E5%8F%8A%E9%9B%86%E6%88%90sqlmap/"/>
-    <id>http://xyun_lay.gitee.io/2020/07/03/安全渗透测试工具Burp Suite抓包及集成sqlmap/</id>
+    <link href="http://xyunlay.github.io/2020/07/03/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Burp%20Suite%E6%8A%93%E5%8C%85%E5%8F%8A%E9%9B%86%E6%88%90sqlmap/"/>
+    <id>http://xyunlay.github.io/2020/07/03/安全渗透测试工具Burp Suite抓包及集成sqlmap/</id>
     <published>2020-07-03T02:55:00.000Z</published>
     <updated>2021-01-25T07:24:27.712Z</updated>
     
@@ -35,16 +35,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="安全渗透测试" scheme="http://xyun_lay.gitee.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+      <category term="安全渗透测试" scheme="http://xyunlay.github.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>渗透测试工具Nmap从初级到高级</title>
-    <link href="http://xyun_lay.gitee.io/2020/07/01/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Nmap%E4%BB%8E%E5%88%9D%E7%BA%A7%E5%88%B0%E9%AB%98%E7%BA%A7/"/>
-    <id>http://xyun_lay.gitee.io/2020/07/01/安全渗透测试工具Nmap从初级到高级/</id>
+    <link href="http://xyunlay.github.io/2020/07/01/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7Nmap%E4%BB%8E%E5%88%9D%E7%BA%A7%E5%88%B0%E9%AB%98%E7%BA%A7/"/>
+    <id>http://xyunlay.github.io/2020/07/01/安全渗透测试工具Nmap从初级到高级/</id>
     <published>2020-07-01T02:55:00.000Z</published>
     <updated>2021-01-26T03:15:33.476Z</updated>
     
@@ -63,16 +63,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="安全渗透测试" scheme="http://xyun_lay.gitee.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+      <category term="安全渗透测试" scheme="http://xyunlay.github.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>安全测试流程与使用工具</title>
-    <link href="http://xyun_lay.gitee.io/2020/06/06/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
-    <id>http://xyun_lay.gitee.io/2020/06/06/安全测试流程与使用工具/</id>
+    <link href="http://xyunlay.github.io/2020/06/06/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    <id>http://xyunlay.github.io/2020/06/06/安全测试流程与使用工具/</id>
     <published>2020-06-06T02:55:00.000Z</published>
     <updated>2021-01-26T02:28:42.583Z</updated>
     
@@ -86,16 +86,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="安全渗透测试" scheme="http://xyun_lay.gitee.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+      <category term="安全渗透测试" scheme="http://xyunlay.github.io/tags/%E5%AE%89%E5%85%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>robot framework + python实现http接口自动化测试框架</title>
-    <link href="http://xyun_lay.gitee.io/2020/05/08/robot%20framework%20+%20python%E5%AE%9E%E7%8E%B0http%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6/"/>
-    <id>http://xyun_lay.gitee.io/2020/05/08/robot framework + python实现http接口自动化测试框架/</id>
+    <link href="http://xyunlay.github.io/2020/05/08/robot%20framework%20+%20python%E5%AE%9E%E7%8E%B0http%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6/"/>
+    <id>http://xyunlay.github.io/2020/05/08/robot framework + python实现http接口自动化测试框架/</id>
     <published>2020-05-08T02:55:00.000Z</published>
     <updated>2021-01-26T02:33:58.639Z</updated>
     
@@ -109,18 +109,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="接口自动化" scheme="http://xyun_lay.gitee.io/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+      <category term="接口自动化" scheme="http://xyunlay.github.io/tags/%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
-      <category term="robot framework" scheme="http://xyun_lay.gitee.io/tags/robot-framework/"/>
+      <category term="robot framework" scheme="http://xyunlay.github.io/tags/robot-framework/"/>
     
   </entry>
   
   <entry>
     <title>实用的Docker入门</title>
-    <link href="http://xyun_lay.gitee.io/2020/04/06/%E5%AE%9E%E7%94%A8%E7%9A%84Docker%E5%85%A5%E9%97%A8/"/>
-    <id>http://xyun_lay.gitee.io/2020/04/06/实用的Docker入门/</id>
+    <link href="http://xyunlay.github.io/2020/04/06/%E5%AE%9E%E7%94%A8%E7%9A%84Docker%E5%85%A5%E9%97%A8/"/>
+    <id>http://xyunlay.github.io/2020/04/06/实用的Docker入门/</id>
     <published>2020-04-06T02:55:00.000Z</published>
     <updated>2021-01-26T03:17:14.147Z</updated>
     
@@ -141,18 +141,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="环境部署" scheme="http://xyun_lay.gitee.io/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
+      <category term="环境部署" scheme="http://xyunlay.github.io/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
     
-      <category term="docker" scheme="http://xyun_lay.gitee.io/tags/docker/"/>
+      <category term="docker" scheme="http://xyunlay.github.io/tags/docker/"/>
     
   </entry>
   
   <entry>
     <title>自动化测试分享</title>
-    <link href="http://xyun_lay.gitee.io/2019/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%86%E4%BA%AB/"/>
-    <id>http://xyun_lay.gitee.io/2019/06/06/自动化测试分享/</id>
+    <link href="http://xyunlay.github.io/2019/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%86%E4%BA%AB/"/>
+    <id>http://xyunlay.github.io/2019/06/06/自动化测试分享/</id>
     <published>2019-06-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.019Z</updated>
     
@@ -165,16 +165,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="自动化测试" scheme="http://xyun_lay.gitee.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+      <category term="自动化测试" scheme="http://xyunlay.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Django入门</title>
-    <link href="http://xyun_lay.gitee.io/2019/05/16/Django%E5%85%A5%E9%97%A8/"/>
-    <id>http://xyun_lay.gitee.io/2019/05/16/Django入门/</id>
+    <link href="http://xyunlay.github.io/2019/05/16/Django%E5%85%A5%E9%97%A8/"/>
+    <id>http://xyunlay.github.io/2019/05/16/Django入门/</id>
     <published>2019-05-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.013Z</updated>
     
@@ -188,16 +188,16 @@
     </summary>
     
     
-      <category term="python" scheme="http://xyun_lay.gitee.io/tags/python/"/>
+      <category term="python" scheme="http://xyunlay.github.io/tags/python/"/>
     
-      <category term="python框架" scheme="http://xyun_lay.gitee.io/tags/python%E6%A1%86%E6%9E%B6/"/>
+      <category term="python框架" scheme="http://xyunlay.github.io/tags/python%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
   <entry>
     <title>Python3+Scrapy实现网页爬虫</title>
-    <link href="http://xyun_lay.gitee.io/2019/04/06/Python3+Scrapy%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E7%88%AC%E8%99%AB/"/>
-    <id>http://xyun_lay.gitee.io/2019/04/06/Python3+Scrapy实现网页爬虫/</id>
+    <link href="http://xyunlay.github.io/2019/04/06/Python3+Scrapy%E5%AE%9E%E7%8E%B0%E7%BD%91%E9%A1%B5%E7%88%AC%E8%99%AB/"/>
+    <id>http://xyunlay.github.io/2019/04/06/Python3+Scrapy实现网页爬虫/</id>
     <published>2019-04-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.016Z</updated>
     
@@ -214,18 +214,18 @@
     </summary>
     
     
-      <category term="python" scheme="http://xyun_lay.gitee.io/tags/python/"/>
+      <category term="python" scheme="http://xyunlay.github.io/tags/python/"/>
     
-      <category term="自动化测试" scheme="http://xyun_lay.gitee.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+      <category term="自动化测试" scheme="http://xyunlay.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="python爬虫" scheme="http://xyun_lay.gitee.io/tags/python%E7%88%AC%E8%99%AB/"/>
+      <category term="python爬虫" scheme="http://xyunlay.github.io/tags/python%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>linux下的shell脚本（基本）</title>
-    <link href="http://xyun_lay.gitee.io/2018/05/10/linux%E4%B8%8B%E7%9A%84shell%E8%84%9A%E6%9C%AC%EF%BC%88%E5%9F%BA%E6%9C%AC%EF%BC%89/"/>
-    <id>http://xyun_lay.gitee.io/2018/05/10/linux下的shell脚本（基本）/</id>
+    <link href="http://xyunlay.github.io/2018/05/10/linux%E4%B8%8B%E7%9A%84shell%E8%84%9A%E6%9C%AC%EF%BC%88%E5%9F%BA%E6%9C%AC%EF%BC%89/"/>
+    <id>http://xyunlay.github.io/2018/05/10/linux下的shell脚本（基本）/</id>
     <published>2018-05-10T02:55:00.000Z</published>
     <updated>2021-01-26T03:28:03.681Z</updated>
     
@@ -238,16 +238,16 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://xyun_lay.gitee.io/tags/Linux/"/>
+      <category term="Linux" scheme="http://xyunlay.github.io/tags/Linux/"/>
     
-      <category term="shell" scheme="http://xyun_lay.gitee.io/tags/shell/"/>
+      <category term="shell" scheme="http://xyunlay.github.io/tags/shell/"/>
     
   </entry>
   
   <entry>
     <title>统一处理异步的js回调</title>
-    <link href="http://xyun_lay.gitee.io/2018/05/06/%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86%E5%BC%82%E6%AD%A5%E7%9A%84js%E5%9B%9E%E8%B0%83/"/>
-    <id>http://xyun_lay.gitee.io/2018/05/06/统一处理异步的js回调/</id>
+    <link href="http://xyunlay.github.io/2018/05/06/%E7%BB%9F%E4%B8%80%E5%A4%84%E7%90%86%E5%BC%82%E6%AD%A5%E7%9A%84js%E5%9B%9E%E8%B0%83/"/>
+    <id>http://xyunlay.github.io/2018/05/06/统一处理异步的js回调/</id>
     <published>2018-05-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.019Z</updated>
     
@@ -260,16 +260,16 @@
     </summary>
     
     
-      <category term="web" scheme="http://xyun_lay.gitee.io/tags/web/"/>
+      <category term="web" scheme="http://xyunlay.github.io/tags/web/"/>
     
-      <category term="js" scheme="http://xyun_lay.gitee.io/tags/js/"/>
+      <category term="js" scheme="http://xyunlay.github.io/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>Nginx性能分析--web服务器</title>
-    <link href="http://xyun_lay.gitee.io/2018/04/29/Nginx--%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
-    <id>http://xyun_lay.gitee.io/2018/04/29/Nginx--性能分析/</id>
+    <link href="http://xyunlay.github.io/2018/04/29/Nginx--%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
+    <id>http://xyunlay.github.io/2018/04/29/Nginx--性能分析/</id>
     <published>2018-04-29T03:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.016Z</updated>
     
@@ -286,18 +286,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="web服务器" scheme="http://xyun_lay.gitee.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="web服务器" scheme="http://xyunlay.github.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>Nginx基础--高性能web服务器</title>
-    <link href="http://xyun_lay.gitee.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>http://xyun_lay.gitee.io/2018/04/27/Nginx基础--高性能web服务器/</id>
+    <link href="http://xyunlay.github.io/2018/04/27/Nginx%E5%9F%BA%E7%A1%80--%E9%AB%98%E6%80%A7%E8%83%BDweb%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://xyunlay.github.io/2018/04/27/Nginx基础--高性能web服务器/</id>
     <published>2018-04-27T03:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.016Z</updated>
     
@@ -310,18 +310,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="web服务器" scheme="http://xyun_lay.gitee.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="web服务器" scheme="http://xyunlay.github.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>apache基础</title>
-    <link href="http://xyun_lay.gitee.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/"/>
-    <id>http://xyun_lay.gitee.io/2018/04/18/apache基础/</id>
+    <link href="http://xyunlay.github.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/"/>
+    <id>http://xyunlay.github.io/2018/04/18/apache基础/</id>
     <published>2018-04-18T03:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -335,18 +335,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="web服务器" scheme="http://xyun_lay.gitee.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="web服务器" scheme="http://xyunlay.github.io/tags/web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>性能分析</title>
-    <link href="http://xyun_lay.gitee.io/2018/04/17/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
-    <id>http://xyun_lay.gitee.io/2018/04/17/性能分析/</id>
+    <link href="http://xyunlay.github.io/2018/04/17/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
+    <id>http://xyunlay.github.io/2018/04/17/性能分析/</id>
     <published>2018-04-17T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.019Z</updated>
     
@@ -359,18 +359,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能分析" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
+      <category term="性能分析" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>linux page buffer cache深入理解</title>
-    <link href="http://xyun_lay.gitee.io/2018/04/16/linux%20page%20buffer%20cache%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/"/>
-    <id>http://xyun_lay.gitee.io/2018/04/16/linux page buffer cache深入理解/</id>
+    <link href="http://xyunlay.github.io/2018/04/16/linux%20page%20buffer%20cache%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/"/>
+    <id>http://xyunlay.github.io/2018/04/16/linux page buffer cache深入理解/</id>
     <published>2018-04-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -383,18 +383,18 @@
     </summary>
     
     
-      <category term="操作系统" scheme="http://xyun_lay.gitee.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="操作系统" scheme="http://xyunlay.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="linux" scheme="http://xyun_lay.gitee.io/tags/linux/"/>
+      <category term="linux" scheme="http://xyunlay.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>《软件性能测试过程详解与案例剖析》读书笔记</title>
-    <link href="http://xyun_lay.gitee.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://xyun_lay.gitee.io/2018/03/07/《软件性能测试过程详解与案例剖析》读书笔记/</id>
+    <link href="http://xyunlay.github.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://xyunlay.github.io/2018/03/07/《软件性能测试过程详解与案例剖析》读书笔记/</id>
     <published>2018-03-07T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.018Z</updated>
     
@@ -407,18 +407,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="读书笔记" scheme="http://xyun_lay.gitee.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://xyunlay.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>分析瓶颈总结--Linux</title>
-    <link href="http://xyun_lay.gitee.io/2018/02/27/%E5%88%86%E6%9E%90%E7%93%B6%E9%A2%88%E6%80%BB%E7%BB%93--Linux/"/>
-    <id>http://xyun_lay.gitee.io/2018/02/27/分析瓶颈总结--Linux/</id>
+    <link href="http://xyunlay.github.io/2018/02/27/%E5%88%86%E6%9E%90%E7%93%B6%E9%A2%88%E6%80%BB%E7%BB%93--Linux/"/>
+    <id>http://xyunlay.github.io/2018/02/27/分析瓶颈总结--Linux/</id>
     <published>2018-02-27T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.018Z</updated>
     
@@ -435,18 +435,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能监控" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+      <category term="性能监控" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
     
   </entry>
   
   <entry>
     <title>Zabbix server 安装配置文档</title>
-    <link href="http://xyun_lay.gitee.io/2018/02/26/Zabbix%20server%20%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/"/>
-    <id>http://xyun_lay.gitee.io/2018/02/26/Zabbix server 安装配置文档/</id>
+    <link href="http://xyunlay.github.io/2018/02/26/Zabbix%20server%20%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/"/>
+    <id>http://xyunlay.github.io/2018/02/26/Zabbix server 安装配置文档/</id>
     <published>2018-02-26T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -467,18 +467,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能监控" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+      <category term="性能监控" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
     
   </entry>
   
   <entry>
     <title>NMON监测</title>
-    <link href="http://xyun_lay.gitee.io/2018/01/06/NMON%E7%9B%91%E6%B5%8B/"/>
-    <id>http://xyun_lay.gitee.io/2018/01/06/NMON监测/</id>
+    <link href="http://xyunlay.github.io/2018/01/06/NMON%E7%9B%91%E6%B5%8B/"/>
+    <id>http://xyunlay.github.io/2018/01/06/NMON监测/</id>
     <published>2018-01-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.015Z</updated>
     
@@ -511,18 +511,43 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能监控" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+      <category term="性能监控" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Appium学习路—Android定位元素与操作</title>
+    <link href="http://xyunlay.github.io/2017/08/06/Appium%E5%AD%A6%E4%B9%A0%E8%B7%AF%E2%80%94Android%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E4%B8%8E%E6%93%8D%E4%BD%9C/"/>
+    <id>http://xyunlay.github.io/2017/08/06/Appium学习路—Android定位元素与操作/</id>
+    <published>2017-08-06T02:55:00.000Z</published>
+    <updated>2021-01-25T03:29:26.013Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、常用识别元素的工具"><a href="#一、常用识别元素的工具" class="headerlink" title="一、常用识别元素的工具"></a>一、常用识别元素的工具</h2><p>uiautomator：Android SDK自带的一个工具，在tools目录下<br>monitor：Android SDK自带的一个工具，在tools目录下<br>Appium Inspector：Appium自带的一个功能，只有mac下可以使用该功能</p><p>下面是用monitor抓取到的页面元素<br><img src="/assets/blogImg/Appium1.jpg" alt="Appium">   </p> <a id="more"></a><p>下面使用Appium Inspector定位的元素<br><img src="/assets/blogImg/Appium2.jpg" alt="Appium"> </p><h2 id="二、元素定位"><a href="#二、元素定位" class="headerlink" title="二、元素定位"></a>二、元素定位</h2><h4 id="1-格式：find-element-by-定位方式-value"><a href="#1-格式：find-element-by-定位方式-value" class="headerlink" title="1.格式：find_element_by_定位方式(value)"></a>1.格式：find_element_by_定位方式(value)</h4><p>通过id定位<br>（取resource-id的值）：<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/azo”)<br>也可以直接用id后面的内容driver.find_element_by_id(“azo”)</p><p>通过class_name定位<br>（取class的内容）<br>driver.find_element_by_class_name(“android.widget.RelativeLayout”)</p><p>通过xpath定位<br>（取xpath得内容）<br>driver.find_element_by_xpath(“//android.widget.LinearLayout[1]/android.widget.XXX”)</p><p>通过text定位<br>（需要使用uiautomator的定位方式，使用text的内容）<br>driver.find_elements_by_android_uiautomator(“new UiSelector().text(\”+关注\”)”)</p><p>使用这里需要注意一下，通过text定位的结果是个list，不能直接click。所以如果要点击需要取数组的值，比如下面是点击找到的第一个元素<br>driver.find_elements_by_android_uiautomator(“new UiSelector().text(\”+关注\”)”)[0].click()</p><p>通过css_selector定位（webview）<br>只适用于webview的html页面，继承自webdriver，与pc版本的UI测试一致<br>driver.find_element_by_css_selector()</p><p>通过link_text定位（webview）<br>只适用于webview容器中的html页面，继承自webdriver，与pc版本的UI测试一致<br>driver.find_element_by_link_text()</p><p>通过name定位<br>web view容器中的html页面可以用name定位，native并没有name属性<br>driver.find_element_by_name()</p><h4 id="2-定位元素的另一种写法：find-element-by-value"><a href="#2-定位元素的另一种写法：find-element-by-value" class="headerlink" title="2.定位元素的另一种写法：find_element(by,value)"></a>2.定位元素的另一种写法：find_element(by,value)</h4><p>find_element_by_方式(value)实际调用的都是find_element(by,value)<br>需要导入这个包：from selenium.webdriver.common.by import By</p><p>例如：定位id为ag2的元素<br>方式一：driver.find_element_by_id(“ag2”)<br>方式二：driver.find_element(By.ID,”ag2”)</p><p>这个操作的好处是可以直接把操作的by和value放到一个元组里，然后调用通用方法来传参获得元素结果<br>cateid=(By.ID,”ag2”)<br>driver.find_element(*cateid).click()</p><p>by的操作可以是：<br>By.ID   相当于by_id<br>By.CLASS_NAME  相当于by_class_name<br>By.XPATH   相当于by_xpath<br>By.NAME   相当于by_name<br>By.TAG_NAME   相当于by_tag_name<br>By.CSS_SELECTOR  相当于by_css_selector<br>By.LINK_TEXT  相当于by_link_text</p><h4 id="3-find-elements-by-定位方式-value-返回元素数组"><a href="#3-find-elements-by-定位方式-value-返回元素数组" class="headerlink" title="3.find_elements_by_定位方式(value)返回元素数组"></a>3.find_elements_by_定位方式(value)返回元素数组</h4><p>用法与find_element_by_方式(value)一致，但是返回一个数组。可以通过数组的索引来访问具体的某个结果</p><p>例如：通过class_name定位到多个元素，我想点击第一个元素<br>driver.find_elements_by_class_name(“android.widget.RelativeLayout”)[0].click()</p><h4 id="4-返回元素数组的另一种写法：find-elements-by-value"><a href="#4-返回元素数组的另一种写法：find-elements-by-value" class="headerlink" title="4.返回元素数组的另一种写法：find_elements(by,value)"></a>4.返回元素数组的另一种写法：find_elements(by,value)</h4><p>用法与find_element(by,value)一致，但是返回一个数组。可以通过数组的索引来访问具体的某个结果</p><p>例如：通过class_name定位到多个元素，我想点击第一个元素<br>driver.find_elements(By.CLASS_NAME,”android.widget.RelativeLayout”)[0].click()</p><h4 id="5-通过元素定位元素"><a href="#5-通过元素定位元素" class="headerlink" title="5.通过元素定位元素"></a>5.通过元素定位元素</h4><p>可以先找到某个元素，然后再进一步定位元素<br>find_element_by_class_xpath(“xxx”).find_element_by_name(“yyy”)</p><h2 id="三、元素操作"><a href="#三、元素操作" class="headerlink" title="三、元素操作"></a>三、元素操作</h2><p>找到元素后可以对元素进行的操作，例如上面讲的进一步定位元素</p><h4 id="1-click"><a href="#1-click" class="headerlink" title="1.click()"></a>1.click()</h4><p>点击操作<br>也可以用tab实现点击操作<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/ae8”).click()</p><h4 id="2-clear"><a href="#2-clear" class="headerlink" title="2.clear()"></a>2.clear()</h4><p>清空输入框内容<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/ij”).clear()</p><h4 id="3-send-xx"><a href="#3-send-xx" class="headerlink" title="3.send(xx)"></a>3.send(xx)</h4><p>输入框内输入内容<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/ij”).send_keys(“test content”)</p><h4 id="4-text"><a href="#4-text" class="headerlink" title="4.text"></a>4.text</h4><p>获得元素的text内容<br>print(driver.find_element_by_xpath(“ //android.widget.LinearLayout[1]//xxx”).text)</p><h2 id="四、触摸操作"><a href="#四、触摸操作" class="headerlink" title="四、触摸操作"></a>四、触摸操作</h2><h4 id="1-driver-tap-坐标-，持续点击时间"><a href="#1-driver-tap-坐标-，持续点击时间" class="headerlink" title="1.driver.tap([坐标]，持续点击时间)"></a>1.driver.tap([坐标]，持续点击时间)</h4><p>除了定位到元素的点击外，也可以通过tab实现坐标的点击<br>driver.tap(driver.tap([(216,1776)],2))</p><h4 id="2-TouchAction-driver"><a href="#2-TouchAction-driver" class="headerlink" title="2.TouchAction(driver)"></a>2.TouchAction(driver)</h4><p>TouchAction对象包含（tab）、press（短按）、move_to（滑动到某个坐标）等方法<br>通过TouchAction对象，添加tap、move_to等操作，然后perform()执行，可以实现解锁屏幕等功能</p><p>规范中的可用事件有：</p><ul><li>短按 (press)</li><li>释放 (release)</li><li>移动到 (moveTo)</li><li>点击 (tap)</li><li>等待 (wait)</li><li>长按 (longPress)</li><li>取消 (cancel)</li><li>执行 (perform)<br><img src="/assets/blogImg/Appium3.jpg" alt="Appium"> </li></ul><p>例如：一个多次滑屏的例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">action=TouchAction(driver)</span><br><span class="line">action.press(x=220,y=700).move_to(x=840, y=700).move_to(x=220, y=1530).move_to(x=840, y=1530).release().perform()</span><br></pre></td></tr></table></figure></p><p>可以通过wait()等待操作</p><h4 id="3-MultiAction-多点触控"><a href="#3-MultiAction-多点触控" class="headerlink" title="3.MultiAction()//多点触控"></a>3.MultiAction()//多点触控</h4><p>通过MultiAction().add()添加多个TouchAction操作，最后调用perform()一起执行这些操作<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">action0 = TouchAction().tap(el)</span><br><span class="line">action1 = TouchAction().tap(el)</span><br><span class="line">MultiAction().add(action0).add(action1).perform()</span><br></pre></td></tr></table></figure></p><h4 id="4-driver-swipe-x1-y1-x2-y2-duration"><a href="#4-driver-swipe-x1-y1-x2-y2-duration" class="headerlink" title="4.driver.swipe(x1, y1, x2, y2,duration)"></a>4.driver.swipe(x1, y1, x2, y2,duration)</h4><p>从坐标(x1,x2)滑动到坐标(x2,y2)，duration非必填项，滑动时间<br>（滑动的坐标不能超过屏幕的宽高）<br>可以通过【driver.get_window_size()】命令获得窗口高和宽，结果为{‘width’: 1080, ‘height’: 1776}</p><p>一个鼠标向上下左右活动的例子如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#获得屏幕大小宽和高</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getSize</span><span class="params">(driver)</span>:</span></span><br><span class="line">    x = driver.get_window_size()[<span class="string">'width'</span>]</span><br><span class="line">    y = driver.get_window_size()[<span class="string">'height'</span>]</span><br><span class="line">    <span class="keyword">return</span> (x, y)</span><br><span class="line"></span><br><span class="line"><span class="comment">#屏幕向上滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipeUp</span><span class="params">(driver,t=<span class="number">1000</span>)</span>:</span></span><br><span class="line">    l = getSize(driver)</span><br><span class="line">    x1 = int(l[<span class="number">0</span>] * <span class="number">0.5</span>)    <span class="comment">#x坐标</span></span><br><span class="line">    y1 = int(l[<span class="number">1</span>] * <span class="number">0.75</span>)   <span class="comment">#起始y坐标</span></span><br><span class="line">    y2 = int(l[<span class="number">1</span>] * <span class="number">0.25</span>)   <span class="comment">#终点y坐标</span></span><br><span class="line">    driver.swipe(x1, y1, x1, y2,t)</span><br><span class="line"></span><br><span class="line"><span class="comment">#屏幕向下滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipeDown</span><span class="params">(driver,t=<span class="number">1000</span>)</span>:</span></span><br><span class="line">    l = getSize(driver)</span><br><span class="line">    x1 = int(l[<span class="number">0</span>] * <span class="number">0.5</span>)  <span class="comment">#x坐标</span></span><br><span class="line">    y1 = int(l[<span class="number">1</span>] * <span class="number">0.25</span>)   <span class="comment">#起始y坐标</span></span><br><span class="line">    y2 = int(l[<span class="number">1</span>] * <span class="number">0.75</span>)   <span class="comment">#终点y坐标</span></span><br><span class="line">    driver.swipe(x1, y1, x1, y2,t)</span><br><span class="line"><span class="comment">#屏幕向左滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipLeft</span><span class="params">(driver,t)</span>:</span></span><br><span class="line">    l=getSize(driver)</span><br><span class="line">    x1=int(l[<span class="number">0</span>]*<span class="number">0.75</span>)</span><br><span class="line">    y1=int(l[<span class="number">1</span>]*<span class="number">0.5</span>)</span><br><span class="line">    x2=int(l[<span class="number">0</span>]*<span class="number">0.05</span>)</span><br><span class="line">    driver.swipe(x1,y1,x2,y1,t)</span><br><span class="line"><span class="comment">#屏幕向右滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipRight</span><span class="params">(driver,t=<span class="number">1000</span>)</span>:</span></span><br><span class="line">    l=getSize(driver)</span><br><span class="line">    x1=int(l[<span class="number">0</span>]*<span class="number">0.05</span>)</span><br><span class="line">    y1=int(l[<span class="number">1</span>]*<span class="number">0.5</span>)</span><br><span class="line">    x2=int(l[<span class="number">0</span>]*<span class="number">0.75</span>)</span><br><span class="line">    driver.swipe(x1,y1,x2,y1,t)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#调用向下滑动的方法</span></span><br><span class="line">swipeDown(driver)</span><br></pre></td></tr></table></figure></p><h2 id="五、系统按键事件"><a href="#五、系统按键事件" class="headerlink" title="五、系统按键事件"></a>五、系统按键事件</h2><p>press_keycode(AndroidKeyCode)//发送按键事件<br>例如：点击home键，home键的KeyCode是3<br>driver.press_keycode(3)</p><table><thead><tr><th style="text-align:left">键名</th><th style="text-align:center">描述</th><th style="text-align:right">键值</th></tr></thead><tbody><tr><td style="text-align:left">KEYCODE_CALL</td><td style="text-align:center">拨号键</td><td style="text-align:right">5</td></tr><tr><td style="text-align:left">KEYCODE_ENDCALL</td><td style="text-align:center">挂机键</td><td style="text-align:right">6</td></tr><tr><td style="text-align:left">KEYCODE_HOME</td><td style="text-align:center">按键Home</td><td style="text-align:right">3</td></tr><tr><td style="text-align:left">KEYCODE_MENU</td><td style="text-align:center">菜单键</td><td style="text-align:right">82</td></tr><tr><td style="text-align:left">KEYCODE_BACK</td><td style="text-align:center">返回键</td><td style="text-align:right">4</td></tr><tr><td style="text-align:left">KEYCODE_SEARCH</td><td style="text-align:center">搜索键</td><td style="text-align:right">84</td></tr><tr><td style="text-align:left">KEYCODE_CAMERA</td><td style="text-align:center">拍照键</td><td style="text-align:right">27</td></tr><tr><td style="text-align:left">KEYCODE_FOCUS</td><td style="text-align:center">拍照对焦键</td><td style="text-align:right">80</td></tr><tr><td style="text-align:left">KEYCODE_POWER</td><td style="text-align:center">电源键</td><td style="text-align:right">26</td></tr><tr><td style="text-align:left">KEYCODE_NOTIFICATION</td><td style="text-align:center">通知键</td><td style="text-align:right">83</td></tr><tr><td style="text-align:left">KEYCODE_MUTE</td><td style="text-align:center">话筒静音键</td><td style="text-align:right">91</td></tr><tr><td style="text-align:left">KEYCODE_VOLUME_MUTE</td><td style="text-align:center">扬声器静音键</td><td style="text-align:right">164</td></tr><tr><td style="text-align:left">KEYCODE_VOLUME_UP</td><td style="text-align:center">音量增加键</td><td style="text-align:right">24</td></tr><tr><td style="text-align:left">KEYCODE_VOLUME_DOWN</td><td style="text-align:center">音量减小键</td><td style="text-align:right">25</td></tr></tbody></table><p>更多KeyCode可以查看下面的博客：<br><a href="http://blog.csdn.net/crisschan/article/details/50419963" target="_blank" rel="noopener">http://blog.csdn.net/crisschan/article/details/50419963</a></p><h2 id="六、driver的一些比较重要操作"><a href="#六、driver的一些比较重要操作" class="headerlink" title="六、driver的一些比较重要操作"></a>六、driver的一些比较重要操作</h2><h4 id="1-reset"><a href="#1-reset" class="headerlink" title="1.reset()"></a>1.reset()</h4><p>重置app<br>这时候driver会重置，相当于卸载重装应用。所以本地缓存会失效<br>driver.reset()</p><h4 id="2-start-activity-包名-activity名"><a href="#2-start-activity-包名-activity名" class="headerlink" title="2.start_activity(包名,activity名)"></a>2.start_activity(包名,activity名)</h4><p>启动app的某一个activity<br>例如：driver.start_activity(“com.wuba.zhuanzhuan”,”./presentation.view.activity.LaunchActivity”)</p><p>启动一个activity，这个activity必须是AndroidManifest.xml中有intent-filter的activity<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;intent-filter&gt;</span><br><span class="line">    &lt;action android:name=&quot;android.intent.action.MAIN&quot;/&gt;</span><br><span class="line">   &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot;/&gt;</span><br><span class="line">&lt;/intent-filter&gt;</span><br></pre></td></tr></table></figure></p><p>这种启动activity和driver的reset()不同的是</p><h4 id="3-contexts"><a href="#3-contexts" class="headerlink" title="3.contexts"></a>3.contexts</h4><p>获得所有contexts<br>driver.contexts<br>结果如下：<br>[‘NATIVE_APP’, ‘WEBVIEW_com.android.browser’]</p><p>NATIVE_APP：native的context<br>WEBVIEW_com.android.browser：webview的context，存放html的容器</p><h4 id="4-current-context"><a href="#4-current-context" class="headerlink" title="4.current_context"></a>4.current_context</h4><p>查看当前的context<br>driver.current_context</p><h4 id="5-switch-to-context-context名"><a href="#5-switch-to-context-context名" class="headerlink" title="5.switch_to.context(context名)"></a>5.switch_to.context(context名)</h4><p>切换context<br>driver.switch_to.context(“WEBVIEW_com.wuba.zhuanzhuan”)</p><p>NATIVE时不能定位WEBVIEW的内容，在WEBVIEW的context时不能定位NATIVE的内容。<br>所以需要切换到对应的context中去进行操作</p><h4 id="6-setNetworkConnection-bitmask掩码"><a href="#6-setNetworkConnection-bitmask掩码" class="headerlink" title="6.setNetworkConnection(bitmask掩码)"></a>6.setNetworkConnection(bitmask掩码)</h4><p>设置网络类型<br>例如：设置网络类型为只开wifi<br>driver.set_network_connection(2)</p><p>网络的bitmask掩码如下：</p><table><thead><tr><th style="text-align:left">值 (别名)</th><th style="text-align:center">数据连接</th><th style="text-align:center">Wifi连接</th><th style="text-align:right">飞行模式</th></tr></thead><tbody><tr><td style="text-align:left">0 (什么都没有)</td><td style="text-align:center">0</td><td style="text-align:center">0</td><td style="text-align:right">0</td></tr><tr><td style="text-align:left">1 (飞行模式)</td><td style="text-align:center">0</td><td style="text-align:center">0</td><td style="text-align:right">1</td></tr><tr><td style="text-align:left">2 (只有Wifi)</td><td style="text-align:center">0</td><td style="text-align:center">1</td><td style="text-align:right">0</td></tr><tr><td style="text-align:left">4 (只有数据连接)</td><td style="text-align:center">1</td><td style="text-align:center">0</td><td style="text-align:right">0</td></tr><tr><td style="text-align:left">6 (开启所有网络)</td><td style="text-align:center">1</td><td style="text-align:center">1</td><td style="text-align:right">0</td></tr></tbody></table><h4 id="7-scroll-起始元素，结束元素"><a href="#7-scroll-起始元素，结束元素" class="headerlink" title="7.scroll(起始元素，结束元素)"></a>7.scroll(起始元素，结束元素)</h4><p>driver.scroll(origin_el,destination_el)</p><h4 id="8-获得当前页面的所有元素"><a href="#8-获得当前页面的所有元素" class="headerlink" title="8.获得当前页面的所有元素"></a>8.获得当前页面的所有元素</h4><p>driver.page_source</p><p>这可以用来判断元素是否存在，例如（assert “发布成功” in driver.page_source）</p><h4 id="9-补充一些driver启动时可能用到的项"><a href="#9-补充一些driver启动时可能用到的项" class="headerlink" title="9.补充一些driver启动时可能用到的项"></a>9.补充一些driver启动时可能用到的项</h4><p>其实这些在上一篇启动里都有介绍，但是有些可能大家没注意到的点再列一下。这些点也是我在测试中实际遇到的点</p><ul><li><p>autoLaunch ：Appium是否要自动启动或安装app，默认true<br>desired_caps[‘autoLaunch’] = ‘false’<br>有的时候我不想让appium每次都启动app，想自己去启动activity，那这个项这时就可以起作用了</p></li><li><p>noReset：在会话前是否重置app状态。默认是false<br>desired_caps[‘noReset’] = ‘true’</p></li><li><p>newCommandTimeout：设置未接收到新命令的超时时间，默认60s<br>如果60s内没有接收到新命令，appium会自动断开连接，如果我需要很长时间做driver之外的操作，可能延长接收新命令的超时时间<br>desired_caps[“newCommandTimeout”]=1800</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一、常用识别元素的工具&quot;&gt;&lt;a href=&quot;#一、常用识别元素的工具&quot; class=&quot;headerlink&quot; title=&quot;一、常用识别元素的工具&quot;&gt;&lt;/a&gt;一、常用识别元素的工具&lt;/h2&gt;&lt;p&gt;uiautomator：Android SDK自带的一个工具，在tools目录下&lt;br&gt;monitor：Android SDK自带的一个工具，在tools目录下&lt;br&gt;Appium Inspector：Appium自带的一个功能，只有mac下可以使用该功能&lt;/p&gt;
+&lt;p&gt;下面是用monitor抓取到的页面元素&lt;br&gt;&lt;img src=&quot;/assets/blogImg/Appium1.jpg&quot; alt=&quot;Appium&quot;&gt;   &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="APP测试" scheme="http://xyunlay.github.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Appium" scheme="http://xyunlay.github.io/tags/Appium/"/>
     
   </entry>
   
   <entry>
     <title>APP测试总结</title>
-    <link href="http://xyun_lay.gitee.io/2017/08/06/APP%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://xyun_lay.gitee.io/2017/08/06/APP测试总结/</id>
+    <link href="http://xyunlay.github.io/2017/08/06/APP%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/"/>
+    <id>http://xyunlay.github.io/2017/08/06/APP测试总结/</id>
     <published>2017-08-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.012Z</updated>
     
@@ -545,41 +570,16 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="APP测试" scheme="http://xyun_lay.gitee.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Appium学习路—Android定位元素与操作</title>
-    <link href="http://xyun_lay.gitee.io/2017/08/06/Appium%E5%AD%A6%E4%B9%A0%E8%B7%AF%E2%80%94Android%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E4%B8%8E%E6%93%8D%E4%BD%9C/"/>
-    <id>http://xyun_lay.gitee.io/2017/08/06/Appium学习路—Android定位元素与操作/</id>
-    <published>2017-08-06T02:55:00.000Z</published>
-    <updated>2021-01-25T03:29:26.013Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一、常用识别元素的工具"><a href="#一、常用识别元素的工具" class="headerlink" title="一、常用识别元素的工具"></a>一、常用识别元素的工具</h2><p>uiautomator：Android SDK自带的一个工具，在tools目录下<br>monitor：Android SDK自带的一个工具，在tools目录下<br>Appium Inspector：Appium自带的一个功能，只有mac下可以使用该功能</p><p>下面是用monitor抓取到的页面元素<br><img src="/assets/blogImg/Appium1.jpg" alt="Appium">   </p> <a id="more"></a><p>下面使用Appium Inspector定位的元素<br><img src="/assets/blogImg/Appium2.jpg" alt="Appium"> </p><h2 id="二、元素定位"><a href="#二、元素定位" class="headerlink" title="二、元素定位"></a>二、元素定位</h2><h4 id="1-格式：find-element-by-定位方式-value"><a href="#1-格式：find-element-by-定位方式-value" class="headerlink" title="1.格式：find_element_by_定位方式(value)"></a>1.格式：find_element_by_定位方式(value)</h4><p>通过id定位<br>（取resource-id的值）：<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/azo”)<br>也可以直接用id后面的内容driver.find_element_by_id(“azo”)</p><p>通过class_name定位<br>（取class的内容）<br>driver.find_element_by_class_name(“android.widget.RelativeLayout”)</p><p>通过xpath定位<br>（取xpath得内容）<br>driver.find_element_by_xpath(“//android.widget.LinearLayout[1]/android.widget.XXX”)</p><p>通过text定位<br>（需要使用uiautomator的定位方式，使用text的内容）<br>driver.find_elements_by_android_uiautomator(“new UiSelector().text(\”+关注\”)”)</p><p>使用这里需要注意一下，通过text定位的结果是个list，不能直接click。所以如果要点击需要取数组的值，比如下面是点击找到的第一个元素<br>driver.find_elements_by_android_uiautomator(“new UiSelector().text(\”+关注\”)”)[0].click()</p><p>通过css_selector定位（webview）<br>只适用于webview的html页面，继承自webdriver，与pc版本的UI测试一致<br>driver.find_element_by_css_selector()</p><p>通过link_text定位（webview）<br>只适用于webview容器中的html页面，继承自webdriver，与pc版本的UI测试一致<br>driver.find_element_by_link_text()</p><p>通过name定位<br>web view容器中的html页面可以用name定位，native并没有name属性<br>driver.find_element_by_name()</p><h4 id="2-定位元素的另一种写法：find-element-by-value"><a href="#2-定位元素的另一种写法：find-element-by-value" class="headerlink" title="2.定位元素的另一种写法：find_element(by,value)"></a>2.定位元素的另一种写法：find_element(by,value)</h4><p>find_element_by_方式(value)实际调用的都是find_element(by,value)<br>需要导入这个包：from selenium.webdriver.common.by import By</p><p>例如：定位id为ag2的元素<br>方式一：driver.find_element_by_id(“ag2”)<br>方式二：driver.find_element(By.ID,”ag2”)</p><p>这个操作的好处是可以直接把操作的by和value放到一个元组里，然后调用通用方法来传参获得元素结果<br>cateid=(By.ID,”ag2”)<br>driver.find_element(*cateid).click()</p><p>by的操作可以是：<br>By.ID   相当于by_id<br>By.CLASS_NAME  相当于by_class_name<br>By.XPATH   相当于by_xpath<br>By.NAME   相当于by_name<br>By.TAG_NAME   相当于by_tag_name<br>By.CSS_SELECTOR  相当于by_css_selector<br>By.LINK_TEXT  相当于by_link_text</p><h4 id="3-find-elements-by-定位方式-value-返回元素数组"><a href="#3-find-elements-by-定位方式-value-返回元素数组" class="headerlink" title="3.find_elements_by_定位方式(value)返回元素数组"></a>3.find_elements_by_定位方式(value)返回元素数组</h4><p>用法与find_element_by_方式(value)一致，但是返回一个数组。可以通过数组的索引来访问具体的某个结果</p><p>例如：通过class_name定位到多个元素，我想点击第一个元素<br>driver.find_elements_by_class_name(“android.widget.RelativeLayout”)[0].click()</p><h4 id="4-返回元素数组的另一种写法：find-elements-by-value"><a href="#4-返回元素数组的另一种写法：find-elements-by-value" class="headerlink" title="4.返回元素数组的另一种写法：find_elements(by,value)"></a>4.返回元素数组的另一种写法：find_elements(by,value)</h4><p>用法与find_element(by,value)一致，但是返回一个数组。可以通过数组的索引来访问具体的某个结果</p><p>例如：通过class_name定位到多个元素，我想点击第一个元素<br>driver.find_elements(By.CLASS_NAME,”android.widget.RelativeLayout”)[0].click()</p><h4 id="5-通过元素定位元素"><a href="#5-通过元素定位元素" class="headerlink" title="5.通过元素定位元素"></a>5.通过元素定位元素</h4><p>可以先找到某个元素，然后再进一步定位元素<br>find_element_by_class_xpath(“xxx”).find_element_by_name(“yyy”)</p><h2 id="三、元素操作"><a href="#三、元素操作" class="headerlink" title="三、元素操作"></a>三、元素操作</h2><p>找到元素后可以对元素进行的操作，例如上面讲的进一步定位元素</p><h4 id="1-click"><a href="#1-click" class="headerlink" title="1.click()"></a>1.click()</h4><p>点击操作<br>也可以用tab实现点击操作<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/ae8”).click()</p><h4 id="2-clear"><a href="#2-clear" class="headerlink" title="2.clear()"></a>2.clear()</h4><p>清空输入框内容<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/ij”).clear()</p><h4 id="3-send-xx"><a href="#3-send-xx" class="headerlink" title="3.send(xx)"></a>3.send(xx)</h4><p>输入框内输入内容<br>driver.find_element_by_id(“com.wuba.zhuanzhuan:id/ij”).send_keys(“test content”)</p><h4 id="4-text"><a href="#4-text" class="headerlink" title="4.text"></a>4.text</h4><p>获得元素的text内容<br>print(driver.find_element_by_xpath(“ //android.widget.LinearLayout[1]//xxx”).text)</p><h2 id="四、触摸操作"><a href="#四、触摸操作" class="headerlink" title="四、触摸操作"></a>四、触摸操作</h2><h4 id="1-driver-tap-坐标-，持续点击时间"><a href="#1-driver-tap-坐标-，持续点击时间" class="headerlink" title="1.driver.tap([坐标]，持续点击时间)"></a>1.driver.tap([坐标]，持续点击时间)</h4><p>除了定位到元素的点击外，也可以通过tab实现坐标的点击<br>driver.tap(driver.tap([(216,1776)],2))</p><h4 id="2-TouchAction-driver"><a href="#2-TouchAction-driver" class="headerlink" title="2.TouchAction(driver)"></a>2.TouchAction(driver)</h4><p>TouchAction对象包含（tab）、press（短按）、move_to（滑动到某个坐标）等方法<br>通过TouchAction对象，添加tap、move_to等操作，然后perform()执行，可以实现解锁屏幕等功能</p><p>规范中的可用事件有：</p><ul><li>短按 (press)</li><li>释放 (release)</li><li>移动到 (moveTo)</li><li>点击 (tap)</li><li>等待 (wait)</li><li>长按 (longPress)</li><li>取消 (cancel)</li><li>执行 (perform)<br><img src="/assets/blogImg/Appium3.jpg" alt="Appium"> </li></ul><p>例如：一个多次滑屏的例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">action=TouchAction(driver)</span><br><span class="line">action.press(x=220,y=700).move_to(x=840, y=700).move_to(x=220, y=1530).move_to(x=840, y=1530).release().perform()</span><br></pre></td></tr></table></figure></p><p>可以通过wait()等待操作</p><h4 id="3-MultiAction-多点触控"><a href="#3-MultiAction-多点触控" class="headerlink" title="3.MultiAction()//多点触控"></a>3.MultiAction()//多点触控</h4><p>通过MultiAction().add()添加多个TouchAction操作，最后调用perform()一起执行这些操作<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">action0 = TouchAction().tap(el)</span><br><span class="line">action1 = TouchAction().tap(el)</span><br><span class="line">MultiAction().add(action0).add(action1).perform()</span><br></pre></td></tr></table></figure></p><h4 id="4-driver-swipe-x1-y1-x2-y2-duration"><a href="#4-driver-swipe-x1-y1-x2-y2-duration" class="headerlink" title="4.driver.swipe(x1, y1, x2, y2,duration)"></a>4.driver.swipe(x1, y1, x2, y2,duration)</h4><p>从坐标(x1,x2)滑动到坐标(x2,y2)，duration非必填项，滑动时间<br>（滑动的坐标不能超过屏幕的宽高）<br>可以通过【driver.get_window_size()】命令获得窗口高和宽，结果为{‘width’: 1080, ‘height’: 1776}</p><p>一个鼠标向上下左右活动的例子如下：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#获得屏幕大小宽和高</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getSize</span><span class="params">(driver)</span>:</span></span><br><span class="line">    x = driver.get_window_size()[<span class="string">'width'</span>]</span><br><span class="line">    y = driver.get_window_size()[<span class="string">'height'</span>]</span><br><span class="line">    <span class="keyword">return</span> (x, y)</span><br><span class="line"></span><br><span class="line"><span class="comment">#屏幕向上滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipeUp</span><span class="params">(driver,t=<span class="number">1000</span>)</span>:</span></span><br><span class="line">    l = getSize(driver)</span><br><span class="line">    x1 = int(l[<span class="number">0</span>] * <span class="number">0.5</span>)    <span class="comment">#x坐标</span></span><br><span class="line">    y1 = int(l[<span class="number">1</span>] * <span class="number">0.75</span>)   <span class="comment">#起始y坐标</span></span><br><span class="line">    y2 = int(l[<span class="number">1</span>] * <span class="number">0.25</span>)   <span class="comment">#终点y坐标</span></span><br><span class="line">    driver.swipe(x1, y1, x1, y2,t)</span><br><span class="line"></span><br><span class="line"><span class="comment">#屏幕向下滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipeDown</span><span class="params">(driver,t=<span class="number">1000</span>)</span>:</span></span><br><span class="line">    l = getSize(driver)</span><br><span class="line">    x1 = int(l[<span class="number">0</span>] * <span class="number">0.5</span>)  <span class="comment">#x坐标</span></span><br><span class="line">    y1 = int(l[<span class="number">1</span>] * <span class="number">0.25</span>)   <span class="comment">#起始y坐标</span></span><br><span class="line">    y2 = int(l[<span class="number">1</span>] * <span class="number">0.75</span>)   <span class="comment">#终点y坐标</span></span><br><span class="line">    driver.swipe(x1, y1, x1, y2,t)</span><br><span class="line"><span class="comment">#屏幕向左滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipLeft</span><span class="params">(driver,t)</span>:</span></span><br><span class="line">    l=getSize(driver)</span><br><span class="line">    x1=int(l[<span class="number">0</span>]*<span class="number">0.75</span>)</span><br><span class="line">    y1=int(l[<span class="number">1</span>]*<span class="number">0.5</span>)</span><br><span class="line">    x2=int(l[<span class="number">0</span>]*<span class="number">0.05</span>)</span><br><span class="line">    driver.swipe(x1,y1,x2,y1,t)</span><br><span class="line"><span class="comment">#屏幕向右滑动</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">swipRight</span><span class="params">(driver,t=<span class="number">1000</span>)</span>:</span></span><br><span class="line">    l=getSize(driver)</span><br><span class="line">    x1=int(l[<span class="number">0</span>]*<span class="number">0.05</span>)</span><br><span class="line">    y1=int(l[<span class="number">1</span>]*<span class="number">0.5</span>)</span><br><span class="line">    x2=int(l[<span class="number">0</span>]*<span class="number">0.75</span>)</span><br><span class="line">    driver.swipe(x1,y1,x2,y1,t)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#调用向下滑动的方法</span></span><br><span class="line">swipeDown(driver)</span><br></pre></td></tr></table></figure></p><h2 id="五、系统按键事件"><a href="#五、系统按键事件" class="headerlink" title="五、系统按键事件"></a>五、系统按键事件</h2><p>press_keycode(AndroidKeyCode)//发送按键事件<br>例如：点击home键，home键的KeyCode是3<br>driver.press_keycode(3)</p><table><thead><tr><th style="text-align:left">键名</th><th style="text-align:center">描述</th><th style="text-align:right">键值</th></tr></thead><tbody><tr><td style="text-align:left">KEYCODE_CALL</td><td style="text-align:center">拨号键</td><td style="text-align:right">5</td></tr><tr><td style="text-align:left">KEYCODE_ENDCALL</td><td style="text-align:center">挂机键</td><td style="text-align:right">6</td></tr><tr><td style="text-align:left">KEYCODE_HOME</td><td style="text-align:center">按键Home</td><td style="text-align:right">3</td></tr><tr><td style="text-align:left">KEYCODE_MENU</td><td style="text-align:center">菜单键</td><td style="text-align:right">82</td></tr><tr><td style="text-align:left">KEYCODE_BACK</td><td style="text-align:center">返回键</td><td style="text-align:right">4</td></tr><tr><td style="text-align:left">KEYCODE_SEARCH</td><td style="text-align:center">搜索键</td><td style="text-align:right">84</td></tr><tr><td style="text-align:left">KEYCODE_CAMERA</td><td style="text-align:center">拍照键</td><td style="text-align:right">27</td></tr><tr><td style="text-align:left">KEYCODE_FOCUS</td><td style="text-align:center">拍照对焦键</td><td style="text-align:right">80</td></tr><tr><td style="text-align:left">KEYCODE_POWER</td><td style="text-align:center">电源键</td><td style="text-align:right">26</td></tr><tr><td style="text-align:left">KEYCODE_NOTIFICATION</td><td style="text-align:center">通知键</td><td style="text-align:right">83</td></tr><tr><td style="text-align:left">KEYCODE_MUTE</td><td style="text-align:center">话筒静音键</td><td style="text-align:right">91</td></tr><tr><td style="text-align:left">KEYCODE_VOLUME_MUTE</td><td style="text-align:center">扬声器静音键</td><td style="text-align:right">164</td></tr><tr><td style="text-align:left">KEYCODE_VOLUME_UP</td><td style="text-align:center">音量增加键</td><td style="text-align:right">24</td></tr><tr><td style="text-align:left">KEYCODE_VOLUME_DOWN</td><td style="text-align:center">音量减小键</td><td style="text-align:right">25</td></tr></tbody></table><p>更多KeyCode可以查看下面的博客：<br><a href="http://blog.csdn.net/crisschan/article/details/50419963" target="_blank" rel="noopener">http://blog.csdn.net/crisschan/article/details/50419963</a></p><h2 id="六、driver的一些比较重要操作"><a href="#六、driver的一些比较重要操作" class="headerlink" title="六、driver的一些比较重要操作"></a>六、driver的一些比较重要操作</h2><h4 id="1-reset"><a href="#1-reset" class="headerlink" title="1.reset()"></a>1.reset()</h4><p>重置app<br>这时候driver会重置，相当于卸载重装应用。所以本地缓存会失效<br>driver.reset()</p><h4 id="2-start-activity-包名-activity名"><a href="#2-start-activity-包名-activity名" class="headerlink" title="2.start_activity(包名,activity名)"></a>2.start_activity(包名,activity名)</h4><p>启动app的某一个activity<br>例如：driver.start_activity(“com.wuba.zhuanzhuan”,”./presentation.view.activity.LaunchActivity”)</p><p>启动一个activity，这个activity必须是AndroidManifest.xml中有intent-filter的activity<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;intent-filter&gt;</span><br><span class="line">    &lt;action android:name=&quot;android.intent.action.MAIN&quot;/&gt;</span><br><span class="line">   &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot;/&gt;</span><br><span class="line">&lt;/intent-filter&gt;</span><br></pre></td></tr></table></figure></p><p>这种启动activity和driver的reset()不同的是</p><h4 id="3-contexts"><a href="#3-contexts" class="headerlink" title="3.contexts"></a>3.contexts</h4><p>获得所有contexts<br>driver.contexts<br>结果如下：<br>[‘NATIVE_APP’, ‘WEBVIEW_com.android.browser’]</p><p>NATIVE_APP：native的context<br>WEBVIEW_com.android.browser：webview的context，存放html的容器</p><h4 id="4-current-context"><a href="#4-current-context" class="headerlink" title="4.current_context"></a>4.current_context</h4><p>查看当前的context<br>driver.current_context</p><h4 id="5-switch-to-context-context名"><a href="#5-switch-to-context-context名" class="headerlink" title="5.switch_to.context(context名)"></a>5.switch_to.context(context名)</h4><p>切换context<br>driver.switch_to.context(“WEBVIEW_com.wuba.zhuanzhuan”)</p><p>NATIVE时不能定位WEBVIEW的内容，在WEBVIEW的context时不能定位NATIVE的内容。<br>所以需要切换到对应的context中去进行操作</p><h4 id="6-setNetworkConnection-bitmask掩码"><a href="#6-setNetworkConnection-bitmask掩码" class="headerlink" title="6.setNetworkConnection(bitmask掩码)"></a>6.setNetworkConnection(bitmask掩码)</h4><p>设置网络类型<br>例如：设置网络类型为只开wifi<br>driver.set_network_connection(2)</p><p>网络的bitmask掩码如下：</p><table><thead><tr><th style="text-align:left">值 (别名)</th><th style="text-align:center">数据连接</th><th style="text-align:center">Wifi连接</th><th style="text-align:right">飞行模式</th></tr></thead><tbody><tr><td style="text-align:left">0 (什么都没有)</td><td style="text-align:center">0</td><td style="text-align:center">0</td><td style="text-align:right">0</td></tr><tr><td style="text-align:left">1 (飞行模式)</td><td style="text-align:center">0</td><td style="text-align:center">0</td><td style="text-align:right">1</td></tr><tr><td style="text-align:left">2 (只有Wifi)</td><td style="text-align:center">0</td><td style="text-align:center">1</td><td style="text-align:right">0</td></tr><tr><td style="text-align:left">4 (只有数据连接)</td><td style="text-align:center">1</td><td style="text-align:center">0</td><td style="text-align:right">0</td></tr><tr><td style="text-align:left">6 (开启所有网络)</td><td style="text-align:center">1</td><td style="text-align:center">1</td><td style="text-align:right">0</td></tr></tbody></table><h4 id="7-scroll-起始元素，结束元素"><a href="#7-scroll-起始元素，结束元素" class="headerlink" title="7.scroll(起始元素，结束元素)"></a>7.scroll(起始元素，结束元素)</h4><p>driver.scroll(origin_el,destination_el)</p><h4 id="8-获得当前页面的所有元素"><a href="#8-获得当前页面的所有元素" class="headerlink" title="8.获得当前页面的所有元素"></a>8.获得当前页面的所有元素</h4><p>driver.page_source</p><p>这可以用来判断元素是否存在，例如（assert “发布成功” in driver.page_source）</p><h4 id="9-补充一些driver启动时可能用到的项"><a href="#9-补充一些driver启动时可能用到的项" class="headerlink" title="9.补充一些driver启动时可能用到的项"></a>9.补充一些driver启动时可能用到的项</h4><p>其实这些在上一篇启动里都有介绍，但是有些可能大家没注意到的点再列一下。这些点也是我在测试中实际遇到的点</p><ul><li><p>autoLaunch ：Appium是否要自动启动或安装app，默认true<br>desired_caps[‘autoLaunch’] = ‘false’<br>有的时候我不想让appium每次都启动app，想自己去启动activity，那这个项这时就可以起作用了</p></li><li><p>noReset：在会话前是否重置app状态。默认是false<br>desired_caps[‘noReset’] = ‘true’</p></li><li><p>newCommandTimeout：设置未接收到新命令的超时时间，默认60s<br>如果60s内没有接收到新命令，appium会自动断开连接，如果我需要很长时间做driver之外的操作，可能延长接收新命令的超时时间<br>desired_caps[“newCommandTimeout”]=1800</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;一、常用识别元素的工具&quot;&gt;&lt;a href=&quot;#一、常用识别元素的工具&quot; class=&quot;headerlink&quot; title=&quot;一、常用识别元素的工具&quot;&gt;&lt;/a&gt;一、常用识别元素的工具&lt;/h2&gt;&lt;p&gt;uiautomator：Android SDK自带的一个工具，在tools目录下&lt;br&gt;monitor：Android SDK自带的一个工具，在tools目录下&lt;br&gt;Appium Inspector：Appium自带的一个功能，只有mac下可以使用该功能&lt;/p&gt;
-&lt;p&gt;下面是用monitor抓取到的页面元素&lt;br&gt;&lt;img src=&quot;/assets/blogImg/Appium1.jpg&quot; alt=&quot;Appium&quot;&gt;   &lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="APP测试" scheme="http://xyun_lay.gitee.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="Appium" scheme="http://xyun_lay.gitee.io/tags/Appium/"/>
+      <category term="APP测试" scheme="http://xyunlay.github.io/tags/APP%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Jmeter-Ant-Jenkins集成</title>
-    <link href="http://xyun_lay.gitee.io/2017/06/07/Jmeter-Ant-Jenkins%E9%9B%86%E6%88%90/"/>
-    <id>http://xyun_lay.gitee.io/2017/06/07/Jmeter-Ant-Jenkins集成/</id>
+    <link href="http://xyunlay.github.io/2017/06/07/Jmeter-Ant-Jenkins%E9%9B%86%E6%88%90/"/>
+    <id>http://xyunlay.github.io/2017/06/07/Jmeter-Ant-Jenkins集成/</id>
     <published>2017-06-07T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.013Z</updated>
     
@@ -592,18 +592,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="jmeter" scheme="http://xyun_lay.gitee.io/tags/jmeter/"/>
+      <category term="jmeter" scheme="http://xyunlay.github.io/tags/jmeter/"/>
     
   </entry>
   
   <entry>
     <title>利用ant批量执行jmeter脚本</title>
-    <link href="http://xyun_lay.gitee.io/2017/06/06/%E5%88%A9%E7%94%A8ant%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Cjmeter%E8%84%9A%E6%9C%AC/"/>
-    <id>http://xyun_lay.gitee.io/2017/06/06/利用ant批量执行jmeter脚本/</id>
+    <link href="http://xyunlay.github.io/2017/06/06/%E5%88%A9%E7%94%A8ant%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Cjmeter%E8%84%9A%E6%9C%AC/"/>
+    <id>http://xyunlay.github.io/2017/06/06/利用ant批量执行jmeter脚本/</id>
     <published>2017-06-06T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.018Z</updated>
     
@@ -616,18 +616,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="jmeter" scheme="http://xyun_lay.gitee.io/tags/jmeter/"/>
+      <category term="jmeter" scheme="http://xyunlay.github.io/tags/jmeter/"/>
     
   </entry>
   
   <entry>
     <title>Jmeter监听器数据分析</title>
-    <link href="http://xyun_lay.gitee.io/2017/05/16/Jmeter%E7%9B%91%E5%90%AC%E5%99%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    <id>http://xyun_lay.gitee.io/2017/05/16/Jmeter监听器数据分析/</id>
+    <link href="http://xyunlay.github.io/2017/05/16/Jmeter%E7%9B%91%E5%90%AC%E5%99%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    <id>http://xyunlay.github.io/2017/05/16/Jmeter监听器数据分析/</id>
     <published>2017-05-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.014Z</updated>
     
@@ -648,18 +648,18 @@
     </summary>
     
     
-      <category term="测试" scheme="http://xyun_lay.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://xyunlay.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="性能测试" scheme="http://xyun_lay.gitee.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+      <category term="性能测试" scheme="http://xyunlay.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="jmeter" scheme="http://xyun_lay.gitee.io/tags/jmeter/"/>
+      <category term="jmeter" scheme="http://xyunlay.github.io/tags/jmeter/"/>
     
   </entry>
   
   <entry>
     <title>Linux命令大全</title>
-    <link href="http://xyun_lay.gitee.io/2017/04/16/Linux%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/"/>
-    <id>http://xyun_lay.gitee.io/2017/04/16/Linux命令大全/</id>
+    <link href="http://xyunlay.github.io/2017/04/16/Linux%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/"/>
+    <id>http://xyunlay.github.io/2017/04/16/Linux命令大全/</id>
     <published>2017-04-16T02:55:00.000Z</published>
     <updated>2021-01-25T03:29:26.015Z</updated>
     
@@ -672,16 +672,16 @@
     </summary>
     
     
-      <category term="操作系统" scheme="http://xyun_lay.gitee.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+      <category term="操作系统" scheme="http://xyunlay.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="Linux" scheme="http://xyun_lay.gitee.io/tags/Linux/"/>
+      <category term="Linux" scheme="http://xyunlay.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>MD语法入门</title>
-    <link href="http://xyun_lay.gitee.io/2017/03/04/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/"/>
-    <id>http://xyun_lay.gitee.io/2017/03/04/MD语法入门/</id>
+    <link href="http://xyunlay.github.io/2017/03/04/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/"/>
+    <id>http://xyunlay.github.io/2017/03/04/MD语法入门/</id>
     <published>2017-03-04T14:52:00.000Z</published>
     <updated>2021-01-25T03:29:26.015Z</updated>
     
@@ -697,16 +697,16 @@
     </summary>
     
     
-      <category term="web" scheme="http://xyun_lay.gitee.io/tags/web/"/>
+      <category term="web" scheme="http://xyunlay.github.io/tags/web/"/>
     
-      <category term="markdown" scheme="http://xyun_lay.gitee.io/tags/markdown/"/>
+      <category term="markdown" scheme="http://xyunlay.github.io/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>instagram图片拉取小经验</title>
-    <link href="http://xyun_lay.gitee.io/2017/03/03/instagram%E5%9B%BE%E7%89%87%E6%8B%89%E5%8F%96/"/>
-    <id>http://xyun_lay.gitee.io/2017/03/03/instagram图片拉取/</id>
+    <link href="http://xyunlay.github.io/2017/03/03/instagram%E5%9B%BE%E7%89%87%E6%8B%89%E5%8F%96/"/>
+    <id>http://xyunlay.github.io/2017/03/03/instagram图片拉取/</id>
     <published>2017-03-03T14:52:00.000Z</published>
     <updated>2021-01-25T03:29:26.017Z</updated>
     
@@ -719,11 +719,11 @@
     </summary>
     
     
-      <category term="web" scheme="http://xyun_lay.gitee.io/tags/web/"/>
+      <category term="web" scheme="http://xyunlay.github.io/tags/web/"/>
     
-      <category term="经验" scheme="http://xyun_lay.gitee.io/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="http://xyunlay.github.io/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="产品" scheme="http://xyun_lay.gitee.io/tags/%E4%BA%A7%E5%93%81/"/>
+      <category term="产品" scheme="http://xyunlay.github.io/tags/%E4%BA%A7%E5%93%81/"/>
     
   </entry>
   

@@ -5,32 +5,32 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://xyun_lay.gitee.io">
+  <link rel="dns-prefetch" href="http://xyunlay.github.io">
   <title>Zabbix server 安装配置文档 | xyun&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="环境准备Zabbix Server需要运行在CentOS、RedHat Linux、Debain等Linux系统上，这里以CentOS6作为部署环境，Root用户安装必须的包，建议配置好yum，通过yum安装下列包，解决包的依赖关系。1)    LAMP(Linux + Apache + Mysql + PHP)环境  yum install mysql-server httpd php  2)安">
 <meta name="keywords" content="测试,性能测试,性能监控">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Zabbix server 安装配置文档">
-<meta property="og:url" content="http://xyun_lay.gitee.io/2018/02/26/Zabbix server 安装配置文档/index.html">
+<meta property="og:url" content="http://xyunlay.github.io/2018/02/26/Zabbix server 安装配置文档/index.html">
 <meta property="og:site_name" content="xyun&#39;blog">
 <meta property="og:description" content="环境准备Zabbix Server需要运行在CentOS、RedHat Linux、Debain等Linux系统上，这里以CentOS6作为部署环境，Root用户安装必须的包，建议配置好yum，通过yum安装下列包，解决包的依赖关系。1)    LAMP(Linux + Apache + Mysql + PHP)环境  yum install mysql-server httpd php  2)安">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server1.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server2.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server3.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server4.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server5.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server6.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server7.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server8.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server9.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server10.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server1.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server2.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server3.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server4.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server5.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server6.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server7.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server8.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server9.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server10.jpg">
 <meta property="og:updated_time" content="2021-01-25T03:29:26.017Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zabbix server 安装配置文档">
 <meta name="twitter:description" content="环境准备Zabbix Server需要运行在CentOS、RedHat Linux、Debain等Linux系统上，这里以CentOS6作为部署环境，Root用户安装必须的包，建议配置好yum，通过yum安装下列包，解决包的依赖关系。1)    LAMP(Linux + Apache + Mysql + PHP)环境  yum install mysql-server httpd php  2)安">
-<meta name="twitter:image" content="http://xyun_lay.gitee.io/assets/blogImg/zabbix_server1.jpg">
+<meta name="twitter:image" content="http://xyunlay.github.io/assets/blogImg/zabbix_server1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="xyun&#39;blog" type="application/atom+xml">
   
@@ -79,6 +79,8 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/instagram/">相册</a></li>
+	        
+				<li><a href="/xyun">随笔</a></li>
 	        
 				<li><a href="/talk">留言</a></li>
 	        
@@ -144,6 +146,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -164,13 +168,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/instagram/">相册</a></li>
+					<li style="width: 20%"><a href="/instagram/">相册</a></li>
 		        
-					<li style="width: 25%"><a href="/talk">留言</a></li>
+					<li style="width: 20%"><a href="/xyun">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/archives">归档</a></li>
+					<li style="width: 20%"><a href="/talk">留言</a></li>
+		        
+					<li style="width: 20%"><a href="/archives">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -334,7 +340,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://xyun_lay.gitee.io/2018/02/26/Zabbix server 安装配置文档/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://xyunlay.github.io/2018/02/26/Zabbix server 安装配置文档/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -536,6 +542,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
@@ -544,15 +554,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">web</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -564,19 +570,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+                <a href="javascript:void(0)" class="js-tag color4">web</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">web服务器</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -588,11 +594,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -604,18 +626,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">环境部署</a>
               </li>
              
@@ -624,15 +634,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">js</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
             
             <div class="clearfix"></div>

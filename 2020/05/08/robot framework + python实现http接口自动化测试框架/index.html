@@ -5,31 +5,31 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://xyun_lay.gitee.io">
+  <link rel="dns-prefetch" href="http://xyunlay.github.io">
   <title>robot framework + python实现http接口自动化测试框架 | xyun&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="基础框架选择最方便的方法就是用python直接写代码，代码和测试数据分离，测试数据放在excel中保存。这种实现最快捷方便，但也有些缺点：（1）用例管理不太方便，不直观；（2）HTMLTestRunner输出报告做的比较烂。相较而言，robot framework具有用例管理清晰，输出报告美观的特点。但robot的缺点就是编码起来不如python直接写代码方便。所以，为了快速搭建http接口自动化">
 <meta name="keywords" content="测试,接口自动化,robot framework">
 <meta property="og:type" content="article">
 <meta property="og:title" content="robot framework + python实现http接口自动化测试框架">
-<meta property="og:url" content="http://xyun_lay.gitee.io/2020/05/08/robot framework + python实现http接口自动化测试框架/index.html">
+<meta property="og:url" content="http://xyunlay.github.io/2020/05/08/robot framework + python实现http接口自动化测试框架/index.html">
 <meta property="og:site_name" content="xyun&#39;blog">
 <meta property="og:description" content="基础框架选择最方便的方法就是用python直接写代码，代码和测试数据分离，测试数据放在excel中保存。这种实现最快捷方便，但也有些缺点：（1）用例管理不太方便，不直观；（2）HTMLTestRunner输出报告做的比较烂。相较而言，robot framework具有用例管理清晰，输出报告美观的特点。但robot的缺点就是编码起来不如python直接写代码方便。所以，为了快速搭建http接口自动化">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python1.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python2.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python3.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python4.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python5.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python6.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python7.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python8.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python9.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python1.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python2.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python3.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python4.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python5.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python6.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python7.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python8.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python9.jpg">
 <meta property="og:updated_time" content="2021-01-26T02:33:58.639Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="robot framework + python实现http接口自动化测试框架">
 <meta name="twitter:description" content="基础框架选择最方便的方法就是用python直接写代码，代码和测试数据分离，测试数据放在excel中保存。这种实现最快捷方便，但也有些缺点：（1）用例管理不太方便，不直观；（2）HTMLTestRunner输出报告做的比较烂。相较而言，robot framework具有用例管理清晰，输出报告美观的特点。但robot的缺点就是编码起来不如python直接写代码方便。所以，为了快速搭建http接口自动化">
-<meta name="twitter:image" content="http://xyun_lay.gitee.io/assets/blogImg/robot%20framework%20+%20python1.jpg">
+<meta name="twitter:image" content="http://xyunlay.github.io/assets/blogImg/robot%20framework%20+%20python1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="xyun&#39;blog" type="application/atom+xml">
   
@@ -78,6 +78,8 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/instagram/">相册</a></li>
+	        
+				<li><a href="/xyun">随笔</a></li>
 	        
 				<li><a href="/talk">留言</a></li>
 	        
@@ -143,6 +145,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -163,13 +167,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/instagram/">相册</a></li>
+					<li style="width: 20%"><a href="/instagram/">相册</a></li>
 		        
-					<li style="width: 25%"><a href="/talk">留言</a></li>
+					<li style="width: 20%"><a href="/xyun">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/archives">归档</a></li>
+					<li style="width: 20%"><a href="/talk">留言</a></li>
+		        
+					<li style="width: 20%"><a href="/archives">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -346,7 +352,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://xyun_lay.gitee.io/2020/05/08/robot framework + python实现http接口自动化测试框架/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://xyunlay.github.io/2020/05/08/robot framework + python实现http接口自动化测试框架/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -548,6 +554,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
@@ -556,15 +566,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">web</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -576,19 +582,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+                <a href="javascript:void(0)" class="js-tag color4">web</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">web服务器</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -600,11 +606,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -616,18 +638,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">环境部署</a>
               </li>
              
@@ -636,15 +646,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">js</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
             
             <div class="clearfix"></div>

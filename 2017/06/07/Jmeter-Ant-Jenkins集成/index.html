@@ -5,45 +5,45 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://xyun_lay.gitee.io">
+  <link rel="dns-prefetch" href="http://xyunlay.github.io">
   <title>Jmeter-Ant-Jenkins集成 | xyun&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="安装配置Java环境安装Tomcat和Jenkins安装Ant">
 <meta name="keywords" content="测试,性能测试,jmeter">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Jmeter-Ant-Jenkins集成">
-<meta property="og:url" content="http://xyun_lay.gitee.io/2017/06/07/Jmeter-Ant-Jenkins集成/index.html">
+<meta property="og:url" content="http://xyunlay.github.io/2017/06/07/Jmeter-Ant-Jenkins集成/index.html">
 <meta property="og:site_name" content="xyun&#39;blog">
 <meta property="og:description" content="安装配置Java环境安装Tomcat和Jenkins安装Ant">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins1.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins2.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins3.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins4.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins5.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins6.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins7.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins8.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins9.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins10.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins11.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins12.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins13.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins14.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins15.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins16.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins17.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins18.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins19.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins20.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins21.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins22.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins23.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins1.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins2.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins3.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins4.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins5.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins6.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins7.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins8.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins9.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins10.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins11.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins12.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins13.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins14.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins15.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins16.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins17.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins18.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins19.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins20.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins21.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins22.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins23.jpg">
 <meta property="og:updated_time" content="2021-01-25T03:29:26.013Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Jmeter-Ant-Jenkins集成">
 <meta name="twitter:description" content="安装配置Java环境安装Tomcat和Jenkins安装Ant">
-<meta name="twitter:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter_jenkins1.jpg">
+<meta name="twitter:image" content="http://xyunlay.github.io/assets/blogImg/ant_jmeter_jenkins1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="xyun&#39;blog" type="application/atom+xml">
   
@@ -92,6 +92,8 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/instagram/">相册</a></li>
+	        
+				<li><a href="/xyun">随笔</a></li>
 	        
 				<li><a href="/talk">留言</a></li>
 	        
@@ -157,6 +159,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -177,13 +181,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/instagram/">相册</a></li>
+					<li style="width: 20%"><a href="/instagram/">相册</a></li>
 		        
-					<li style="width: 25%"><a href="/talk">留言</a></li>
+					<li style="width: 20%"><a href="/xyun">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/archives">归档</a></li>
+					<li style="width: 20%"><a href="/talk">留言</a></li>
+		        
+					<li style="width: 20%"><a href="/archives">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -338,7 +344,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://xyun_lay.gitee.io/2017/06/07/Jmeter-Ant-Jenkins集成/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://xyunlay.github.io/2017/06/07/Jmeter-Ant-Jenkins集成/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -352,11 +358,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2017/08/06/Appium学习路—Android定位元素与操作/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2017/08/06/APP测试总结/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Appium学习路—Android定位元素与操作
+          APP测试总结
         
       </div>
     </a>
@@ -540,6 +546,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
@@ -548,15 +558,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">web</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -568,19 +574,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+                <a href="javascript:void(0)" class="js-tag color4">web</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">web服务器</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -592,11 +598,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -608,18 +630,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">环境部署</a>
               </li>
              
@@ -628,15 +638,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">js</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
             
             <div class="clearfix"></div>
