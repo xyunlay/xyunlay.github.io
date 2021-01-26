@@ -30,7 +30,7 @@
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter12.jpg">
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter13.jpg">
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter14.jpg">
-<meta property="og:updated_time" content="2021-01-26T01:40:49.004Z">
+<meta property="og:updated_time" content="2021-01-26T02:16:36.078Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="实用的Docker入门">
 <meta name="twitter:description" content="1 Docker概述Docker和虚拟机一样，都拥有环境隔离的能力，但它比虚拟机更加轻量级，可以使资源更大化地得到应用。首先来看Docker的架构图：  理解其中几个概念：  Client（Docker客户端）：是Docker的用户界面，可以接受用户命令（docker build，docker pull…）和配置标识，并与Docker daemon通信 Images（Docker镜像）：是一个只读">
@@ -220,104 +220,83 @@
 <li>Registry：是一个集中存储与分发镜像的服务。最常用的Docker Registry是官方的Docker Hub</li>
 </ul>
 <a id="more"></a>
-<h2 id="2-Docker安装"><a href="#2-Docker安装" class="headerlink" title="2 Docker安装"></a>2 Docker安装</h2><p>CentOS7系统下安装Docker为例。Docker 软件包和依赖包已经包含在默认的 CentOS-Extras 软件源里，安装命令如下：<br>‘ yum -y install docker<br>启动docker后台服务：<br>‘ service docker start<br>验证是否安装成功：<br>‘’’<br>[root@localhost hemi]# docker version<br>Client:<br> Version:         1.13.1<br> API version:     1.26<br> Package version: <unknown><br> Go version:      go1.8.3<br> Git commit:      774336d/1.13.1<br> Built:           Wed Mar  7 17:06:16 2018<br> OS/Arch:         linux/amd64<br>Server:<br> Version:         1.13.1<br> API version:     1.26 (minimum version 1.12)<br> Package version: <unknown><br> Go version:      go1.8.3<br> Git commit:      774336d/1.13.1<br> Built:           Wed Mar  7 17:06:16 2018<br> OS/Arch:         linux/amd64<br> Experimental:    false<br> ‘’’<br>更详细的针对各操作系统的安装见官方文档：<a href="https://docs.docker.com/install/" target="_blank" rel="noopener">https://docs.docker.com/install/</a></unknown></unknown></p>
+<h2 id="2-Docker安装"><a href="#2-Docker安装" class="headerlink" title="2 Docker安装"></a>2 Docker安装</h2><p>CentOS7系统下安装Docker为例。Docker 软件包和依赖包已经包含在默认的 CentOS-Extras 软件源里，安装命令如下：<br><code>yum -y install docker
+启动docker后台服务：</code> service docker start<br>验证是否安装成功：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost hemi]# docker version</span><br><span class="line">Client:</span><br><span class="line"> Version:         1.13.1</span><br><span class="line"> API version:     1.26</span><br><span class="line"> Package version: &lt;unknown&gt;</span><br><span class="line"> Go version:      go1.8.3</span><br><span class="line"> Git commit:      774336d/1.13.1</span><br><span class="line"> Built:           Wed Mar  7 17:06:16 2018</span><br><span class="line"> OS/Arch:         linux/amd64</span><br><span class="line">Server:</span><br><span class="line"> Version:         1.13.1</span><br><span class="line"> API version:     1.26 (minimum version 1.12)</span><br><span class="line"> Package version: &lt;unknown&gt;</span><br><span class="line"> Go version:      go1.8.3</span><br><span class="line"> Git commit:      774336d/1.13.1</span><br><span class="line"> Built:           Wed Mar  7 17:06:16 2018</span><br><span class="line"> OS/Arch:         linux/amd64</span><br><span class="line"> Experimental:    false</span><br></pre></td></tr></table></figure></p>
+<p>更详细的针对各操作系统的安装见官方文档：<a href="https://docs.docker.com/install/" target="_blank" rel="noopener">https://docs.docker.com/install/</a></p>
 <p><strong> 镜像加速 </strong><br>鉴于国内网络问题，后续拉取 Docker 镜像十分缓慢，我们可以需要配置加速器来解决，我使用的是网易的镜像地址：<a href="http://hub-mirror.c.163.com。" target="_blank" rel="noopener">http://hub-mirror.c.163.com。</a><br>新版的 Docker 使用 /etc/docker/daemon.json（Linux） 或者 %programdata%\docker\config\daemon.json（Windows） 来配置 Daemon。<br>请在该配置文件中加入（没有该文件的话，请先建一个）：<br>{<br>  “registry-mirrors”: [“<a href="http://hub-mirror.c.163.com&quot;]" target="_blank" rel="noopener">http://hub-mirror.c.163.com&quot;]</a><br>}</p>
 <h2 id="3-Docker常用命令"><a href="#3-Docker常用命令" class="headerlink" title="3 Docker常用命令"></a>3 Docker常用命令</h2><h3 id="3-1-镜像常用命令"><a href="#3-1-镜像常用命令" class="headerlink" title="3.1 镜像常用命令"></a>3.1 镜像常用命令</h3><h4 id="1）搜索镜像"><a href="#1）搜索镜像" class="headerlink" title="1）搜索镜像"></a>1）搜索镜像</h4><p>可以在Docker Hub主页上搜索镜像，可以通过docker search命令搜索，如：<br>docker search [OPTIONS] TERM<br>OPTIONS说明：</p>
-<pre><code>* --automated : 只列出 automated build类型的镜像；
-* --no-trunc : 显示完整的镜像描述；
-* -s : 列出收藏数不小于指定值的镜像。
-</code></pre><p>[root@localhost hemi]# docker search -s 20 tomcat<br>INDEX       NAME                                      DESCRIPTION           STARS     OFFICIAL   AUTOMATED<br>docker.io   docker.io/tomcat                          Apache Tomcat is…   1757      [OK]<br>docker.io   docker.io/dordoka/tomcat                  Ubuntu 14.04, Or…   48                   [OK]<br>docker.io   docker.io/tomee                           Apache TomEE is …   47        [OK]<br>docker.io   docker.io/davidcaste/alpine-tomcat        Apache Tomcat 7/…   24                   [OK]</p>
+<ul>
+<li>–automated : 只列出 automated build类型的镜像；</li>
+<li>–no-trunc : 显示完整的镜像描述；</li>
+<li>-s : 列出收藏数不小于指定值的镜像。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost hemi]# docker search -s 20 tomcat</span><br><span class="line">INDEX       NAME                                      DESCRIPTION           STARS     OFFICIAL   AUTOMATED</span><br><span class="line">docker.io   docker.io/tomcat                          Apache Tomcat is...   1757      [OK]       </span><br><span class="line">docker.io   docker.io/dordoka/tomcat                  Ubuntu 14.04, Or...   48                   [OK]</span><br><span class="line">docker.io   docker.io/tomee                           Apache TomEE is ...   47        [OK]       </span><br><span class="line">docker.io   docker.io/davidcaste/alpine-tomcat        Apache Tomcat 7/...   24                   [OK]</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 <p>其中，<br>STARTS：镜像仓库收藏数<br>AUTOMATED：表示是否是自动构建的镜像仓库</p>
 <h4 id="2）下载镜像"><a href="#2）下载镜像" class="headerlink" title="2）下载镜像"></a>2）下载镜像</h4><p>docker pull [OPTIONS] NAME[:TAG]<br>OPTIONS说明：</p>
-<pre><code>* -a :拉取所有 tagged 镜像 
-* --disable-content-trust :忽略镜像的校验,默认开启
-</code></pre><p>举个栗子<br>docker pull java   #从Docker Hub中下载最新版本的Java镜像<br>docker pull reg.itmuch.com/java:8    #从指定Registry中下载标签为8的Java镜像</p>
+<ul>
+<li>-a :拉取所有 tagged 镜像 </li>
+<li>–disable-content-trust :忽略镜像的校验,默认开启<br>举个栗子<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker pull java   #从Docker Hub中下载最新版本的Java镜像</span><br><span class="line">docker pull reg.itmuch.com/java:8    #从指定Registry中下载标签为8的Java镜像</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 <h4 id="3）列出镜像"><a href="#3）列出镜像" class="headerlink" title="3）列出镜像"></a>3）列出镜像</h4><p>docker images [OPTIONS] [REPOSITORY[:TAG]]<br>OPTIONS说明：</p>
-<pre><code>* -a :列出本地所有的镜像（含中间映像层，默认情况下，过滤掉中间映像层）；
-* --digests :显示镜像的摘要信息
-* -f :显示满足条件的镜像；
-* --format :指定返回值的模板文件；
-* --no-trunc :显示完整的镜像信息；
-* -q :只显示镜像ID。
-</code></pre><p>举个栗子：<br>列出本地镜像中REPOSITORY为ubuntu的镜像列表<br>[hemi@localhost ~]$ docker images ubuntu<br>REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE<br>docker.io/ubuntu    latest              0458a4468cbc        7 weeks ago         111.7 MB<br>docker.io/ubuntu    15.10               9b9cb95443b5        20 months ago       137.2 MB</p>
+<ul>
+<li>-a :列出本地所有的镜像（含中间映像层，默认情况下，过滤掉中间映像层）；</li>
+<li>–digests :显示镜像的摘要信息</li>
+<li>-f :显示满足条件的镜像；</li>
+<li>–format :指定返回值的模板文件；</li>
+<li>–no-trunc :显示完整的镜像信息；</li>
+<li>-q :只显示镜像ID。<br>举个栗子：<br>列出本地镜像中REPOSITORY为ubuntu的镜像列表<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[hemi@localhost ~]$ docker images ubuntu</span><br><span class="line">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</span><br><span class="line">docker.io/ubuntu    latest              0458a4468cbc        7 weeks ago         111.7 MB</span><br><span class="line">docker.io/ubuntu    15.10               9b9cb95443b5        20 months ago       137.2 MB</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 <h4 id="4）删除本地镜像"><a href="#4）删除本地镜像" class="headerlink" title="4）删除本地镜像"></a>4）删除本地镜像</h4><p>docker rmi [OPTIONS] IMAGE [IMAGE…]<br>OPTIONS说明：</p>
-<pre><code>* -f :强制删除；
-* --no-prune :不移除该镜像的过程镜像，默认移除；
-</code></pre><h3 id="3-2-容器常用命令"><a href="#3-2-容器常用命令" class="headerlink" title="3.2 容器常用命令"></a>3.2 容器常用命令</h3><h4 id="1）新建并启动容器"><a href="#1）新建并启动容器" class="headerlink" title="1）新建并启动容器"></a>1）新建并启动容器</h4><p>docker run [OPTIONS] IMAGE [COMMAND] [ARG…]<br> OPTIONS说明（常用）：</p>
-<pre><code>* -d: 后台运行容器，并返回容器ID；
-* --name=&quot;nginx-lb&quot;: 为容器指定一个名称；
-* -i：以交互模式运行容器，通常与 -t 同时使用；
-* -t：为容器重新分配一个伪输入终端，通常与 -i 同时使用；
-* -P: 随机端口映射；
-* -p: 指定端口映射，有以下四种格式
-    ○ ip:hostPort:containerPort
-    ○ ip::containerPort
-    ○ hostPort:containerPort
-    ○ containerPort
-* --net=&quot;bridge&quot;: 指定容器的网络连接类型，支持 bridge/host/none/container:&lt;name|id&gt; 四种类型；
-</code></pre><p> 如：</p>
-<p>docker run –name mynginx -d nginx:latest<br>使用docker镜像nginx:latest以后台模式启动一个容器,并将容器命名为mynginx。<br>docker run -p 91:80 -v /data:/data -d nginx:latest<br>使用镜像nginx:latest以后台模式启动一个容器,将容器的80端口映射到主机的91端口,主机的目录/data映射到容器的/data。<br>[hemi@localhost ~]$ docker run -it nginx:latest /bin/bash<br>root@b8573233d675:/#<br>使用镜像nginx:latest以交互模式启动一个容器,在容器内执行/bin/bash命令。</p>
-<h4 id="2）列出容器"><a href="#2）列出容器" class="headerlink" title="2）列出容器"></a>2）列出容器</h4><p>docker ps [OPTIONS]<br> OPTIONS说明（常用）：</p>
-<pre><code>* -a :显示所有的容器，包括未运行的。
-* -f :根据条件过滤显示的内容。
-* --format :指定返回值的模板文件。
-* -l :显示最近创建的容器。
-* -n :列出最近创建的n个容器。
-* --no-trunc :不截断输出。
-* -q :静默模式，只显示容器编号。
-* -s :显示总的文件大小。
-</code></pre><h4 id="3）停止容器"><a href="#3）停止容器" class="headerlink" title="3）停止容器"></a>3）停止容器</h4><p>docker stop CONTAINER_ID/CONTAIN_NAME</p>
-<h4 id="4）强制停止容器"><a href="#4）强制停止容器" class="headerlink" title="4）强制停止容器"></a>4）强制停止容器</h4><p>docker kill CONTAINER_ID/CONTAIN_NAME</p>
-<h4 id="5）启动已停止容器"><a href="#5）启动已停止容器" class="headerlink" title="5）启动已停止容器"></a>5）启动已停止容器</h4><p>docker start CONTAINER_ID/CONTAIN_NAME</p>
-<h4 id="6）重启容器"><a href="#6）重启容器" class="headerlink" title="6）重启容器"></a>6）重启容器</h4><p>docker restart CONTAINER_ID/CONTAIN_NAME</p>
-<h4 id="7）进入容器"><a href="#7）进入容器" class="headerlink" title="7）进入容器"></a>7）进入容器</h4><p>docker exec -it CONTAINER_ID bash<br>如：</p>
-<p>[hemi@localhost ~]$ docker ps<br>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                    NAMES<br>219371844a81        7f94db72116e        “tomcat.sh”         7 seconds ago       Up 7 seconds        8009/tcp, 8080/tcp, 0.0.0.0:91-&gt;80/tcp   zen_kalam<br>[hemi@localhost ~]$ docker exec -it 219371844a81 bash<br>bash-4.2$ </p>
-<h4 id="8）删除容器"><a href="#8）删除容器" class="headerlink" title="8）删除容器"></a>8）删除容器</h4><p>docker rm [OPTIONS] CONTAINER [CONTAINER…]<br> OPTIONS说明（常用）：</p>
-<pre><code>* -f :通过SIGKILL信号强制删除一个运行中的容器
-* -l :移除容器间的网络连接，而非容器本身
-* -v :-v 删除与容器关联的卷
-</code></pre><p>更多命令见Docker的官方文档：<a href="https://docs.docker.com/edge/engine/reference/commandline/" target="_blank" rel="noopener">https://docs.docker.com/edge/engine/reference/commandline/</a><br>也可以利用命令行查看，如：<br>docker rm –help</p>
+<ul>
+<li>-f :强制删除；</li>
+<li>–no-prune :不移除该镜像的过程镜像，默认移除；<h3 id="3-2-容器常用命令"><a href="#3-2-容器常用命令" class="headerlink" title="3.2 容器常用命令"></a>3.2 容器常用命令</h3><h4 id="1）新建并启动容器"><a href="#1）新建并启动容器" class="headerlink" title="1）新建并启动容器"></a>1）新建并启动容器</h4>docker run [OPTIONS] IMAGE [COMMAND] [ARG…]<br>OPTIONS说明（常用）：</li>
+<li>-d: 后台运行容器，并返回容器ID；</li>
+<li>–name=”nginx-lb”: 为容器指定一个名称；</li>
+<li>-i：以交互模式运行容器，通常与 -t 同时使用；</li>
+<li>-t：为容器重新分配一个伪输入终端，通常与 -i 同时使用；</li>
+<li>-P: 随机端口映射；</li>
+<li>-p: 指定端口映射，有以下四种格式<br>  ○ ip:hostPort:containerPort<br>  ○ ip::containerPort<br>  ○ hostPort:containerPort<br>  ○ containerPort</li>
+<li>–net=”bridge”: 指定容器的网络连接类型，支持 bridge/host/none/container:&lt;name|id&gt; 四种类型；<br>如：<br><code>docker run --name mynginx -d nginx:latest
+使用docker镜像nginx:latest以后台模式启动一个容器,并将容器命名为mynginx。</code> docker run -p 91:80 -v /data:/data -d nginx:latest<br>使用镜像nginx:latest以后台模式启动一个容器,将容器的80端口映射到主机的91端口,主机的目录/data映射到容器的/data。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[hemi@localhost ~]$ docker run -it nginx:latest /bin/bash </span><br><span class="line">root@b8573233d675:/#</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>使用镜像nginx:latest以交互模式启动一个容器,在容器内执行/bin/bash命令。</p>
+<h4 id="2）列出容器"><a href="#2）列出容器" class="headerlink" title="2）列出容器"></a>2）列出容器</h4><p>docker ps [OPTIONS]<br>OPTIONS说明（常用）：</p>
+<ul>
+<li>-a :显示所有的容器，包括未运行的。</li>
+<li>-f :根据条件过滤显示的内容。</li>
+<li>–format :指定返回值的模板文件。</li>
+<li>-l :显示最近创建的容器。</li>
+<li>-n :列出最近创建的n个容器。</li>
+<li>–no-trunc :不截断输出。</li>
+<li>-q :静默模式，只显示容器编号。</li>
+<li>-s :显示总的文件大小。<h4 id="3）停止容器"><a href="#3）停止容器" class="headerlink" title="3）停止容器"></a>3）停止容器</h4>docker stop CONTAINER_ID/CONTAIN_NAME<h4 id="4）强制停止容器"><a href="#4）强制停止容器" class="headerlink" title="4）强制停止容器"></a>4）强制停止容器</h4>docker kill CONTAINER_ID/CONTAIN_NAME<h4 id="5）启动已停止容器"><a href="#5）启动已停止容器" class="headerlink" title="5）启动已停止容器"></a>5）启动已停止容器</h4>docker start CONTAINER_ID/CONTAIN_NAME<h4 id="6）重启容器"><a href="#6）重启容器" class="headerlink" title="6）重启容器"></a>6）重启容器</h4>docker restart CONTAINER_ID/CONTAIN_NAME<h4 id="7）进入容器"><a href="#7）进入容器" class="headerlink" title="7）进入容器"></a>7）进入容器</h4>docker exec -it CONTAINER_ID bash<br>如：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[hemi@localhost ~]$ docker ps</span><br><span class="line">CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                    NAMES</span><br><span class="line">219371844a81        7f94db72116e        &quot;tomcat.sh&quot;         7 seconds ago       Up 7 seconds        8009/tcp, 8080/tcp, 0.0.0.0:91-&gt;80/tcp   zen_kalam</span><br><span class="line">[hemi@localhost ~]$ docker exec -it 219371844a81 bash</span><br><span class="line">bash-4.2$</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="8）删除容器"><a href="#8）删除容器" class="headerlink" title="8）删除容器"></a>8）删除容器</h4><p>docker rm [OPTIONS] CONTAINER [CONTAINER…]<br>OPTIONS说明（常用）：</p>
+<ul>
+<li>-f :通过SIGKILL信号强制删除一个运行中的容器</li>
+<li>-l :移除容器间的网络连接，而非容器本身</li>
+<li>-v :-v 删除与容器关联的卷</li>
+</ul>
+<p>更多命令见Docker的官方文档：<a href="https://docs.docker.com/edge/engine/reference/commandline/" target="_blank" rel="noopener">https://docs.docker.com/edge/engine/reference/commandline/</a><br>也可以利用命令行查看，如：<br>docker rm –help</p>
 <h2 id="4-入门实战"><a href="#4-入门实战" class="headerlink" title="4 入门实战"></a>4 入门实战</h2><p><img src="/assets/blogImg/docker2.jpg" alt="docker"><br><img src="/assets/blogImg/docker3.jpg" alt="docker"><br><img src="/assets/blogImg/docker4.jpg" alt="docker"></p>
 <p>此时浏览器访问结果如下表示正常<br><img src="/assets/blogImg/docker5.jpg" alt="docker"><br><img src="/assets/blogImg/docker6.jpg" alt="docker"></p>
-<p>再次访问浏览器如下结果，表示修改正常<br> <img src="/assets/blogImg/docker7.jpg" alt="docker"></p>
-<p> 但是此时如果重启容器，则之前的改动将失效。若要保存修改可以提交保存为新镜像↓<br><img src="/assets/blogImg/docker8.jpg" alt="docker"></p>
+<p>再次访问浏览器如下结果，表示修改正常<br><img src="/assets/blogImg/docker7.jpg" alt="docker"></p>
+<p>但是此时如果重启容器，则之前的改动将失效。若要保存修改可以提交保存为新镜像↓<br><img src="/assets/blogImg/docker8.jpg" alt="docker"></p>
 <p>此过程还可以用Dockerfile完成<br>1、首先新建Dockerfile，内容如下：<br><img src="/assets/blogImg/docker9.jpg" alt="docker"><br>2、在Dockerfile所在路径执行以下命令构建镜像，并运行：<br><img src="/assets/blogImg/docker10.jpg" alt="docker"><br>浏览器访问<br><img src="/assets/blogImg/docker11.jpg" alt="docker"></p>
 <p>Dockerfile官方文档：<a href="https://docs.docker.com/engine/reference/builder/" target="_blank" rel="noopener">https://docs.docker.com/engine/reference/builder/</a><br>Dockerfile最佳实践：<a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/" target="_blank" rel="noopener">https://docs.docker.com/develop/develop-images/dockerfile_best-practices/</a></p>
 <h2 id="5-Docker-Compose"><a href="#5-Docker-Compose" class="headerlink" title="5 Docker Compose"></a>5 Docker Compose</h2><p>Docker Compose用来定义和运行多应用容器。使用Docker Compose大致有3个步骤：</p>
-<pre><code>* 使用Dockerfile定义应用程序环境，应标在任何地方重现该环境
-* 在docker-compose.yml文件中定义组成应用程序的服务，以便各个服务在一个隔离的环境中一起运行
-* 运行docker-compose up 命令，启动并运行整个应用程序
-</code></pre><h3 id="5-1-安装Compose"><a href="#5-1-安装Compose" class="headerlink" title="5.1 安装Compose"></a>5.1 安装Compose</h3><p>①通过以下命令自动下载并安装适应系统版本的Compose：<br>curl -L “<a href="https://github.com/docker/compose/releases/download/1.10.0/docker-compose-$" target="_blank" rel="noopener">https://github.com/docker/compose/releases/download/1.10.0/docker-compose-$</a>(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose<br>②为安装脚本添加执行权限：<br>chmod +x /usr/local/bin/docker-compose<br>安装完成。可以使用以下命令测试安装结果：<br>ocker-compose –version</p>
-<h3 id="5-2-安装Compose命令补全工具"><a href="#5-2-安装Compose命令补全工具" class="headerlink" title="5.2 安装Compose命令补全工具"></a>5.2 安装Compose命令补全工具</h3><p>curl -L <a href="https://raw.githubusercontent.com/docker/compose/$" target="_blank" rel="noopener">https://raw.githubusercontent.com/docker/compose/$</a>(docker-compose version –short)/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose<br>输入docker-compose并按下Tab键，compose就可以自动补全命令了。</p>
-<h3 id="5-3-入门实例"><a href="#5-3-入门实例" class="headerlink" title="5.3 入门实例"></a>5.3 入门实例</h3><p> 个人博客实例，含三个层，分别为nginx、ghost app、mysql</p>
-<h4 id="1、创建3个目录"><a href="#1、创建3个目录" class="headerlink" title="1、创建3个目录"></a>1、创建3个目录</h4><h4 id="2、进入ghost目录，创建两个文件"><a href="#2、进入ghost目录，创建两个文件" class="headerlink" title="2、进入ghost目录，创建两个文件"></a>2、进入ghost目录，创建两个文件</h4><p>① Dockerfile<br>‘’’<br>FROM ghost<br>COPY ./config.production.json /var/lib/ghost/config.production.json<br>EXPOSE 2368</p>
-<p>②config.production.json  </p>
-<p>{<br>    “url”: “<a href="http://localhost:2368/&quot;" target="_blank" rel="noopener">http://localhost:2368/&quot;</a>,<br>    “server”: {<br>        “port”: 2368,<br>        “host”: “0.0.0.0”<br>    },<br>    “database”: {<br>        “client”: “mysql”,<br>        “connection”: {<br>            “host”: “db”,<br>            “user”: “ghost”,<br>            “password”: “ghost”,<br>            “database”: “ghost”,<br>            “port”: 3306,<br>            “charset”: “utf8”<br>        }<br>    },<br>    “mail”: {<br>        “transport”: “Direct”<br>    },<br>    “logging”: {<br>        “transports”: [<br>            “file”,<br>            “stdout”<br>        ]<br>    },<br>    “process”: “systemd”,<br>    “paths”: {<br>        “contentPath”: “/var/lib/ghost/content”<br>    }<br>}<br>‘’’</p>
-<h4 id="3、进入nginx目录，配置"><a href="#3、进入nginx目录，配置" class="headerlink" title="3、进入nginx目录，配置"></a>3、进入nginx目录，配置</h4><p>①Dockerfile<br>‘’’<br>FROM docker.io/nginx<br>COPY nginx.conf /etc/nginx/nginx.conf<br>EXPOSE 80<br>②nginx.conf</p>
-<p>worker_processes 4;<br>events {worker_connections 1024;}<br>http {<br>    server {<br>        listen 80;<br>        location / {<br>            proxy_pass <a href="http://ghost-app:2368" target="_blank" rel="noopener">http://ghost-app:2368</a>;<br>        }<br>    }<br>}<br>‘’’</p>
-<h4 id="4、配置docker-compose-yml"><a href="#4、配置docker-compose-yml" class="headerlink" title="4、配置docker-compose.yml"></a>4、配置docker-compose.yml</h4><p> 在blog目录下创建docker-compose.yml文件<br>‘’’<br>version: ‘2’<br>networks:<br>  ghost:<br>services:<br>  ghost-app:<br>    build: ghost<br>    networks:</p>
-<pre><code>  - ghost
-depends_on:
-  - db
-ports:
-  - &quot;2368:2368&quot;
-</code></pre><p>  nginx:<br>    build: nginx<br>    networks: </p>
-<pre><code>  - ghost
-depends_on:
-  - ghost-app
-ports:
-  - &quot;80:80&quot;
-</code></pre><p>  db:<br>    image: “mysql:5.7.15”<br>    networks:</p>
-<pre><code>  - ghost
-environment:
-  MYSQL_ROOT_PASSWORD: mysqlroot
-  MYSQL_USER: ghost
-  MYSQL_PASSWORD: ghost
-volumes:
-  - $PWD/data:/var/lib/mysql
-ports:
-  - &quot;3306:3306&quot;
-</code></pre><p>以上即可。随后在docker-compose.yml所在目录build镜像并运行<br>docker-compost stop         #停止容器<br>docker-compose rm            #删除容器<br>docker-compose build         #重新建立<br>docker-compose up -d        #启动运行<br> ‘’’</p>
+<ul>
+<li>使用Dockerfile定义应用程序环境，应标在任何地方重现该环境</li>
+<li>在docker-compose.yml文件中定义组成应用程序的服务，以便各个服务在一个隔离的环境中一起运行</li>
+<li>运行docker-compose up 命令，启动并运行整个应用程序<h3 id="5-1-安装Compose"><a href="#5-1-安装Compose" class="headerlink" title="5.1 安装Compose"></a>5.1 安装Compose</h3>①通过以下命令自动下载并安装适应系统版本的Compose：<br>curl -L “<a href="https://github.com/docker/compose/releases/download/1.10.0/docker-compose-$" target="_blank" rel="noopener">https://github.com/docker/compose/releases/download/1.10.0/docker-compose-$</a>(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose<br>②为安装脚本添加执行权限：<br>chmod +x /usr/local/bin/docker-compose<br>安装完成。可以使用以下命令测试安装结果：<br>ocker-compose –version<h3 id="5-2-安装Compose命令补全工具"><a href="#5-2-安装Compose命令补全工具" class="headerlink" title="5.2 安装Compose命令补全工具"></a>5.2 安装Compose命令补全工具</h3>curl -L <a href="https://raw.githubusercontent.com/docker/compose/$" target="_blank" rel="noopener">https://raw.githubusercontent.com/docker/compose/$</a>(docker-compose version –short)/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose<br>输入docker-compose并按下Tab键，compose就可以自动补全命令了。<h3 id="5-3-入门实例"><a href="#5-3-入门实例" class="headerlink" title="5.3 入门实例"></a>5.3 入门实例</h3>个人博客实例，含三个层，分别为nginx、ghost app、mysql<h4 id="1、创建3个目录"><a href="#1、创建3个目录" class="headerlink" title="1、创建3个目录"></a>1、创建3个目录</h4></li>
+</ul>
+<h4 id="2、进入ghost目录，创建两个文件"><a href="#2、进入ghost目录，创建两个文件" class="headerlink" title="2、进入ghost目录，创建两个文件"></a>2、进入ghost目录，创建两个文件</h4><p>① Dockerfile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">FROM ghost</span><br><span class="line">COPY ./config.production.json /var/lib/ghost/config.production.json</span><br><span class="line">EXPOSE 2368</span><br><span class="line"> </span><br><span class="line">②config.production.json  </span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    &quot;url&quot;: &quot;http://localhost:2368/&quot;,</span><br><span class="line">    &quot;server&quot;: &#123;</span><br><span class="line">        &quot;port&quot;: 2368,</span><br><span class="line">        &quot;host&quot;: &quot;0.0.0.0&quot;</span><br><span class="line">    &#125;,</span><br><span class="line">    &quot;database&quot;: &#123;</span><br><span class="line">        &quot;client&quot;: &quot;mysql&quot;,</span><br><span class="line">        &quot;connection&quot;: &#123;</span><br><span class="line">            &quot;host&quot;: &quot;db&quot;,</span><br><span class="line">            &quot;user&quot;: &quot;ghost&quot;,</span><br><span class="line">            &quot;password&quot;: &quot;ghost&quot;,</span><br><span class="line">            &quot;database&quot;: &quot;ghost&quot;,</span><br><span class="line">            &quot;port&quot;: 3306,</span><br><span class="line">            &quot;charset&quot;: &quot;utf8&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    &quot;mail&quot;: &#123;</span><br><span class="line">        &quot;transport&quot;: &quot;Direct&quot;</span><br><span class="line">    &#125;,</span><br><span class="line">    &quot;logging&quot;: &#123;</span><br><span class="line">        &quot;transports&quot;: [</span><br><span class="line">            &quot;file&quot;,</span><br><span class="line">            &quot;stdout&quot;</span><br><span class="line">        ]</span><br><span class="line">    &#125;,</span><br><span class="line">    &quot;process&quot;: &quot;systemd&quot;,</span><br><span class="line">    &quot;paths&quot;: &#123;</span><br><span class="line">        &quot;contentPath&quot;: &quot;/var/lib/ghost/content&quot;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h4 id="3、进入nginx目录，配置"><a href="#3、进入nginx目录，配置" class="headerlink" title="3、进入nginx目录，配置"></a>3、进入nginx目录，配置</h4><p>①Dockerfile<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">FROM docker.io/nginx</span><br><span class="line">COPY nginx.conf /etc/nginx/nginx.conf</span><br><span class="line">EXPOSE 80</span><br><span class="line">②nginx.conf</span><br><span class="line"></span><br><span class="line">worker_processes 4;</span><br><span class="line">events &#123;worker_connections 1024;&#125;</span><br><span class="line">http &#123;</span><br><span class="line">    server &#123;</span><br><span class="line">        listen 80;</span><br><span class="line">        location / &#123;</span><br><span class="line">            proxy_pass http://ghost-app:2368;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h4 id="4、配置docker-compose-yml"><a href="#4、配置docker-compose-yml" class="headerlink" title="4、配置docker-compose.yml"></a>4、配置docker-compose.yml</h4><p> 在blog目录下创建docker-compose.yml文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">version: &apos;2&apos;</span><br><span class="line">networks:</span><br><span class="line">  ghost:</span><br><span class="line">services:</span><br><span class="line">  ghost-app:</span><br><span class="line">    build: ghost</span><br><span class="line">    networks:</span><br><span class="line">      - ghost</span><br><span class="line">    depends_on:</span><br><span class="line">      - db</span><br><span class="line">    ports:</span><br><span class="line">      - &quot;2368:2368&quot;</span><br><span class="line">  nginx:</span><br><span class="line">    build: nginx</span><br><span class="line">    networks: </span><br><span class="line">      - ghost</span><br><span class="line">    depends_on:</span><br><span class="line">      - ghost-app</span><br><span class="line">    ports:</span><br><span class="line">      - &quot;80:80&quot;</span><br><span class="line">  db:</span><br><span class="line">    image: &quot;mysql:5.7.15&quot;</span><br><span class="line">    networks:</span><br><span class="line">      - ghost</span><br><span class="line">    environment:</span><br><span class="line">      MYSQL_ROOT_PASSWORD: mysqlroot</span><br><span class="line">      MYSQL_USER: ghost</span><br><span class="line">      MYSQL_PASSWORD: ghost</span><br><span class="line">    volumes:</span><br><span class="line">      - $PWD/data:/var/lib/mysql</span><br><span class="line">    ports:</span><br><span class="line">      - &quot;3306:3306&quot;</span><br><span class="line"></span><br><span class="line">以上即可。随后在docker-compose.yml所在目录build镜像并运行</span><br><span class="line">docker-compost stop         #停止容器   </span><br><span class="line">docker-compose rm            #删除容器</span><br><span class="line">docker-compose build         #重新建立</span><br><span class="line">docker-compose up -d        #启动运行</span><br></pre></td></tr></table></figure></p>
 <p>docker-compose命令-官方文档：<a href="https://docs.docker.com/compose/reference/overview/" target="_blank" rel="noopener">https://docs.docker.com/compose/reference/overview/</a></p>
 <h2 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h2><p>在192.168.1.244上的Jenkins运行add_repair_bill.jmx时报错<br><img src="/assets/blogImg/ant_jmeter12.jpg" alt="报错"></p>
 <p>无法将jtl文件转换为HTML时报错<br><img src="/assets/blogImg/ant_jmeter13.jpg" alt="报错"></p>
@@ -633,7 +612,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -645,11 +628,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -658,10 +637,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">web服务器</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -677,6 +652,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">web服务器</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">自动化测试</a>
               </li>
              
@@ -685,7 +664,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">linux</a>
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -694,6 +673,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">linux</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -713,19 +696,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">js</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">环境部署</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">docker</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">js</a>
               </li>
             
             <div class="clearfix"></div>
