@@ -189,18 +189,18 @@
 
     
   <url>
-    <loc>http://xyun_lay.gitee.io/2017/06/06/%E5%88%A9%E7%94%A8ant%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Cjmeter%E8%84%9A%E6%9C%AC/</loc>
+    <loc>http://xyun_lay.gitee.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-01-25T03:29:26.018Z</lastmod>
     <data>
         <display>
-        <title>利用ant批量执行jmeter脚本</title>
-        <pubTime>2017-06-06T02:55:00.000Z</pubTime>
+        <title>《软件性能测试过程详解与案例剖析》读书笔记</title>
+        <pubTime>2018-03-07T02:55:00.000Z</pubTime>
         
         <tag>测试</tag>
          
         <tag>性能测试</tag>
          
-        <tag>jmeter</tag>
+        <tag>读书笔记</tag>
          
          
            
@@ -231,18 +231,18 @@
 
     
   <url>
-    <loc>http://xyun_lay.gitee.io/2018/03/07/%E3%80%8A%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://xyun_lay.gitee.io/2017/06/06/%E5%88%A9%E7%94%A8ant%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Cjmeter%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2021-01-25T03:29:26.018Z</lastmod>
     <data>
         <display>
-        <title>《软件性能测试过程详解与案例剖析》读书笔记</title>
-        <pubTime>2018-03-07T02:55:00.000Z</pubTime>
+        <title>利用ant批量执行jmeter脚本</title>
+        <pubTime>2017-06-06T02:55:00.000Z</pubTime>
         
         <tag>测试</tag>
          
         <tag>性能测试</tag>
          
-        <tag>读书笔记</tag>
+        <tag>jmeter</tag>
          
          
            
@@ -273,27 +273,6 @@
 
     
   <url>
-    <loc>http://xyun_lay.gitee.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-01-25T03:29:26.017Z</lastmod>
-    <data>
-        <display>
-        <title>apache基础</title>
-        <pubTime>2018-04-18T03:55:00.000Z</pubTime>
-        
-        <tag>测试</tag>
-         
-        <tag>性能测试</tag>
-         
-        <tag>web服务器</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://xyun_lay.gitee.io/2018/04/16/linux%20page%20buffer%20cache%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/</loc>
     <lastmod>2021-01-25T03:29:26.017Z</lastmod>
     <data>
@@ -306,6 +285,27 @@
         <tag>操作系统</tag>
          
         <tag>linux</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xyun_lay.gitee.io/2018/04/18/apache%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2021-01-25T03:29:26.017Z</lastmod>
+    <data>
+        <display>
+        <title>apache基础</title>
+        <pubTime>2018-04-18T03:55:00.000Z</pubTime>
+        
+        <tag>测试</tag>
+         
+        <tag>性能测试</tag>
+         
+        <tag>web服务器</tag>
          
          
            
