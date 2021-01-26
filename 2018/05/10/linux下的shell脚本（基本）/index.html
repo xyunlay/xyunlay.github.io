@@ -6,15 +6,29 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://xyun_lay.gitee.io">
-  <title>Tag: docker | xyun&#39;blog</title>
+  <title>linux下的shell脚本（基本） | xyun&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="xyun&#39;blog">
-<meta property="og:url" content="http://xyun_lay.gitee.io/tags/docker/index.html">
+  <meta name="description" content="Shell是一种脚本语言，那么，就必须有解释器来执行这些脚本，常见的脚本解释器有：bash：是Linux标准默认的shell。bash由Brian Fox和Chet Ramey共同完成，是BourneAgain Shell的缩写，内部命令一共有40个。sh： 由Steve Bourne开发，是Bourne Shell的缩写，sh 是Unix 标准默认的shell。另外还有：ash、 csh、 ks">
+<meta name="keywords" content="Linux,shell">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux下的shell脚本（基本）">
+<meta property="og:url" content="http://xyun_lay.gitee.io/2018/05/10/linux下的shell脚本（基本）/index.html">
 <meta property="og:site_name" content="xyun&#39;blog">
+<meta property="og:description" content="Shell是一种脚本语言，那么，就必须有解释器来执行这些脚本，常见的脚本解释器有：bash：是Linux标准默认的shell。bash由Brian Fox和Chet Ramey共同完成，是BourneAgain Shell的缩写，内部命令一共有40个。sh： 由Steve Bourne开发，是Bourne Shell的缩写，sh 是Unix 标准默认的shell。另外还有：ash、 csh、 ks">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1.jpg">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1=2.jpg">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1=3.jpg">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1=4.jpg">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1=5.jpg">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1=6.jpg">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1=7.jpg">
+<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1=8.jpg">
+<meta property="og:updated_time" content="2021-01-26T03:28:03.681Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="xyun&#39;blog">
+<meta name="twitter:title" content="linux下的shell脚本（基本）">
+<meta name="twitter:description" content="Shell是一种脚本语言，那么，就必须有解释器来执行这些脚本，常见的脚本解释器有：bash：是Linux标准默认的shell。bash由Brian Fox和Chet Ramey共同完成，是BourneAgain Shell的缩写，内部命令一共有40个。sh： 由Steve Bourne开发，是Bourne Shell的缩写，sh 是Unix 标准默认的shell。另外还有：ash、 csh、 ks">
+<meta name="twitter:image" content="http://xyun_lay.gitee.io/assets/blogImg/shell1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="xyun&#39;blog" type="application/atom+xml">
   
@@ -169,72 +183,465 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-linux下的shell脚本（基本）" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/04/06/实用的Docker入门/" class="archive-article-date">
-  	<time datetime="2020-04-06T02:55:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-06</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/04/06/实用的Docker入门/">实用的Docker入门</a>
+    <h1 class="article-title" itemprop="name">
+      linux下的shell脚本（基本）
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2018/05/10/linux下的shell脚本（基本）/" class="archive-article-date">
+  	<time datetime="2018-05-10T02:55:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-05-10</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+	    
+        <p>Shell是一种脚本语言，那么，就必须有解释器来执行这些脚本，常见的脚本解释器有：<br><strong>bash</strong>：是Linux标准默认的shell。bash由Brian Fox和Chet Ramey共同完成，是BourneAgain Shell的缩写，内部命令一共有40个。<br><strong>sh</strong>： 由Steve Bourne开发，是Bourne Shell的缩写，sh 是Unix 标准默认的shell。<br>另外还有：ash、 csh、 ksh等。</p>
+<a id="more"></a>
+<p>常见的编程语言分为两类：一个是编译型语言，如：c/c++/java等，它们远行前全部一起要经过编译器的编译。另一个解释型语言，执行时，需要使用解释器一行一行地转换为代码，如：awk, perl, python与shell等。<br>Shell 经过了POSIX的标准化，所以它是可以在不同的linux系统上进行移植。<br><strong> 关于注释的问题 </strong>： 在shell中使用#进行注释，注意，sh里面没有多行注释，只能每一行加一个#号；<br>第一个shell脚本程序：</p>
+<pre><code> !/bin/bash
+ #上面中的 #! 是一种约定标记, 它可以告诉系统这个脚本需要什么样的解释器来执行;
+echo &quot;Hello, world!&quot;
+</code></pre><h2 id="变量"><a href="#变量" class="headerlink" title="变量:"></a>变量:</h2><h3 id="定义变量"><a href="#定义变量" class="headerlink" title="定义变量:"></a>定义变量:</h3><pre><code>country=&quot;China&quot;
+Number=100
+</code></pre><blockquote>
+<p>注意:<br>1,变量名和等号之间不能有空格;<br>2,首个字符必须为字母（a-z，A-Z）。<br>3,中间不能有空格，可以使用下划线（_）。<br>4,不能使用标点符号。<br>5,不能使用bash里的关键字（可用help命令查看保留关键字）。</p>
+</blockquote>
+<h3 id="使用变量"><a href="#使用变量" class="headerlink" title="使用变量:"></a>使用变量:</h3><p>只需要在一个定义过的变量前面加上美元符号 $ 就可以了, 另外,对于变量的{} 是可以选择的, 它的目的为帮助解释器识别变量的边界.</p>
+<pre><code>country=&quot;China&quot;
+echo $country
+echo ${country}
+echo &quot;I love my ${country}abcd!&quot;   
+* 这个需要有｛｝的；
+* 重定义变量： 直接把变量重新像开始定义的那样子赋值就可以了：
+country=&quot;China&quot;
+country=&quot;ribenguizi&quot;
+* 只读变量: 用 readonly 命令 可以把变量字义为只读变量。
+readonly country=&quot;China&quot;
+或
+country=&quot;China&quot;
+readonly country
+* 删除变量: 使用unset命令可以删除变量，但是不能删除只读的变量。用法：
+unset variable_name
+</code></pre><h3 id="变量类型"><a href="#变量类型" class="headerlink" title="变量类型"></a>变量类型</h3><p>运行shell时，会同时存在三种变量：<br>1) 局部变量<br>局部变量在脚本或命令中定义，仅在当前shell实例中有效，其他shell启动的程序不能访问局部变量。<br>2) 环境变量<br>所有的程序，包括shell启动的程序，都能访问环境变量，有些程序需要环境变量来保证其正常运行。必要的时候shell脚本也可以定义环境变量。<br>3) shell变量<br>shell变量是由shell程序设置的特殊变量。shell变量中有一部分是环境变量，有一部分是局部变量，这些变量保证了shell的正常运行</p>
+<h3 id="特殊变量"><a href="#特殊变量" class="headerlink" title="特殊变量:"></a>特殊变量:</h3><p><img src="/assets/blogImg/shell1.jpg" alt="shell"></p>
+<pre><code> **$* 和 $@ 的区别为**: $* 和 $@ 都表示传递给函数或脚本的所有参数，不被双引号(&quot; &quot;)包含时，都以&quot;$1&quot; &quot;$2&quot; … &quot;$n&quot; 的形式输出所有参数。但是当它们被双引号(&quot; &quot;)包含时，&quot;$*&quot; 会将所有的参数作为一个整体，以&quot;$1 $2 … $n&quot;的形式输出所有参数；&quot;$@&quot; 会将各个参数分开，以&quot;$1&quot; &quot;$2&quot; … &quot;$n&quot; 的形式输出所有参数。
+$? 可以获取上一个命令的退出状态。所谓退出状态，就是上一个命令执行后的返回结果。退出状态是一个数字，一般情况下，大部分命令执行成功会返回 0，失败返回 1。
+</code></pre><h2 id="Shell中的替换"><a href="#Shell中的替换" class="headerlink" title="Shell中的替换"></a>Shell中的替换</h2><h3 id="转义符："><a href="#转义符：" class="headerlink" title="转义符："></a>转义符：</h3><p>在echo中可以用于的转义符有：<br><img src="/assets/blogImg/shell1=2.jpg" alt="shell"><br>使用 echo 命令的 –E 选项禁止转义，默认也是不转义的； 使用 –n 选项可以禁止插入换行符；<br>使用 echo 命令的 –e 选项可以对转义字符进行替换。<br>另外，注意，经过我的实验，得到：</p>
+<pre><code>echo &quot;\\&quot;        #得到 \
+echo -e &quot;\\&quot;   #得到  \
+echo &quot;\\\\&quot;        #得到 \\
+echo -e &quot;\\&quot;       #得到  \
+</code></pre><h3 id="命令替换"><a href="#命令替换" class="headerlink" title="命令替换:"></a>命令替换:</h3><p>它的意思就是说我们把一个命令的输出赋值给一个变量,方法为把命令用反引号(在Esc下方)引起来.  比如:</p>
+<pre><code>directory=`pwd`
+echo $directory
+</code></pre><h3 id="变量替换"><a href="#变量替换" class="headerlink" title="变量替换:"></a>变量替换:</h3><p>可以根据变量的状态（是否为空、是否定义等）来改变它的值.<br><img src="/assets/blogImg/shell1=3.jpg" alt="shell"></p>
+<h2 id="Shell运算符"><a href="#Shell运算符" class="headerlink" title="Shell运算符"></a>Shell运算符</h2><h3 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符:"></a>算数运算符:</h3><p>原生bash不支持简单的数学运算，但是可以通过其他命令来实现，例如 awk 和 expr. 下面使用expr进行；expr是一款表达式计算工具，使用它可以完成表达式的求值操作；<br><img src="/assets/blogImg/shell1=4.jpg" alt="shell"><br>比如：</p>
+<pre><code>a=10
+b=20
+expr $a + $b
+expr $a - $b
+expr $a \* $b
+expr $a / $b
+expr $a % $b
+a=$b
+</code></pre><pre><code>注意:
+1. 在expr中的乖号为：\*
+2. 在 expr中的 表达式与运算符之间要有空格，否则错误；
+3. 在[ $a == $b ]与[ $a != $b ]中，要需要在方括号与变量以及变量与运算符之间也需要有括号， 否则为错误的。（亲测过）
+</code></pre><h3 id="关系运算符："><a href="#关系运算符：" class="headerlink" title="关系运算符："></a>关系运算符：</h3><p>只支持数字，不支持字符串，除非字符串的值是数字。常见的有：<br><img src="/assets/blogImg/shell1=5.jpg" alt="shell"><br>注意：也别忘记了空格；</p>
+<h3 id="布尔运算符："><a href="#布尔运算符：" class="headerlink" title="布尔运算符："></a>布尔运算符：</h3><p><img src="/assets/blogImg/shell1=6.jpg" alt="shell"></p>
+<h3 id="字符串运算符："><a href="#字符串运算符：" class="headerlink" title="字符串运算符："></a>字符串运算符：</h3><p><img src="/assets/blogImg/shell1=7.jpg" alt="shell"></p>
+<h3 id="文件测试运算符"><a href="#文件测试运算符" class="headerlink" title="文件测试运算符:"></a>文件测试运算符:</h3><p>检测 Unix 文件的各种属性。<br><img src="/assets/blogImg/shell1=8.jpg" alt="shell"></p>
+<h2 id="Shell中的字符串"><a href="#Shell中的字符串" class="headerlink" title="Shell中的字符串"></a>Shell中的字符串</h2><h3 id="单引号的限制："><a href="#单引号的限制：" class="headerlink" title="单引号的限制："></a>单引号的限制：</h3><ol>
+<li>单引号里的任何字符都会原样输出，单引号字符串中的变量是无效的；</li>
+<li>单引号字串中不能出现单引号（对单引号使用转义符后也不行）。<h3 id="双引号的优点："><a href="#双引号的优点：" class="headerlink" title="双引号的优点："></a>双引号的优点：</h3></li>
+<li>双引号里可以有变量</li>
+<li>双引号里可以出现转义字符<h3 id="拼接字符串："><a href="#拼接字符串：" class="headerlink" title="拼接字符串："></a>拼接字符串：</h3><pre><code>country=&quot;China&quot;
+echo &quot;hello, $country&quot;
+</code></pre>也可以<pre><code>echo &quot;hello, &quot;$country&quot; &quot;
+</code></pre><h3 id="获取字符串长度"><a href="#获取字符串长度" class="headerlink" title="获取字符串长度:"></a>获取字符串长度:</h3><pre><code>string=&quot;abcd&quot;
+echo ${#string} #输出 4
+</code></pre><h3 id="提取子字符串"><a href="#提取子字符串" class="headerlink" title="提取子字符串:"></a>提取子字符串:</h3><pre><code>string=&quot;alibaba is a great company&quot;
+echo ${string:1:4} #输出liba
+</code></pre><h3 id="查找子字符串"><a href="#查找子字符串" class="headerlink" title="查找子字符串:"></a>查找子字符串:</h3><pre><code>string=&quot;alibaba is a great company&quot;
+echo `expr index &quot;$string&quot; is`
+</code></pre><h3 id="处理路经的字符串："><a href="#处理路经的字符串：" class="headerlink" title="处理路经的字符串："></a>处理路经的字符串：</h3>例如：当一个路径为 /home/xiaoming/1.txt时，如何怎么它的路径（不带文件) 和如何得到它的文件名？？<br>得到文件名使用 bashname命令：  </li>
+</ol>
+<pre><code># 参数：
+# -a,表示处理多个路径；
+# -s, 用于去掉指定的文件的后缀名；
+basename /home/yin/1.txt          -&gt; 1.txt
+basename -a /home/yin/1.txt /home/zhai/2.sh     -&gt; 
+1.txt
+2.sh basename -s .txt /home/yin/1.txt    -&gt; 1
+ basename /home/yin/1.txt .txt       -&gt; 1
+</code></pre><p>得到路径名（不带文件名）使用 dirname命令：</p>
+<pre><code> 参数：没有啥参数；
+ //例子：
+ dirname /usr/bin/          -&gt; /usr
+ dirname dir1/str dir2/str  -&gt; 
+dir1
+dir2
+ dirname stdio.h            -&gt; .
+</code></pre><h2 id="Shell的数组"><a href="#Shell的数组" class="headerlink" title="Shell的数组:"></a>Shell的数组:</h2><p>bash支持一维数组, 不支持多维数组, 它的下标从0开始编号. 用下标[n] 获取数组元素；</p>
+<h3 id="定义数组："><a href="#定义数组：" class="headerlink" title="定义数组："></a>定义数组：</h3><p>在shell中用括号表示数组，元素用空格分开。 如：<br>array_name=(value0 value1 value2 value3)<br>也可以单独定义数组的各个分量，可以不使用连续的下标，而且下标的范围没有限制。如：</p>
+<pre><code>array_name[0]=value0
+array_name[1]=value1
+array_name[2]=value2
+</code></pre><h3 id="读取数组："><a href="#读取数组：" class="headerlink" title="读取数组："></a>读取数组：</h3><p>读取某个下标的元素一般格式为:</p>
+<pre><code>${array_name[index]}
+</code></pre><p>读取数组的全部元素，用@或*</p>
+<pre><code>${array_name[*]}
+${array_name[@]}
+</code></pre><h3 id="获取数组的信息："><a href="#获取数组的信息：" class="headerlink" title="获取数组的信息："></a>获取数组的信息：</h3><p>取得数组元素的个数：</p>
+<pre><code> length=${#array_name[@]}
+或
+ length=${#array_name[*]}
+</code></pre><p>获取数组的下标：</p>
+<pre><code> length=${!array_name[@]} 
+或
+ length=${!array_name[*]}
+</code></pre><p>取得数组单个元素的长度:</p>
+<pre><code>lengthn=${#array_name[n]}
+</code></pre><h2 id="printf函数："><a href="#printf函数：" class="headerlink" title="printf函数："></a>printf函数：</h2><p>它与c语言中的printf相似，不过也有不同，下面列出它的不同的地方：</p>
+<ol>
+<li>printf 命令不用加括号</li>
+<li>format-string 可以没有引号，但最好加上，单引号双引号均可。</li>
+<li>参数多于格式控制符(%)时，format-string 可以重用，可以将所有参数都转换。</li>
+<li>arguments 使用空格分隔，不用逗号。<br>下面为例子：</li>
+</ol>
+<pre><code># format-string为双引号
+$ printf &quot;%d %s\n&quot; 1 &quot;abc&quot;
+1 abc
+# 单引号与双引号效果一样 
+$ printf &apos;%d %s\n&apos; 1 &quot;abc&quot; 
+1 abc
+# 没有引号也可以输出
+$ printf %s abcdef
+abcdef
+# 格式只指定了一个参数，但多出的参数仍然会按照该格式输出，format-string 被重用
+$ printf %s abc def
+abcdef
+$ printf &quot;%s\n&quot; abc def
+abc
+def
+$ printf &quot;%s %s %s\n&quot; a b c d e f g h i j
+a b c
+d e f
+g h i
+j
+# 如果没有 arguments，那么 %s 用NULL代替，%d 用 0 代替
+$ printf &quot;%s and %d \n&quot; 
+and 0
+# 如果以 %d 的格式来显示字符串，那么会有警告，提示无效的数字，此时默认置为 0
+$ printf &quot;The first program always prints&apos;%s,%d\n&apos;&quot; Hello Shell
+-bash: printf: Shell: invalid number
+The first program always prints &apos;Hello,0&apos;
+$
+</code></pre><h2 id="Shell中条件语句"><a href="#Shell中条件语句" class="headerlink" title="Shell中条件语句"></a>Shell中条件语句</h2><h3 id="if-语句"><a href="#if-语句" class="headerlink" title="if 语句"></a>if 语句</h3><p>包括：</p>
+<ol>
+<li>if [ 表达式 ] then  语句  fi</li>
+<li>if [ 表达式 ] then 语句 else 语句 fi</li>
+<li>if [ 表达式] then 语句  elif[ 表达式 ] then 语句 elif[ 表达式 ] then 语句   …… fi<br>例子：</li>
+</ol>
+<pre><code>a=10
+b=20
+if [ $a == $b ]
+then
+   echo &quot;a is equal to b&quot;
+else
+   echo &quot;a is not equal to b&quot;
+fi
+</code></pre><p>另外：if … else 语句也可以写成一行，以命令的方式来运行，像这样：<br>if test $[2*3] -eq $[1+5]; then echo ‘The two numbers are equal!’; fi;<br>其中，test 命令用于检查某个条件是否成立，与方括号([ ])类似。</p>
+<h3 id="case-……-esac语句"><a href="#case-……-esac语句" class="headerlink" title="case …… esac语句"></a>case …… esac语句</h3><p>case … esac 与其他语言中的 switch … case 语句类似，是一种多分枝选择结构。case语句格式如下：</p>
+<pre><code>case 值 in
+模式1)
+    command1
+    command2
+    command3
+    ;;
+模式2）
+    command1
+    command2
+    command3
+    ;;
+*)
+    command1
+    command2
+    command3
+    ;;
+esac
+</code></pre><p>其中，1. 取值后面必须为关键字 in，每一模式必须以右括号结束。取值可以为变量或常数。匹配发现取值符合某一模式后，其间所有命令开始执行直至 ;;。;; 与其他语言中的 break 类似，意思是跳到整个 case 语句的最后。2. 如果无一匹配模式，使用星号 * 捕获该值，再执行后面的命令。</p>
+<h2 id="Shell-的循环语句"><a href="#Shell-的循环语句" class="headerlink" title="Shell 的循环语句"></a>Shell 的循环语句</h2><h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><p>  一般格式为：</p>
+<pre><code>for 变量 in 列表
+do
+    command1
+    command2
+    ...
+    commandN
+done
+</code></pre><p>注意：列表是一组值（数字、字符串等）组成的序列，每个值通过空格分隔。每循环一次，就将列表中的下一个值赋给变量。       例如：<br>顺序输出当前列表的数字：</p>
+<pre><code>for loop in 1 2 3 4 5
+do
+    echo &quot;The value is: $loop&quot;
+done
+</code></pre><p>显示主目录下以 .bash 开头的文件：</p>
+<pre><code>#!/bin/bash
+for FILE in $HOME/.bash*
+do
+   echo $FILE
+done
+</code></pre><h3 id="while循环"><a href="#while循环" class="headerlink" title="while循环"></a>while循环</h3><p>一般格式为：</p>
+<pre><code>while command
+do
+   Statement(s) to be executed if command is true
+done
+</code></pre><p>例如：</p>
+<pre><code>COUNTER=0
+while [ $COUNTER -lt 5 ]
+do
+    COUNTER=&apos;expr $COUNTER+1&apos;
+    echo $COUNTER
+done
+</code></pre><h3 id="until-循环"><a href="#until-循环" class="headerlink" title="until 循环"></a>until 循环</h3><p>until 循环执行一系列命令直至条件为 true 时停止。until 循环与 while 循环在处理方式上刚好相反。    常用格式为：</p>
+<pre><code>until command
+do
+   Statement(s) to be executed until command is true
+done
+</code></pre><p>command 一般为条件表达式，如果返回值为 false，则继续执行循环体内的语句，否则跳出循环。</p>
+<p>类似地， 在循环中使用 break 与continue 跳出循环。    另外，break 命令后面还可以跟一个整数，表示跳出第几层循环。</p>
+<h2 id="Shell函数"><a href="#Shell函数" class="headerlink" title="Shell函数"></a>Shell函数</h2><p>Shell函数必须先定义后使用，定义如下，</p>
+<pre><code>function_name () {
+    list of commands
+    [ return value ]
+}
+也可以加上function关键字：
+function function_name () {
+    list of commands
+    [ return value ]
+}
+</code></pre><p>注意:</p>
+<ol>
+<li>调用函数只需要给出函数名，不需要加括号。</li>
+<li>函数返回值，可以显式增加return语句；如果不加，会将最后一条命令运行结果作为返回值。</li>
+<li>Shell 函数返回值只能是整数，一般用来表示函数执行成功与否，0表示成功，其他值表示失败。</li>
+<li>函数的参数可以通过 $n  得到.如:</li>
+</ol>
+<pre><code>funWithParam(){
+    echo &quot;The value of the first parameter is $1 !&quot;
+    echo &quot;The value of the second parameter is $2 !&quot;
+    echo &quot;The value of the tenth parameter is ${10} !&quot;
+    echo &quot;The value of the eleventh parameter is ${11} !&quot;
+    echo &quot;The amount of the parameters is $# !&quot;  # 参数个数
+    echo &quot;The string of the parameters is $* !&quot;  # 传递给函数的所有参数
+}
+funWithParam 1 2 3 4 5 6 7 8 9 34 73
+</code></pre><ol start="5">
+<li>像删除变量一样，删除函数也可以使用 unset 命令，不过要加上 .f 选项，如下所示：<pre><code>unset .f function_name
+</code></pre><h2 id="shell的文件包含："><a href="#shell的文件包含：" class="headerlink" title="shell的文件包含："></a>shell的文件包含：</h2>Shell 也可以包含外部脚本，将外部脚本的内容合并到当前脚本。使用：. filename<br>或<br>source filename</li>
+<li>两种方式的效果相同，简单起见，一般使用点号(.)，但是注意点号(.)和文件名中间有一空格。</li>
+<li>被包含脚本不需要有执行权限。</li>
+</ol>
+<p>THE END.</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/weixin.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">测试</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">环境部署</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">docker</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">shell</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://xyun_lay.gitee.io/2018/05/10/linux下的shell脚本（基本）/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2019/04/06/Python3+Scrapy实现网页爬虫/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Python3+Scrapy实现网页爬虫
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2018/05/06/统一处理异步的js回调/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">统一处理异步的js回调</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+  
+  
+  
+  <div class="gitalk">
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        const gitalk = new Gitalk({
+            clientID: 'c6d112c8922e7dc9790d',
+            clientSecret: 'ae3a6568114f1c182e7e992267cbe875a8ce12ad',
+            repo: 'xyunlay.github.io',
+            owner: 'xyunlay',
+            admin: ['xyunlay'],
+            id: md5(location.pathname),     // Ensure uniqueness and length less than 50
+            distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    </script>
+</div>
+
+  
+
+  
+  
 
 
 
 
+<script type="text/javascript" src="/./love.js"></script>
           </div>
         </div>
       </div>
@@ -272,9 +679,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,

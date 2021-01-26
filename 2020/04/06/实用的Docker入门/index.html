@@ -30,7 +30,7 @@
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter12.jpg">
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter13.jpg">
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/ant_jmeter14.jpg">
-<meta property="og:updated_time" content="2021-01-26T02:16:36.078Z">
+<meta property="og:updated_time" content="2021-01-26T03:17:14.147Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="实用的Docker入门">
 <meta name="twitter:description" content="1 Docker概述Docker和虚拟机一样，都拥有环境隔离的能力，但它比虚拟机更加轻量级，可以使资源更大化地得到应用。首先来看Docker的架构图：  理解其中几个概念：  Client（Docker客户端）：是Docker的用户界面，可以接受用户命令（docker build，docker pull…）和配置标识，并与Docker daemon通信 Images（Docker镜像）：是一个只读">
@@ -220,8 +220,9 @@
 <li>Registry：是一个集中存储与分发镜像的服务。最常用的Docker Registry是官方的Docker Hub</li>
 </ul>
 <a id="more"></a>
-<h2 id="2-Docker安装"><a href="#2-Docker安装" class="headerlink" title="2 Docker安装"></a>2 Docker安装</h2><p>CentOS7系统下安装Docker为例。Docker 软件包和依赖包已经包含在默认的 CentOS-Extras 软件源里，安装命令如下：<br><code>yum -y install docker
-启动docker后台服务：</code> service docker start<br>验证是否安装成功：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost hemi]# docker version</span><br><span class="line">Client:</span><br><span class="line"> Version:         1.13.1</span><br><span class="line"> API version:     1.26</span><br><span class="line"> Package version: &lt;unknown&gt;</span><br><span class="line"> Go version:      go1.8.3</span><br><span class="line"> Git commit:      774336d/1.13.1</span><br><span class="line"> Built:           Wed Mar  7 17:06:16 2018</span><br><span class="line"> OS/Arch:         linux/amd64</span><br><span class="line">Server:</span><br><span class="line"> Version:         1.13.1</span><br><span class="line"> API version:     1.26 (minimum version 1.12)</span><br><span class="line"> Package version: &lt;unknown&gt;</span><br><span class="line"> Go version:      go1.8.3</span><br><span class="line"> Git commit:      774336d/1.13.1</span><br><span class="line"> Built:           Wed Mar  7 17:06:16 2018</span><br><span class="line"> OS/Arch:         linux/amd64</span><br><span class="line"> Experimental:    false</span><br></pre></td></tr></table></figure></p>
+<h2 id="2-Docker安装"><a href="#2-Docker安装" class="headerlink" title="2 Docker安装"></a>2 Docker安装</h2><p>CentOS7系统下安装Docker为例。Docker 软件包和依赖包已经包含在默认的 CentOS-Extras 软件源里，安装命令如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install docker</span><br></pre></td></tr></table></figure></p>
+<p>启动docker后台服务：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service docker start</span><br></pre></td></tr></table></figure></p>
+<p>验证是否安装成功：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost hemi]# docker version</span><br><span class="line">Client:</span><br><span class="line"> Version:         1.13.1</span><br><span class="line"> API version:     1.26</span><br><span class="line"> Package version: &lt;unknown&gt;</span><br><span class="line"> Go version:      go1.8.3</span><br><span class="line"> Git commit:      774336d/1.13.1</span><br><span class="line"> Built:           Wed Mar  7 17:06:16 2018</span><br><span class="line"> OS/Arch:         linux/amd64</span><br><span class="line">Server:</span><br><span class="line"> Version:         1.13.1</span><br><span class="line"> API version:     1.26 (minimum version 1.12)</span><br><span class="line"> Package version: &lt;unknown&gt;</span><br><span class="line"> Go version:      go1.8.3</span><br><span class="line"> Git commit:      774336d/1.13.1</span><br><span class="line"> Built:           Wed Mar  7 17:06:16 2018</span><br><span class="line"> OS/Arch:         linux/amd64</span><br><span class="line"> Experimental:    false</span><br></pre></td></tr></table></figure></p>
 <p>更详细的针对各操作系统的安装见官方文档：<a href="https://docs.docker.com/install/" target="_blank" rel="noopener">https://docs.docker.com/install/</a></p>
 <p><strong> 镜像加速 </strong><br>鉴于国内网络问题，后续拉取 Docker 镜像十分缓慢，我们可以需要配置加速器来解决，我使用的是网易的镜像地址：<a href="http://hub-mirror.c.163.com。" target="_blank" rel="noopener">http://hub-mirror.c.163.com。</a><br>新版的 Docker 使用 /etc/docker/daemon.json（Linux） 或者 %programdata%\docker\config\daemon.json（Windows） 来配置 Daemon。<br>请在该配置文件中加入（没有该文件的话，请先建一个）：<br>{<br>  “registry-mirrors”: [“<a href="http://hub-mirror.c.163.com&quot;]" target="_blank" rel="noopener">http://hub-mirror.c.163.com&quot;]</a><br>}</p>
 <h2 id="3-Docker常用命令"><a href="#3-Docker常用命令" class="headerlink" title="3 Docker常用命令"></a>3 Docker常用命令</h2><h3 id="3-1-镜像常用命令"><a href="#3-1-镜像常用命令" class="headerlink" title="3.1 镜像常用命令"></a>3.1 镜像常用命令</h3><h4 id="1）搜索镜像"><a href="#1）搜索镜像" class="headerlink" title="1）搜索镜像"></a>1）搜索镜像</h4><p>可以在Docker Hub主页上搜索镜像，可以通过docker search命令搜索，如：<br>docker search [OPTIONS] TERM<br>OPTIONS说明：</p>
@@ -258,10 +259,11 @@
 <li>-t：为容器重新分配一个伪输入终端，通常与 -i 同时使用；</li>
 <li>-P: 随机端口映射；</li>
 <li>-p: 指定端口映射，有以下四种格式<br>  ○ ip:hostPort:containerPort<br>  ○ ip::containerPort<br>  ○ hostPort:containerPort<br>  ○ containerPort</li>
-<li>–net=”bridge”: 指定容器的网络连接类型，支持 bridge/host/none/container:&lt;name|id&gt; 四种类型；<br>如：<br><code>docker run --name mynginx -d nginx:latest
-使用docker镜像nginx:latest以后台模式启动一个容器,并将容器命名为mynginx。</code> docker run -p 91:80 -v /data:/data -d nginx:latest<br>使用镜像nginx:latest以后台模式启动一个容器,将容器的80端口映射到主机的91端口,主机的目录/data映射到容器的/data。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[hemi@localhost ~]$ docker run -it nginx:latest /bin/bash </span><br><span class="line">root@b8573233d675:/#</span><br></pre></td></tr></table></figure>
+<li>–net=”bridge”: 指定容器的网络连接类型，支持 bridge/host/none/container:&lt;name|id&gt; 四种类型；<br>如：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --name mynginx -d nginx:latest</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
+<p>使用docker镜像nginx:latest以后台模式启动一个容器,并将容器命名为mynginx。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 91:80 -v /data:/data -d nginx:latest</span><br></pre></td></tr></table></figure></p>
+<p>使用镜像nginx:latest以后台模式启动一个容器,将容器的80端口映射到主机的91端口,主机的目录/data映射到容器的/data。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[hemi@localhost ~]$ docker run -it nginx:latest /bin/bash </span><br><span class="line">root@b8573233d675:/#</span><br></pre></td></tr></table></figure></p>
 <p>使用镜像nginx:latest以交互模式启动一个容器,在容器内执行/bin/bash命令。</p>
 <h4 id="2）列出容器"><a href="#2）列出容器" class="headerlink" title="2）列出容器"></a>2）列出容器</h4><p>docker ps [OPTIONS]<br>OPTIONS说明（常用）：</p>
 <ul>
@@ -624,11 +626,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+                <a href="javascript:void(0)" class="js-tag color4">web</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -640,15 +642,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">web</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -664,23 +666,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -689,6 +679,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">安全渗透测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -704,7 +706,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
             
             <div class="clearfix"></div>

@@ -20,7 +20,7 @@
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/Nmap2.jpg">
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/Nmap3.jpg">
 <meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/Nmap4.jpg">
-<meta property="og:updated_time" content="2021-01-26T02:36:58.313Z">
+<meta property="og:updated_time" content="2021-01-26T03:15:33.476Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="渗透测试工具Nmap从初级到高级">
 <meta name="twitter:description" content="Nmap 是一款网络扫描和主机检测的非常有用的工具。 Nmap是不局限于仅仅收集信息和枚举，同时可以用来作为一个漏洞探测器或安全扫描器。它可以适用于winodws,linux,mac等操作系统。Nmap是一款非常强大的实用工具,可用于：  检测活在网络上的主机（主机发现） 检测主机上开放的端口（端口发现或枚举） 检测到相应的端口（服务发现）的软件和版本 检测操作系统，硬件地址，以及软件版本 检测">
@@ -217,56 +217,55 @@ Nmap使用不同的技术来执行扫描，包括：TCP的connect（）扫描，
 <ul>
 <li>扫描整个子网,命令如下:</li>
 </ul>
-<p>` nmap 192.168.1.1/24</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap 192.168.1.1/24</span><br></pre></td></tr></table></figure>
 <ul>
 <li>扫描多个目标,命令如下：</li>
 </ul>
-<p>` nmap 192.168.1.2 192.168.1.5</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap 192.168.1.2 192.168.1.5</span><br></pre></td></tr></table></figure>
 <ul>
 <li>扫描一个范围内的目标,如下：</li>
 </ul>
-<p>` nmap 192.168.1.1-100 (扫描IP地址为192.168.1.1-192.168.1.100内的所有主机)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap 192.168.1.1-100 (扫描IP地址为192.168.1.1-192.168.1.100内的所有主机)</span><br></pre></td></tr></table></figure>
 <ul>
 <li>如果你有一个ip地址列表，将这个保存为一个txt文件，和namp在同一目录下,扫描这个txt内的所有主机，命令如下：</li>
 </ul>
-<p>` nmap -iL target.txt</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -iL target.txt</span><br></pre></td></tr></table></figure>
 <ul>
 <li>如果你想看到你扫描的所有主机的列表，用以下命令:</li>
 </ul>
-<p>` nmap -sL 192.168.1.1/24</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sL 192.168.1.1/24</span><br></pre></td></tr></table></figure>
 <ul>
 <li>扫描除过某一个ip外的所有子网主机,命令：</li>
 </ul>
-<p>` nmap 192.168.1.1/24 -exclude 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap 192.168.1.1/24 -exclude 192.168.1.1</span><br></pre></td></tr></table></figure>
 <ul>
 <li>扫描除过某一个文件中的ip外的子网主机命令</li>
 </ul>
-<p>` nmap 192.168.1.1/24 -exclude file xxx.txt  (xxx.txt中的文件将会从扫描的主机中排除)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap 192.168.1.1/24 -exclude file xxx.txt  (xxx.txt中的文件将会从扫描的主机中排除)</span><br></pre></td></tr></table></figure>
 <ul>
 <li>扫描特定主机上的80,21,23端口,命令如下</li>
 </ul>
-<p>` nmap -p80,21,23 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -p80,21,23 192.168.1.1</span><br></pre></td></tr></table></figure>
 <p><img src="/assets/blogImg/Nmap1.jpg" alt="nmap"><br>从上面我们已经了解了Nmap的基础知识，下面我们深入的探讨一下Nmap的扫描技术.</p>
 <h3 id="Tcp-SYN-Scan-sS"><a href="#Tcp-SYN-Scan-sS" class="headerlink" title="Tcp SYN Scan (sS)"></a>Tcp SYN Scan (sS)</h3><p>这是一个基本的扫描方式,它被称为半开放扫描，因为这种技术使得Nmap不需要通过完整的握手，就能获得远程主机的信息。Nmap发送SYN包到远程主机，但是它不会产生任何会话.因此不会在目标主机上产生任何日志记录,因为没有形成会话。这个就是SYN扫描的优势.</p>
 <p>如果Nmap命令中没有指出扫描类型,默认的就是Tcp SYN.但是它需要root/administrator权限.</p>
-<p>` nmap -sS 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sS 192.168.1.1</span><br></pre></td></tr></table></figure>
 <h3 id="Tcp-connect-scan-sT"><a href="#Tcp-connect-scan-sT" class="headerlink" title="Tcp connect() scan(sT)"></a>Tcp connect() scan(sT)</h3><p>如果不选择SYN扫描,TCP connect()扫描就是默认的扫描模式.不同于Tcp SYN扫描,Tcp connect()扫描需要完成三次握手,并且要求调用系统的connect().Tcp connect()扫描技术只适用于找出TCP和UDP端口.</p>
-<p>` nmap -sT 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sT 192.168.1.1</span><br></pre></td></tr></table></figure>
 <h3 id="Udp-scan-sU"><a href="#Udp-scan-sU" class="headerlink" title="Udp scan(sU)"></a>Udp scan(sU)</h3><p>顾名思义,这种扫描技术用来寻找目标主机打开的UDP端口.它不需要发送任何的SYN包，因为这种技术是针对UDP端口的。UDP扫描发送UDP数据包到目标主机，并等待响应,如果返回ICMP不可达的错误消息，说明端口是关闭的，如果得到正确的适当的回应，说明端口是开放的.</p>
-<p>` nmap -sU 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sU 192.168.1.1</span><br></pre></td></tr></table></figure>
 <h3 id="FIN-scan-sF"><a href="#FIN-scan-sF" class="headerlink" title="FIN scan (sF)"></a>FIN scan (sF)</h3><p>有时候Tcp SYN扫描不是最佳的扫描模式,因为有防火墙的存在.目标主机有时候可能有IDS和IPS系统的存在,防火墙会阻止掉SYN数据包。发送一个设置了FIN标志的数据包并不需要完成TCP的握手.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~# nmap -sF 192.168.1.8</span><br><span class="line"></span><br><span class="line">Starting Nmap 5.51  at 2012-07-08 19:21 PKT</span><br><span class="line"></span><br><span class="line">Nmap scan report for 192.168.1.8</span><br><span class="line"></span><br><span class="line">Host is up (0.000026s latency).</span><br><span class="line"></span><br><span class="line">Not shown: 999 closed ports</span><br><span class="line"></span><br><span class="line">PORT STATE SERVICE</span><br><span class="line"></span><br><span class="line">111/tcp open|filtered rpcbind</span><br></pre></td></tr></table></figure></p>
 <p>FIN扫描也不会在目标主机上创建日志(FIN扫描的优势之一).个类型的扫描都是具有差异性的,FIN扫描发送的包只包含FIN标识,NULL扫描不发送数据包上的任何字节,XMAS扫描发送FIN、PSH和URG标识的数据包.</p>
 <h3 id="PING-Scan-sP"><a href="#PING-Scan-sP" class="headerlink" title="PING Scan (sP)"></a>PING Scan (sP)</h3><p>PING扫描不同于其它的扫描方式，因为它只用于找出主机是否是存在在网络中的.它不是用来发现是否开放端口的.PING扫描需要ROOT权限，如果用户没有ROOT权限,PING扫描将会使用connect()调用.</p>
-<p>` nmap -sP 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sP 192.168.1.1</span><br></pre></td></tr></table></figure>
 <p>版本检测(sV)</p>
 <p>版本检测是用来扫描目标主机和端口上运行的软件的版本.它不同于其它的扫描技术，它不是用来扫描目标主机上开放的端口，不过它需要从开放的端口获取信息来判断软件的版本.使用版本检测扫描之前需要先用TCP SYN扫描开放了哪些端口.</p>
-<p>` nmap -sV 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sV 192.168.1.1</span><br></pre></td></tr></table></figure>
 <h3 id="Idle-scan-sL"><a href="#Idle-scan-sL" class="headerlink" title="Idle scan (sL)"></a>Idle scan (sL)</h3><p>Idle scan是一种先进的扫描技术，它不是用你真实的主机Ip发送数据包，而是使用另外一个目标网络的主机发送数据包.</p>
-<p>` nmap -sL 192.168.1.6 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sL 192.168.1.6 192.168.1.1</span><br></pre></td></tr></table></figure>
 <p>Idle scan是一种理想的匿名扫描技术,通过目标网络中的192.168.1.6向主机192.168.1.1发送数据，来获取192.168.1.1开放的端口</p>
 <p>有需要其它的扫描技术，如 FTP bounce（FTP反弹）, fragmentation scan（碎片扫描）, IP protocol scan（IP协议扫描）,以上讨论的是几种最主要的扫描方式.</p>
-<h3 id="Nmap的OS检测（O）"><a href="#Nmap的OS检测（O）" class="headerlink" title="Nmap的OS检测（O）"></a>Nmap的OS检测（O）</h3><p>Nmap最重要的特点之一是能够远程检测操作系统和软件，Nmap的OS检测技术在渗透测试中用来了解远程主机的操作系统和软件是非常有用的，通过获取的信息你可以知道已知的漏洞。Nmap有一个名为的nmap-OS-DB数据库，该数据库包含超过2600操作系统的信息。 Nmap把TCP和UDP数据包发送到目标机器上，然后检查结果和数据库对照。</p>
-<p>Initiating SYN Stealth Scan at 10:21<br>Scanning localhost (<a href="http://www.nxadmin.com" target="_blank" rel="noopener">www.nxadmin.com</a>) [1000 ports]<br>Discovered open port 111/tcp on <a href="http://www.nxadmin.com" target="_blank" rel="noopener">www.nxadmin.com</a><br>Completed SYN Stealth Scan at 10:21, 0.08s elapsed (1000 total ports)<br>Initiating OS detection (try #1) against localhost (<a href="http://www.nxadmin.com" target="_blank" rel="noopener">www.nxadmin.com</a>)<br>Retrying OS detection (try #2) against localhost (<a href="http://www.nxadmin.com" target="_blank" rel="noopener">www.nxadmin.com</a>)</p>
+<h3 id="Nmap的OS检测（O）"><a href="#Nmap的OS检测（O）" class="headerlink" title="Nmap的OS检测（O）"></a>Nmap的OS检测（O）</h3><p>Nmap最重要的特点之一是能够远程检测操作系统和软件，Nmap的OS检测技术在渗透测试中用来了解远程主机的操作系统和软件是非常有用的，通过获取的信息你可以知道已知的漏洞。Nmap有一个名为的nmap-OS-DB数据库，该数据库包含超过2600操作系统的信息。 Nmap把TCP和UDP数据包发送到目标机器上，然后检查结果和数据库对照。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Initiating SYN Stealth Scan at 10:21</span><br><span class="line">Scanning localhost (www.nxadmin.com) [1000 ports]</span><br><span class="line">Discovered open port 111/tcp on www.nxadmin.com</span><br><span class="line">Completed SYN Stealth Scan at 10:21, 0.08s elapsed (1000 total ports)</span><br><span class="line">Initiating OS detection (try #1) against localhost (www.nxadmin.com)</span><br><span class="line">Retrying OS detection (try #2) against localhost (www.nxadmin.com)</span><br></pre></td></tr></table></figure></p>
 <p>上面的例子清楚地表明，Nmap的首次发现开放的端口，然后发送数据包发现远程操作系统。操作系统检测参数是O（大写O）<br><img src="/assets/blogImg/Nmap2.jpg" alt="nmap"></p>
 <h3 id="Nmap的操作系统指纹识别技术："><a href="#Nmap的操作系统指纹识别技术：" class="headerlink" title="Nmap的操作系统指纹识别技术："></a>Nmap的操作系统指纹识别技术：</h3><ul>
 <li>设备类型（路由器，工作组等）</li>
@@ -275,7 +274,7 @@ Nmap使用不同的技术来执行扫描，包括：TCP的connect（）扫描，
 <li>网络距离（目标和攻击者之间的距离跳）</li>
 </ul>
 <p>如果远程主机有防火墙，IDS和IPS系统，你可以使用-PN命令来确保不ping远程主机，因为有时候防火墙会组织掉ping请求.-PN命令告诉Nmap不用ping远程主机。</p>
-<p>` nmap -O -PN 192.168.1.1/24</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -O -PN 192.168.1.1/24</span><br></pre></td></tr></table></figure>
 <p>以上命令告诉发信主机远程主机是存活在网络上的，所以没有必要发送ping请求,使用-PN参数可以绕过PING命令,但是不影响主机的系统的发现.</p>
 <p>Nmap的操作系统检测的基础是有开放和关闭的端口，如果OS scan无法检测到至少一个开放或者关闭的端口，会返回以下错误：</p>
 <p>Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port</p>
@@ -284,7 +283,7 @@ Nmap使用不同的技术来执行扫描，包括：TCP的connect（）扫描，
 <p>这种情况是非常不理想的，应该是远程主机做了针对操作系统检测的防范。如果Nmap不能检测到远程操作系统类型，那么就没有必要使用-osscan_limit检测。</p>
 <p><img src="/assets/blogImg/Nmap4.jpg" alt="nmap"></p>
 <p>想好通过Nmap准确的检测到远程操作系统是比较困难的，需要使用到Nmap的猜测功能选项, –osscan-guess 猜测认为最接近目标的匹配操作系统类型。</p>
-<p>` nmap -O –osscan-guess 192.168.1.1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -O –osscan-guess 192.168.1.1</span><br></pre></td></tr></table></figure>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Nmap是一个非常强大的工具，它具有覆盖渗透测试的第一方面的能力，其中包括信息的收集和统计</p>
 
       
@@ -604,11 +603,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+                <a href="javascript:void(0)" class="js-tag color4">web</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -620,15 +619,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">性能监控</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">web</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -644,23 +643,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
+                <a href="javascript:void(0)" class="js-tag color1">shell</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -669,6 +656,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">安全渗透测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -684,7 +683,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+                <a href="javascript:void(0)" class="js-tag color1">接口自动化</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">robot framework</a>
               </li>
             
             <div class="clearfix"></div>
