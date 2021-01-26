@@ -5,14 +5,14 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://xyun_lay.gitee.io">
+  <link rel="dns-prefetch" href="http://xyunlay.github.io">
   <title>linux page buffer cache深入理解 | xyun&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Page cache和buffer cache一直以来是两个比较容易混淆的概念，在网上也有很多人在争辩和猜想这两个cache到底有什么区别，讨论到最后也一直没有一个统一和正确的结论，在我工作的这一段时间，page cache和buffer cache的概念曾经困扰过我，但是仔细分析一下，这两个概念实际上非常的清晰。如果能够了解到这两个cache的本质，那么我们在分析io问题的时候可能会更加得心应手">
 <meta name="keywords" content="性能测试,操作系统,linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux page buffer cache深入理解">
-<meta property="og:url" content="http://xyun_lay.gitee.io/2018/04/16/linux page buffer cache深入理解/index.html">
+<meta property="og:url" content="http://xyunlay.github.io/2018/04/16/linux page buffer cache深入理解/index.html">
 <meta property="og:site_name" content="xyun&#39;blog">
 <meta property="og:description" content="Page cache和buffer cache一直以来是两个比较容易混淆的概念，在网上也有很多人在争辩和猜想这两个cache到底有什么区别，讨论到最后也一直没有一个统一和正确的结论，在我工作的这一段时间，page cache和buffer cache的概念曾经困扰过我，但是仔细分析一下，这两个概念实际上非常的清晰。如果能够了解到这两个cache的本质，那么我们在分析io问题的时候可能会更加得心应手">
 <meta property="og:locale" content="zh-CN">
@@ -68,6 +68,8 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/instagram/">相册</a></li>
+	        
+				<li><a href="/xyun">随笔</a></li>
 	        
 				<li><a href="/talk">留言</a></li>
 	        
@@ -133,6 +135,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -153,13 +157,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/instagram/">相册</a></li>
+					<li style="width: 20%"><a href="/instagram/">相册</a></li>
 		        
-					<li style="width: 25%"><a href="/talk">留言</a></li>
+					<li style="width: 20%"><a href="/xyun">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/archives">归档</a></li>
+					<li style="width: 20%"><a href="/talk">留言</a></li>
+		        
+					<li style="width: 20%"><a href="/archives">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -317,7 +323,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://xyun_lay.gitee.io/2018/04/16/linux page buffer cache深入理解/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://xyunlay.github.io/2018/04/16/linux page buffer cache深入理解/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -519,11 +525,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -535,7 +537,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -571,7 +577,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">linux</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -583,19 +597,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">读书笔记</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -611,11 +613,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+                <a href="javascript:void(0)" class="js-tag color3">js</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">js</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
               </li>
             
             <div class="clearfix"></div>

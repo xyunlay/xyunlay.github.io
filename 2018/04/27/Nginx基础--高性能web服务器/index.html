@@ -5,32 +5,32 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://xyun_lay.gitee.io">
+  <link rel="dns-prefetch" href="http://xyunlay.github.io">
   <title>Nginx基础--高性能web服务器 | xyun&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Nginx简介一个网站用户量、访问量上限的影响因素：服务器的硬件配置（CPU、内存、磁盘速度、网卡）、网站的程序优化程度、web服务器传统web服务器（IIS、apache）:最初设计时要求功能比较多，支持各种各样的功能，这会导致服务器的性能、稳定性各方面不会太高为提高用户访问量，使用高性能web服务器提升网站性能Nginx是一个网页服务器，它能反向代理HTTP, HTTPS, SMTP, POP">
 <meta name="keywords" content="测试,性能测试,web服务器">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Nginx基础--高性能web服务器">
-<meta property="og:url" content="http://xyun_lay.gitee.io/2018/04/27/Nginx基础--高性能web服务器/index.html">
+<meta property="og:url" content="http://xyunlay.github.io/2018/04/27/Nginx基础--高性能web服务器/index.html">
 <meta property="og:site_name" content="xyun&#39;blog">
 <meta property="og:description" content="Nginx简介一个网站用户量、访问量上限的影响因素：服务器的硬件配置（CPU、内存、磁盘速度、网卡）、网站的程序优化程度、web服务器传统web服务器（IIS、apache）:最初设计时要求功能比较多，支持各种各样的功能，这会导致服务器的性能、稳定性各方面不会太高为提高用户访问量，使用高性能web服务器提升网站性能Nginx是一个网页服务器，它能反向代理HTTP, HTTPS, SMTP, POP">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx1.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx2.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx3.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx4.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx5.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx6.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx7.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx8.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx9.jpg">
-<meta property="og:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx10.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx1.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx2.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx3.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx4.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx5.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx6.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx7.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx8.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx9.jpg">
+<meta property="og:image" content="http://xyunlay.github.io/assets/blogImg/nginx10.jpg">
 <meta property="og:updated_time" content="2021-01-25T03:29:26.016Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Nginx基础--高性能web服务器">
 <meta name="twitter:description" content="Nginx简介一个网站用户量、访问量上限的影响因素：服务器的硬件配置（CPU、内存、磁盘速度、网卡）、网站的程序优化程度、web服务器传统web服务器（IIS、apache）:最初设计时要求功能比较多，支持各种各样的功能，这会导致服务器的性能、稳定性各方面不会太高为提高用户访问量，使用高性能web服务器提升网站性能Nginx是一个网页服务器，它能反向代理HTTP, HTTPS, SMTP, POP">
-<meta name="twitter:image" content="http://xyun_lay.gitee.io/assets/blogImg/nginx1.jpg">
+<meta name="twitter:image" content="http://xyunlay.github.io/assets/blogImg/nginx1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="xyun&#39;blog" type="application/atom+xml">
   
@@ -79,6 +79,8 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/instagram/">相册</a></li>
+	        
+				<li><a href="/xyun">随笔</a></li>
 	        
 				<li><a href="/talk">留言</a></li>
 	        
@@ -144,6 +146,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -164,13 +168,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/instagram/">相册</a></li>
+					<li style="width: 20%"><a href="/instagram/">相册</a></li>
 		        
-					<li style="width: 25%"><a href="/talk">留言</a></li>
+					<li style="width: 20%"><a href="/xyun">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/archives">归档</a></li>
+					<li style="width: 20%"><a href="/talk">留言</a></li>
+		        
+					<li style="width: 20%"><a href="/archives">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -371,7 +377,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://xyun_lay.gitee.io/2018/04/27/Nginx基础--高性能web服务器/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://xyunlay.github.io/2018/04/27/Nginx基础--高性能web服务器/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -573,11 +579,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
+                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -589,7 +591,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Appium</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">jmeter</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -625,7 +631,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">shell</a>
+                <a href="javascript:void(0)" class="js-tag color3">经验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">产品</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">linux</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -637,19 +651,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">读书笔记</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">经验</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">产品</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -665,11 +667,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
+                <a href="javascript:void(0)" class="js-tag color3">js</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">js</a>
+                <a href="javascript:void(0)" class="js-tag color5">性能分析</a>
               </li>
             
             <div class="clearfix"></div>
